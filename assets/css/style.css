@@ -770,11 +770,11 @@ header{
 
 .language-switch {
     position: absolute;
-    right: 8px; /* Geser lebih mentok ke ujung kanan layar (sebelumnya 18px) */
-    top: 50%;
+    right: 3px;
+    top: 44%;
     transform: translateY(-50%);
     margin-left: 0;
-    gap: 4px; /* Jarak antar tombol INA/ENG dirapatkan sedikit */
+    gap: 4px;
 }
 
 .language-switch button {
