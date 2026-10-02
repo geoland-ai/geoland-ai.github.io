@@ -67,6 +67,12 @@ Home
 Solutions
 </a>
 
+<a onclick="switchView('pricing-view')" 
+   id="nav-pricing-view" 
+   data-i18n="nav_pricing">
+Pricing
+</a>
+
 <a onclick="switchView('tour-view')" 
    id="nav-tour-view" 
    data-i18n="nav_tour">
@@ -120,7 +126,7 @@ ENG
 
 
   <h1 data-i18n="hero_title">
-    Turning Geospatial Complexity Into Custom Digital Platforms
+    Complex Geospatial Problems. Simple Digital Solutions.
   </h1>
 
   <p data-i18n="hero_subtitle" style="text-align: center !important;">
@@ -153,45 +159,82 @@ ENG
   </div>
 
 
-<div class="geoland-description glass">
+<div class="home-info-card">
 
-    <div class="title-wrapper">
+  <div class="home-card-icon">
+    <!-- Globe / Geospatial Platform -->
+    <svg width="28" height="28" viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round">
 
-      <div class="geo-badge" data-i18n="showcase_badge">
-        WORKING SHOWCASE
-      </div>
+      <circle cx="12" cy="12" r="9"></circle>
+      <path d="M12 3v18"></path>
+      <path d="M3 12h18"></path>
+      <path d="M5.5 6.5c2 1.4 4.2 2.1 6.5 2.1s4.5-.7 6.5-2.1"></path>
+      <path d="M5.5 17.5c2-1.4 4.2-2.1 6.5-2.1s4.5.7 6.5 2.1"></path>
 
-      <h2 data-i18n="showcase_title">
-        A Live Geospatial Platform
-      </h2>
+    </svg>
+  </div>
 
+
+  <div class="title-wrapper">
+
+    <div class="geo-badge" data-i18n="showcase_badge">
+      WORKING SHOWCASE
     </div>
 
-
-    <p data-i18n="showcase_p1">
-      This live platform is a working example of how large-scale geospatial data, AI-powered analysis, interactive 3D visualization, and Earth observation workflows can be brought together into a single web-based experience.
-    </p>
-
-
-    <p data-i18n="showcase_p2">
-      Users can directly explore two core capabilities within the platform: 3D Location Intelligence for understanding buildings, locations, and spatial context, and Earth Observation for exploring satellite imagery and performing remote-sensing analysis.
-    </p>
-
-
-    <p data-i18n="showcase_p3">
-      The platform is presented as a working showcase of GeoLand's capabilities — not as a fixed product offering. Its architecture demonstrates how similar geospatial platforms can be tailored to different datasets, workflows, business requirements, and industry needs.
-    </p>
-
-
-    <div style="display:flex; justify-content:center; margin-top:28px;">
-
-
-    </div>
+    <h2 data-i18n="showcase_title">
+      A Live Geospatial Platform
+    </h2>
 
   </div>
 
 
+  <p data-i18n="showcase_p1">
+    This live platform is a working example of how large-scale geospatial data, AI-powered analysis, interactive 3D visualization, and Earth observation workflows can be brought together into a single web-based experience.
+  </p>
+
+
+  <p data-i18n="showcase_p2">
+    Users can directly explore two core capabilities within the platform: 3D Location Intelligence for understanding buildings, locations, and spatial context, and Earth Observation for exploring satellite imagery and performing remote-sensing analysis.
+  </p>
+
+
+  <p data-i18n="showcase_p3">
+    The platform is presented as a working showcase of GeoLand's capabilities — not as a fixed product offering. Its architecture demonstrates how similar geospatial platforms can be tailored to different datasets, workflows, business requirements, and industry needs.
+  </p>
+
+
+</div>
+
+
   <div style="margin-top:60px;">
+
+  <div class="home-section-card">
+
+    <div class="home-card-icon">
+      <!-- Spatial Network / Intelligence -->
+      <svg width="28" height="28" viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+
+        <circle cx="6" cy="6" r="2"></circle>
+        <circle cx="18" cy="6" r="2"></circle>
+        <circle cx="12" cy="18" r="2"></circle>
+
+        <path d="M7.7 7.1l2.9 8"></path>
+        <path d="M16.3 7.1l-2.9 8"></path>
+        <path d="M8 6h8"></path>
+
+      </svg>
+    </div>
+
 
     <div class="title-wrapper">
 
@@ -209,92 +252,164 @@ ENG
 
     </div>
 
+  </div>
+
 
     <div class="features-grid">
 
-      <div class="feature-card">
+<div class="feature-card home-focus-card">
 
-        <div class="geo-badge" data-i18n="focus_platform_badge">
-          PLATFORM
-        </div>
+  <div class="feature-icon">
+    <!-- Platform / Layers -->
+    <svg width="28" height="28" viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round">
 
-        <h3 data-i18n="focus_platform_title">
-          Custom Geospatial Platforms
-        </h3>
+      <polygon points="12 3 3 8 12 13 21 8 12 3"></polygon>
+      <polyline points="3 13 12 18 21 13"></polyline>
+      <polyline points="3 17 12 22 21 17"></polyline>
 
-        <p data-i18n="focus_platform_desc">
-          Web-based GIS and geospatial applications designed around specific business processes, datasets, analytical requirements, and user workflows.
-        </p>
-
-      </div>
-
-
-      <div class="feature-card">
-
-        <div class="geo-badge" data-i18n="focus_ai_badge">
-          AI
-        </div>
-
-        <h3 data-i18n="focus_ai_title">
-          AI-Integrated Spatial Intelligence
-        </h3>
-
-        <p data-i18n="focus_ai_desc">
-          Integrate AI into spatial search, analysis, recommendations, natural-language interaction, classification, reporting, and decision-support workflows.
-        </p>
-
-      </div>
+    </svg>
+  </div>
 
 
-      <div class="feature-card">
+  <div class="geo-badge" data-i18n="focus_platform_badge">
+    PLATFORM
+  </div>
 
-        <div class="geo-badge" data-i18n="focus_automation_badge">
-          AUTOMATION
-        </div>
+  <h3 data-i18n="focus_platform_title">
+    Custom Geospatial Platforms
+  </h3>
 
-        <h3 data-i18n="focus_automation_title">
-          Spatial Data & Workflow Automation
-        </h3>
+  <p data-i18n="focus_platform_desc">
+    Web-based GIS and geospatial applications designed around specific business processes, datasets, analytical requirements, and user workflows.
+  </p>
 
-        <p data-i18n="focus_automation_desc">
-          Automate data ingestion, processing, spatial analysis, monitoring, reporting, and repetitive GIS workflows through integrated backend services and APIs.
-        </p>
+</div>
 
-      </div>
+
+<div class="feature-card home-focus-card">
+
+  <div class="feature-icon">
+    <!-- AI / Neural Spark -->
+    <svg width="28" height="28" viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+
+      <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z"></path>
+      <path d="M18 16l.7 2.3L21 19l-2.3.7L18 22l-.7-2.3L15 19l2.3-.7L18 16z"></path>
+
+    </svg>
+  </div>
+
+
+  <div class="geo-badge" data-i18n="focus_ai_badge">
+    AI
+  </div>
+
+  <h3 data-i18n="focus_ai_title">
+    AI-Integrated Spatial Intelligence
+  </h3>
+
+  <p data-i18n="focus_ai_desc">
+    Integrate AI into spatial search, analysis, recommendations, natural-language interaction, classification, reporting, and decision-support workflows.
+  </p>
+
+</div>
+
+
+<div class="feature-card home-focus-card">
+
+  <div class="feature-icon">
+    <!-- Workflow Automation -->
+    <svg width="28" height="28" viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+
+      <circle cx="6" cy="6" r="2"></circle>
+      <circle cx="18" cy="12" r="2"></circle>
+      <circle cx="6" cy="18" r="2"></circle>
+
+      <path d="M8 6h5a3 3 0 0 1 3 3v1"></path>
+      <path d="M16 14v1a3 3 0 0 1-3 3H8"></path>
+
+    </svg>
+  </div>
+
+
+  <div class="geo-badge" data-i18n="focus_automation_badge">
+    AUTOMATION
+  </div>
+
+  <h3 data-i18n="focus_automation_title">
+    Spatial Data & Workflow Automation
+  </h3>
+
+  <p data-i18n="focus_automation_desc">
+    Automate data ingestion, processing, spatial analysis, monitoring, reporting, and repetitive GIS workflows through integrated backend services and APIs.
+  </p>
+
+</div>
 
     </div>
 
   </div>
 
 
-  <div class="geoland-description glass" style="margin-top:60px;">
+<div class="home-info-card home-principle-card" style="margin-top:60px;">
 
-    <div class="title-wrapper">
+  <div class="home-card-icon">
+    <!-- Compass / Design Principle -->
+    <svg width="28" height="28" viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round">
 
-      <div class="geo-badge" data-i18n="principle_badge">
-        DESIGN PRINCIPLE
-      </div>
+      <circle cx="12" cy="12" r="9"></circle>
 
-      <h2 data-i18n="principle_title">
-        Complex Systems. Simple User Experience.
-      </h2>
+      <path d="M15.5 8.5l-2.2 4.8-4.8 2.2 2.2-4.8 4.8-2.2z"></path>
 
+    </svg>
+  </div>
+
+
+  <div class="title-wrapper">
+
+    <div class="geo-badge" data-i18n="principle_badge">
+      DESIGN PRINCIPLE
     </div>
 
+    <h2 data-i18n="principle_title">
+      Complex Systems. Simple User Experience.
+    </h2>
 
-    <p data-i18n="principle_p1">
-      Behind a modern geospatial platform are complex datasets, analytical processes, AI, automation, and multiple interconnected services.
-    </p>
-
-
-    <p data-i18n="principle_p2">
-      GeoLand brings these components together into a single platform designed to feel simple and intuitive for the end user.
-    </p>
+  </div>
 
 
-    <p data-i18n="principle_p3">
-      The complexity lives in the architecture. The simplicity lives in the experience.
-    </p>
+  <p data-i18n="principle_p1">
+    Behind a modern geospatial platform are complex datasets, analytical processes, AI, automation, and multiple interconnected services.
+  </p>
+
+
+  <p data-i18n="principle_p2">
+    GeoLand brings these components together into a single platform designed to feel simple and intuitive for the end user.
+  </p>
+
+
+  <p data-i18n="principle_p3">
+    The complexity lives in the architecture. The simplicity lives in the experience.
+  </p>
 
 </div>
 
@@ -511,6 +626,525 @@ Build backend services that process large spatial datasets, automate geospatial 
 </a>
 
 </section>
+</main>
+
+<main id="pricing-view" class="view-section">
+
+<section class="container">
+
+  <h2 class="section-title" data-i18n="pricing_title">
+    Geospatial Platform Development
+  </h2>
+
+  <p class="section-sub" data-i18n="pricing_subtitle">
+    Indicative project ranges for custom geospatial platform development. Final pricing depends on scope, data requirements, integrations, workflow complexity, and infrastructure.
+  </p>
+
+
+  <!-- =========================
+       PRICING CARDS
+  ========================== -->
+
+  <div class="pricing-grid">
+
+
+    <!-- STARTER -->
+
+    <div class="feature-card pricing-card">
+
+      <div class="feature-icon">
+
+        <svg width="28" height="28" viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+
+          <rect x="4" y="4" width="16" height="16" rx="3"></rect>
+          <path d="M8 9h8"></path>
+          <path d="M8 13h5"></path>
+          <path d="M8 17h3"></path>
+
+        </svg>
+
+      </div>
+
+
+      <div class="geo-badge" data-i18n="pricing_starter_badge">
+        STARTER SCOPE
+      </div>
+
+
+      <h3 data-i18n="pricing_starter_title">
+        Geospatial Starter
+      </h3>
+
+
+      <div class="pricing-price">
+        $2,000 – $4,000
+      </div>
+
+
+      <p class="pricing-description"
+         data-i18n="pricing_starter_desc">
+        For organizations that need a focused WebGIS application built around one primary geospatial workflow.
+      </p>
+
+
+      <div class="pricing-list">
+
+        <div data-i18n="pricing_starter_item1">
+          Web-based GIS application
+        </div>
+
+        <div data-i18n="pricing_starter_item2">
+          Spatial database setup
+        </div>
+
+        <div data-i18n="pricing_starter_item3">
+          Basic backend and API
+        </div>
+
+        <div data-i18n="pricing_starter_item4">
+          Agreed spatial analysis
+        </div>
+
+        <div data-i18n="pricing_starter_item5">
+          Responsive user interface
+        </div>
+
+        <div data-i18n="pricing_starter_item6">
+          Deployment and documentation
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- INTELLIGENCE -->
+
+    <div class="feature-card pricing-card">
+
+      <div class="feature-icon">
+
+        <svg width="28" height="28" viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+
+          <path d="M4 19V5"></path>
+          <path d="M4 19h16"></path>
+          <path d="M7 15l4-5 3 3 5-7"></path>
+          <circle cx="7" cy="15" r="1"></circle>
+          <circle cx="11" cy="10" r="1"></circle>
+          <circle cx="14" cy="13" r="1"></circle>
+          <circle cx="19" cy="6" r="1"></circle>
+
+        </svg>
+
+      </div>
+
+
+      <div class="geo-badge" data-i18n="pricing_intelligence_badge">
+        INTELLIGENCE SCOPE
+      </div>
+
+
+      <h3 data-i18n="pricing_intelligence_title">
+        Geospatial Intelligence
+      </h3>
+
+
+      <div class="pricing-price">
+        $4,000 – $8,000
+      </div>
+
+
+      <p class="pricing-description"
+         data-i18n="pricing_intelligence_desc">
+        For systems that combine multiple workflows, advanced spatial analysis, AI, automation, and data integrations.
+      </p>
+
+
+      <div class="pricing-list">
+
+        <div data-i18n="pricing_intelligence_item1">
+          Multiple geospatial workflows
+        </div>
+
+        <div data-i18n="pricing_intelligence_item2">
+          Advanced spatial analytics
+        </div>
+
+        <div data-i18n="pricing_intelligence_item3">
+          AI integration
+        </div>
+
+        <div data-i18n="pricing_intelligence_item4">
+          Workflow automation
+        </div>
+
+        <div data-i18n="pricing_intelligence_item5">
+          Multiple data integrations
+        </div>
+
+        <div data-i18n="pricing_intelligence_item6">
+          Dashboards and automated reporting
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- CUSTOM PLATFORM -->
+
+    <div class="feature-card pricing-card">
+
+      <div class="feature-icon">
+
+        <svg width="28" height="28" viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+
+          <polygon points="12 3 21 8 21 16 12 21 3 16 3 8 12 3"></polygon>
+          <path d="M12 8v8"></path>
+          <path d="M8 10l4 2 4-2"></path>
+
+        </svg>
+
+      </div>
+
+
+      <div class="geo-badge" data-i18n="pricing_custom_badge">
+        CUSTOM PLATFORM
+      </div>
+
+
+      <h3 data-i18n="pricing_custom_title">
+        Custom Geospatial Platform
+      </h3>
+
+
+      <div class="pricing-price">
+        $8,000 – $15,000+
+      </div>
+
+
+      <p class="pricing-description"
+         data-i18n="pricing_custom_desc">
+        For organizations that require a fully customized geospatial platform built around complex workflows and specific operational requirements.
+      </p>
+
+
+      <div class="pricing-list">
+
+        <div data-i18n="pricing_custom_item1">
+          Custom system architecture
+        </div>
+
+        <div data-i18n="pricing_custom_item2">
+          Complex spatial analytics
+        </div>
+
+        <div data-i18n="pricing_custom_item3">
+          3D or Earth Observation workflows
+        </div>
+
+        <div data-i18n="pricing_custom_item4">
+          AI-powered geospatial workflows
+        </div>
+
+        <div data-i18n="pricing_custom_item5">
+          Multiple APIs and data sources
+        </div>
+
+        <div data-i18n="pricing_custom_item6">
+          Large-scale spatial processing
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- CUSTOM / COMPLEX -->
+
+    <div class="feature-card pricing-card">
+
+      <div class="feature-icon">
+
+        <svg width="28" height="28" viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+
+          <circle cx="12" cy="12" r="9"></circle>
+          <path d="M8 12h8"></path>
+          <path d="M12 8v8"></path>
+
+        </svg>
+
+      </div>
+
+
+      <div class="geo-badge" data-i18n="pricing_complex_badge">
+        CUSTOM / COMPLEX
+      </div>
+
+
+      <h3 data-i18n="pricing_complex_title">
+        Complex Geospatial Solutions
+      </h3>
+
+
+      <div class="pricing-custom-price"
+           data-i18n="pricing_complex_price">
+        Let's Discuss
+      </div>
+
+
+      <p class="pricing-description"
+         data-i18n="pricing_complex_desc">
+        For large-scale, multi-system, or highly specialized projects that require a custom scope and architecture.
+      </p>
+
+
+      <div class="pricing-list">
+
+        <div data-i18n="pricing_complex_item1">
+          Enterprise-scale workflows
+        </div>
+
+        <div data-i18n="pricing_complex_item2">
+          Multiple user roles and systems
+        </div>
+
+        <div data-i18n="pricing_complex_item3">
+          Specialized data pipelines
+        </div>
+
+        <div data-i18n="pricing_complex_item4">
+          Advanced AI orchestration
+        </div>
+
+        <div data-i18n="pricing_complex_item5">
+          Custom infrastructure requirements
+        </div>
+
+        <div data-i18n="pricing_complex_item6">
+          Long-term platform development
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       PRICING PRINCIPLE
+  ========================== -->
+
+  <div class="pricing-note-card">
+
+    <div class="home-card-icon">
+
+      <svg width="28" height="28" viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M12 7v5l3 2"></path>
+
+      </svg>
+
+    </div>
+
+
+    <h3 data-i18n="pricing_note_title">
+      Pricing Is Based on Complexity, Not Page Count
+    </h3>
+
+
+    <p data-i18n="pricing_note_desc">
+      Final pricing is determined by the number of workflows, data sources, integrations, analytical requirements, user roles, automation, infrastructure, and overall project complexity.
+    </p>
+
+  </div>
+
+
+  <!-- =========================
+       INCLUDED / SEPARATE
+  ========================== -->
+
+  <div class="pricing-info-grid">
+
+
+    <div class="feature-card pricing-info-card">
+
+      <div class="feature-icon">
+
+        <svg width="28" height="28" viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+
+          <path d="M20 6L9 17l-5-5"></path>
+
+        </svg>
+
+      </div>
+
+
+      <h3 data-i18n="pricing_included_title">
+        Typically Included
+      </h3>
+
+
+      <div class="pricing-check-list">
+
+        <div data-i18n="pricing_included_1">
+          Platform development
+        </div>
+
+        <div data-i18n="pricing_included_2">
+          Responsive user interface
+        </div>
+
+        <div data-i18n="pricing_included_3">
+          Backend and API services
+        </div>
+
+        <div data-i18n="pricing_included_4">
+          Spatial database configuration
+        </div>
+
+        <div data-i18n="pricing_included_5">
+          Agreed spatial analysis
+        </div>
+
+        <div data-i18n="pricing_included_6">
+          Deployment
+        </div>
+
+        <div data-i18n="pricing_included_7">
+          Technical documentation
+        </div>
+
+        <div data-i18n="pricing_included_8">
+          Source-code handover according to agreement
+        </div>
+
+        <div data-i18n="pricing_included_9">
+          Bug-fix warranty within the agreed scope
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="feature-card pricing-info-card">
+
+      <div class="feature-icon">
+
+        <svg width="28" height="28" viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+
+          <circle cx="12" cy="12" r="9"></circle>
+          <path d="M8 8l8 8"></path>
+          <path d="M16 8l-8 8"></path>
+
+        </svg>
+
+      </div>
+
+
+      <h3 data-i18n="pricing_separate_title">
+        Typically Quoted Separately
+      </h3>
+
+
+      <div class="pricing-check-list">
+
+        <div data-i18n="pricing_separate_1">
+          Commercial datasets and data licenses
+        </div>
+
+        <div data-i18n="pricing_separate_2">
+          Cloud, VPS, or production infrastructure
+        </div>
+
+        <div data-i18n="pricing_separate_3">
+          Third-party API usage fees
+        </div>
+
+        <div data-i18n="pricing_separate_4">
+          Large-scale data preparation or cleaning
+        </div>
+
+        <div data-i18n="pricing_separate_5">
+          Data acquisition or digitization
+        </div>
+
+        <div data-i18n="pricing_separate_6">
+          Ongoing maintenance and support
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="pricing-bottom-cta">
+
+    <p data-i18n="pricing_cta_text">
+      Need a different scope?
+    </p>
+
+    <a onclick="switchView('contact-view')"
+       class="btn btn-primary"
+       data-i18n="pricing_cta_button">
+      Discuss Your Requirements
+    </a>
+
+  </div>
+
+
+  <div class="back-home-container">
+
+    <a onclick="switchView('home-view')"
+       class="btn btn-secondary"
+       data-i18n="back_home">
+      ← Back to Home
+    </a>
+
+  </div>
+
+</section>
+
 </main>
 
 <main id="industry-view" class="view-section">
