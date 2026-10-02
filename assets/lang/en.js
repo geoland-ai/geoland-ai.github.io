@@ -1,308 +1,606 @@
 const en = {
 
-    // Navigation
+    // =========================
+    // Branding & Navigation
+    // =========================
+
+    brand_tagline: "Custom Geospatial Solutions",
+
     nav_home: "Home",
-    nav_features: "Features",
-    nav_tour: "Product Tour",
-    nav_gallery: "Map Gallery",
-    nav_about: "Behind GeoLand",
+    nav_features: "Solutions",
+    nav_tour: "Showcase",
+    nav_gallery: "Projects",
+    nav_about: "About GeoLand",
     nav_contact: "Contact",
+    nav_try: "Try GeoLand",
 
+
+    // =========================
     // Hero
-    hero_title: "Where Artificial Intelligence Meets Geography",
+    // =========================
 
-    hero_subtitle: "Transform location data into intelligent insights with an AI-powered Location Intelligence Platform designed for businesses, governments, researchers, and investors.",
+    hero_badge: "CUSTOM GEOSPATIAL SOLUTIONS",
 
-    hero_button: "Try Now",
+    hero_title:
+        "Turning Geospatial Complexity Into Custom Digital Platforms",
 
-    // Home
-    home_badge: "GeoLand Indonesia",
+    hero_subtitle:
+        "GeoLand provides custom geospatial development services that combine spatial data, AI, automation, 3D visualization, satellite intelligence, and spatial analytics into intuitive web applications built for real-world organizational needs.",
 
-    home_title: "AI-Powered National Location Intelligence Platform",
+    hero_primary:
+        "Explore Solutions",
 
-    home_p1: "GeoLand Indonesia is a nationwide Location Intelligence platform that transforms complex geospatial data into actionable insights for smarter decision-making. By integrating building footprints, road networks, administrative boundaries, points of interest (POI), satellite information, and spatial indicators, GeoLand provides a comprehensive understanding of locations across Indonesia.",
-
-    home_p2: "Designed for business expansion, investment analysis, urban planning, and regional development, GeoLand enables users to discover strategic locations, evaluate area potential, analyze accessibility, understand surrounding activities, and identify opportunities through interactive spatial intelligence.",
-
-    home_p3: "Unlike conventional mapping platforms that only visualize geographic data, GeoLand combines AI-assisted analytics, 3D Building Intelligence, property insights, business suitability analysis, and automated recommendations into a single integrated ecosystem.",
-
-    home_p4: "Powered by modern geospatial technologies, vector tile infrastructure, spatial analytics, and AI-driven workflows, GeoLand is built to process large-scale geographic datasets while delivering a fast, intuitive, and scalable user experience.",
-
-    home_p5: "GeoLand Indonesia represents the future of geospatial decision support by connecting location data, intelligent analysis, and interactive visualization to help organizations make better decisions based on where things happen.",
+    hero_secondary:
+        "Try the Live Platform",
 
 
+    // =========================
+    // Working Showcase
+    // =========================
 
-   // =========================
-// Features
+showcase_badge:
+    "WORKING SHOWCASE",
+
+showcase_title:
+    "A Live Geospatial Platform",
+
+showcase_p1:
+    "This live platform is a working example of how large-scale geospatial data, AI-powered analysis, interactive 3D visualization, and Earth observation workflows can be brought together into a single web-based experience.",
+
+showcase_p2:
+    "Users can directly explore two core capabilities within the platform: 3D Location Intelligence for understanding buildings, locations, and spatial context, and Earth Observation for exploring satellite imagery and performing remote-sensing analysis.",
+
+showcase_p3:
+    "The platform is presented as a working showcase of GeoLand's capabilities — not as a fixed product offering. Its architecture demonstrates how similar geospatial platforms can be tailored to different datasets, workflows, business requirements, and industry needs.",
+
+showcase_try:
+    "Try the Live Platform",
+
+
+    // =========================
+    // GeoLand Focus
+    // =========================
+
+    focus_badge:
+        "WHAT WE FOCUS ON",
+
+    focus_title:
+        "From Geospatial Data to Intelligent Digital Platforms",
+
+    focus_subtitle:
+        "GeoLand combines geospatial engineering, AI, automation, and modern web technologies to turn complex spatial workflows into usable digital products.",
+
+
+    focus_platform_badge:
+        "PLATFORM",
+
+    focus_platform_title:
+        "Custom Geospatial Platforms",
+
+    focus_platform_desc:
+        "Web-based GIS and geospatial applications designed around specific business processes, datasets, analytical requirements, and user workflows.",
+
+
+    focus_ai_badge:
+        "AI",
+
+    focus_ai_title:
+        "AI-Integrated Spatial Intelligence",
+
+    focus_ai_desc:
+        "Integrate AI into spatial search, analysis, recommendations, natural-language interaction, classification, reporting, and decision-support workflows.",
+
+
+    focus_automation_badge:
+        "AUTOMATION",
+
+    focus_automation_title:
+        "Spatial Data & Workflow Automation",
+
+    focus_automation_desc:
+        "Automate data ingestion, processing, spatial analysis, monitoring, reporting, and repetitive GIS workflows through integrated backend services and APIs.",
+
+
+    // =========================
+    // Design Principle
+    // =========================
+
+principle_badge:
+    "DESIGN PRINCIPLE",
+
+principle_title:
+    "Complex Systems. Simple User Experience.",
+
+principle_p1:
+    "Behind a modern geospatial platform are complex datasets, analytical processes, AI, automation, and multiple interconnected services.",
+
+principle_p2:
+    "GeoLand brings these components together into a single platform designed to feel simple and intuitive for the end user.",
+
+principle_p3:
+    "The complexity lives in the architecture. The simplicity lives in the experience.",
+
+    // =========================
+    // What We Build
+    // =========================
+
+    features_title:
+        "What We Build",
+
+    features_subtitle:
+        "Custom geospatial platforms designed around your data, workflow, users, and business objectives — integrating spatial intelligence, AI, automation, 3D visualization, and satellite capabilities.",
+
+
+    feature_ai_title:
+        "Custom Geospatial Platform Development",
+
+    feature_ai_description:
+        "Design and build web-based GIS and geospatial platforms tailored to specific business processes, analytical requirements, datasets, and user workflows.",
+
+
+    feature_building_title:
+        "3D Geospatial Platforms",
+
+    feature_building_description:
+        "Build interactive 3D environments for buildings, terrain, infrastructure, assets, and large-scale geographic datasets with modern web mapping technologies.",
+
+
+    feature_search_title:
+        "Geospatial Data Integration",
+
+    feature_search_description:
+        "Integrate spatial databases, APIs, administrative datasets, POIs, transportation networks, satellite sources, external services, and organization-specific datasets into a unified platform.",
+
+
+    feature_business_title:
+        "Spatial Analytics & Decision Support",
+
+    feature_business_description:
+        "Transform complex geospatial datasets into indicators, scoring systems, spatial models, dashboards, suitability analysis, accessibility analysis, and decision-support workflows.",
+
+
+    feature_property_title:
+        "Location Intelligence Solutions",
+
+    feature_property_description:
+        "Develop location intelligence applications for site selection, market analysis, expansion planning, asset intelligence, property analysis, regional assessment, and spatial decision-making.",
+
+
+    feature_poi_title:
+        "Satellite & Earth Observation",
+
+    feature_poi_description:
+        "Integrate satellite imagery and remote-sensing workflows for monitoring, classification, environmental analysis, change detection, raster processing, and satellite-based spatial intelligence.",
+
+
+    feature_3d_title:
+        "High-Performance Web Mapping",
+
+    feature_3d_description:
+        "Build responsive mapping applications capable of handling large spatial datasets through vector tiles, spatial indexing, optimized queries, interactive visualization, and modern web rendering.",
+
+
+    feature_assistant_title:
+        "AI-Powered Geospatial Applications",
+
+    feature_assistant_description:
+        "Integrate AI into geospatial workflows for natural-language interaction, spatial queries, recommendations, automated reasoning, classification, analysis, and intelligent user assistance.",
+
+
+    feature_reports_title:
+        "Automated Spatial Reporting",
+
+    feature_reports_description:
+        "Automate spatial reports, maps, summaries, analytical outputs, and PDF generation so users can move from geographic data to shareable decision-support materials with minimal manual work.",
+
+
+    feature_engine_title:
+        "Spatial Data & Automation Engine",
+
+    feature_engine_description:
+        "Build backend services that process large spatial datasets, automate geospatial workflows, connect analytical engines, and expose spatial intelligence through scalable APIs.",
+
+
+    back_home:
+        "← Back to Home",
+
+
+    // =========================
+    // Industry Workflows
+    // =========================
+
+    industry_title:
+        "Built for Different Industry Workflows",
+
+    industry_subtitle:
+        "The same geospatial architecture can be adapted to different operational, analytical, and decision-making requirements across industries.",
+
+
+    industry_realestate_badge:
+        "REAL ESTATE",
+
+    industry_realestate_title:
+        "Property & Real Estate",
+
+    industry_realestate_desc:
+        "Site selection, property intelligence, development analysis, accessibility, market context, and spatial decision support.",
+
+
+    industry_retail_badge:
+        "RETAIL",
+
+    industry_retail_title:
+        "Retail, F&B & Expansion",
+
+    industry_retail_desc:
+        "Location selection, catchment analysis, competition mapping, market intelligence, and expansion planning.",
+
+
+    industry_agriculture_badge:
+        "AGRICULTURE",
+
+    industry_agriculture_title:
+        "Agriculture & Plantation",
+
+    industry_agriculture_desc:
+        "Land monitoring, asset mapping, satellite intelligence, environmental indicators, and spatial operations.",
+
+
+    industry_telecom_badge:
+        "TELECOM",
+
+    industry_telecom_title:
+        "Telecommunications & Infrastructure",
+
+    industry_telecom_desc:
+        "Infrastructure mapping, site planning, spatial asset intelligence, coverage workflows, and network-related analysis.",
+
+
+    industry_government_badge:
+        "GOVERNMENT",
+
+    industry_government_title:
+        "Government & Urban Planning",
+
+    industry_government_desc:
+        "Regional analysis, infrastructure monitoring, spatial dashboards, planning support, and public-sector geospatial workflows.",
+
+
+    industry_logistics_badge:
+        "LOGISTICS",
+
+    industry_logistics_title:
+        "Logistics & Transportation",
+
+    industry_logistics_desc:
+        "Accessibility analysis, network intelligence, operational mapping, service areas, and location-based planning.",
+
+
+    // =========================
+    // GeoLand Showcase
+    // =========================
+
+    tour_title:
+        "GeoLand Showcase",
+
+    tour_subtitle:
+        "Explore working examples of AI-powered geospatial applications, 3D location intelligence, automated spatial workflows, and satellite intelligence.",
+
+
+    tour_ai_title:
+        "AI Recommendation Engine",
+
+    tour_ai_desc:
+        "AI-powered business location recommendation.",
+
+
+    tour_assistant_title:
+        "GeoLand AI Assistant",
+
+    tour_assistant_desc:
+        "Natural language spatial assistant.",
+
+
+    tour_batch_title:
+        "Batch Location Analysis",
+
+    tour_batch_desc:
+        "Analyze hundreds of locations simultaneously.",
+
+
+    tour_building_title:
+        "3D Building Intelligence",
+
+    tour_building_desc:
+        "Interactive nationwide building visualization.",
+
+
+    tour_satellite_title:
+        "Satellite Intelligence",
+
+    tour_satellite_desc:
+        "Explore satellite imagery and Earth observation workflows integrated into a modern geospatial platform.",
+
+    tour_satellite_button:
+        "Try Satellite Intelligence",
+
+
+    tour_report_title:
+        "AI Spatial Reports",
+
+    tour_report_desc:
+        "Generate professional reports and export selected spatial data with a single click.",
+
+
+    watch_tour:
+        "▶ View Demo",
+
+
+    // =========================
+    // Tour AI Recommendation
+    // =========================
+
+    tour_ai_page_title:
+        "AI Recommendation Engine",
+
+    tour_ai_page_subtitle:
+        "Learn how GeoLand identifies strategic business and investment locations using AI-powered spatial analysis.",
+
+
+    tour_ai_header:
+        "AI Recommendation Engine",
+
+    tour_ai_header_desc:
+        "GeoLand analyzes accessibility, commercial activity, surrounding POIs, demographics, road connectivity, and regional growth to generate location recommendations through spatial intelligence.",
+
+
+    step_1:
+        "Step 1",
+
+    step_2:
+        "Step 2",
+
+    step_3:
+        "Step 3",
+
+
+    tour_ai_step1:
+        "Select your preferred business category such as restaurant, café, minimarket, pharmacy, warehouse, or other business types.",
+
+    tour_ai_step2:
+        "Enter your available investment budget to filter locations based on your financial capacity.",
+
+    tour_ai_step3:
+        "GeoLand evaluates millions of nationwide spatial records and provides recommended locations together with AI-generated suitability scores.",
+
+
+    back_product_tour:
+        "← Back to Showcase",
+
+
+    // =========================
+    // Tour AI Assistant
+    // =========================
+
+    tour_assistant_page_title:
+        "GeoLand AI Assistant",
+
+    tour_assistant_page_subtitle:
+        "Interact with GeoLand using natural language to discover locations and receive AI-powered spatial insights.",
+
+
+    tour_assistant_header:
+        "GeoLand AI Assistant",
+
+    tour_assistant_header_desc:
+        "Ask GeoLand questions in plain language and receive intelligent spatial analysis.",
+
+
+    tour_assistant_step1:
+        "Open the GeoLand AI Assistant panel.",
+
+    tour_assistant_step2:
+        "Ask questions such as \"Best area for a coffee shop\" or \"Show high-growth districts\".",
+
+    tour_assistant_step3:
+        "GeoLand analyzes spatial data and returns AI-generated recommendations.",
+
+
+    // =========================
+    // Tour Batch Analysis
+    // =========================
+
+    tour_batch_page_title:
+        "Batch Location Analysis",
+
+    tour_batch_page_subtitle:
+        "Analyze hundreds or even thousands of locations in a single process.",
+
+
+    tour_batch_header:
+        "Batch Location Analysis",
+
+    tour_batch_header_desc:
+        "Upload coordinate datasets and let GeoLand evaluate every location automatically.",
+
+
+    tour_batch_step1:
+        "Upload a CSV file containing ID, Latitude, and Longitude columns to perform large-scale location intelligence analysis.",
+
+    tour_batch_step2:
+        "Select the business category and analysis settings.",
+
+    tour_batch_step3:
+        "GeoLand analyzes every uploaded location, ranks them using AI-powered spatial intelligence, and generates the Top 5 recommended locations.",
+
+
+    // =========================
+    // Tour 3D Building
+    // =========================
+
+    tour_building_page_title:
+        "3D Building Intelligence",
+
+    tour_building_page_subtitle:
+        "Explore more than 100 million building footprints across Indonesia with interactive 3D visualization and building-level intelligence.",
+
+
+    tour_building_header:
+        "3D Building Intelligence",
+
+    tour_building_header_desc:
+        "Navigate seamlessly across Indonesia and inspect individual buildings together with their surrounding spatial context.",
+
+
+    tour_building_step1:
+        "Navigate to any city, district, or coordinate in Indonesia.",
+
+    tour_building_step2:
+        "Zoom into the map to display interactive 3D buildings.",
+
+    tour_building_step3:
+        "Select a building to explore property information and surrounding spatial intelligence.",
+
+
+    // =========================
+    // Tour AI Spatial Reports
+    // =========================
+
+    tour_report_page_title:
+        "AI Spatial Reports",
+
+    tour_report_page_subtitle:
+        "Generate professional PDF reports that summarize AI-generated location intelligence and spatial analysis.",
+
+
+    tour_report_header:
+        "AI Spatial Reports",
+
+    tour_report_header_desc:
+        "Create presentation-ready reports containing maps, property information, AI summaries, and investment insights.",
+
+
+    tour_report_step1:
+        "Select a property or recommendation result.",
+
+    tour_report_step2:
+        "Generate the AI-powered spatial report.",
+
+    tour_report_step3:
+        "Download a professional PDF ready to share with clients and stakeholders.",
+
+
+    // =========================
+    // Gallery / Projects
+    // =========================
+
+    gallery_title:
+        "Selected Geospatial Solutions",
+
+    gallery_subtitle:
+        "A selection of geospatial applications, spatial analytics systems, and location-based solutions demonstrating how geographic data can be transformed into practical digital tools.",
+
+
+    gallery_bali_title:
+        "South Bali Spatial Intelligence Dashboard",
+
+    gallery_bali_desc:
+        "Multi-theme WebGIS dashboard integrating education, health, accessibility, and tourism pressure analysis.",
+
+
+    gallery_bogor_title:
+        "Bogor Economic Accessibility Index",
+
+    gallery_bogor_desc:
+        "Economic accessibility and regional development analysis using OSM data.",
+
+
+    gallery_mandalika_title:
+        "Mandalika SEZ Land Suitability",
+
+    gallery_mandalika_desc:
+        "Multi-Criteria Evaluation (MCE) and Weighted Overlay Analysis for identifying optimal zones for tourism economic development in the Mandalika region.",
+
+
+    gallery_ireland_title:
+        "GeoLand The Island of Ireland",
+
+    gallery_ireland_desc:
+        "GeoLand AI serves as a spatial intelligence hub, integrating regional data processing and spatial analysis into a high-performance interactive interface. Through this platform, users can explore geographic insights to support scalable planning and asset monitoring.",
+
+
+    gallery_open_dashboard:
+        "Open Dashboard",
+
+    gallery_view_map:
+        "View Map",
+
+    gallery_try_now:
+        "Try Now",
+
+
+    // =========================
+// About GeoLand
 // =========================
 
-features_title:"Platform Features",
+about_title:
+    "About GeoLand",
 
-features_subtitle:"Explore the powerful capabilities that transform nationwide geospatial data into AI-powered Location Intelligence for planning, investment, business expansion, and smarter spatial decision-making.",
+about_subtitle:
+    "GeoLand is an independent geospatial technology service focused on building custom digital platforms that integrate geospatial data, spatial analytics, AI, automation, and modern web technologies.",
 
-feature_ai_title:"AI Recommendation Engine",
-feature_ai_description:"Identify the most strategic locations for business expansion using AI-powered spatial analysis. GeoLand evaluates accessibility, commercial activity, surrounding POIs, demographics, road connectivity, and regional growth to recommend the highest-potential locations.",
+about_role:
+    "Founder & Geospatial Platform Architect",
 
-feature_building_title:"Nationwide Building Intelligence",
-feature_building_description:"Explore more than 120 million building footprints across Indonesia in interactive 3D. Inspect individual buildings, visualize urban density, and understand the physical characteristics of any location.",
+about_p1:
+    "GeoLand was founded by Bayu Ariyadi to provide custom geospatial technology services for organizations that need more than a conventional mapping application. The work combines GIS, spatial analytics, remote sensing, interactive web mapping, 3D visualization, AI-assisted workflows, and spatial data engineering.",
 
-feature_search_title:"Smart Location Search",
-feature_search_description:"Instantly navigate using place names, administrative boundaries, coordinates, or current location. Designed for smooth exploration across nationwide spatial datasets.",
+about_p2:
+    "Each project starts with the problem and workflow rather than the map itself. Spatial data, analytical logic, automation, APIs, AI, and user interfaces are then brought together into a system designed around how the organization actually works.",
 
-feature_business_title:"Business Suitability Analysis",
-feature_business_description:"Measure how suitable a location is for different business categories through AI-generated scoring based on accessibility, surrounding activities, competition, commercial density, and regional characteristics.",
+about_p3:
+    "GeoLand's working showcases, including 3D Location Intelligence, AI-powered spatial analysis, and Earth Observation, demonstrate how different geospatial capabilities can be combined into practical digital platforms that users can explore directly.",
 
-feature_property_title:"Property Intelligence",
-feature_property_description:"Access AI-generated property insights including estimated land value, building valuation, accessibility metrics, nearby facilities, neighborhood characteristics, and investment potential.",
+about_p4:
+    "Every organization has different datasets, processes, users, and analytical requirements. The solution is therefore built around those specific needs rather than forcing the same platform or workflow onto every project.",
+  
+    about_principle_badge:
+        "APPROACH",
 
-feature_poi_title:"Points of Interest Intelligence",
-feature_poi_description:"Discover restaurants, schools, hospitals, retail centers, tourist attractions, government facilities, and thousands of other important locations to better understand local activity.",
+    about_principle_title:
+        "Build the System Around the Problem, Not the Map",
 
-feature_3d_title:"Interactive 3D Visualization",
-feature_3d_description:"Explore nationwide geospatial information through modern vector tiles, interactive 3D buildings, high-performance rendering, and smooth navigation optimized for massive datasets.",
+    about_principle_p:
+        "A map is only one part of a geospatial application. The real value comes from connecting data, analysis, automation, intelligence, and user workflows into one coherent system.",
 
-feature_assistant_title:"GeoLand AI Assistant",
-feature_assistant_description:"Interact with GeoLand using natural language. Ask location-based questions, discover suitable areas, and receive AI-generated spatial insights without requiring GIS expertise.",
 
-feature_reports_title:"AI Spatial Reports",
-feature_reports_description:"Generate professional PDF reports and export selected map features containing AI summaries, location intelligence, property analysis, investment recommendations, and spatial insights ready to share with stakeholders.",
+    // =========================
+    // Contact
+    // =========================
 
-feature_engine_title:"Enterprise Spatial Engine",
-feature_engine_description:"Built to process and analyze millions of spatial records, delivering fast, reliable, and scalable Location Intelligence for nationwide decision-making.",
+    contact_title:
+        "Let's Build Your Geospatial Platform",
 
-back_home:"← Back to Home",
+    contact_subtitle:
+        "Tell us about your data, workflow, or business problem and explore how it can be transformed into a custom geospatial platform.",
 
-// =========================
-// Product Tour
-// =========================
+    contact_desc:
+        "For custom geospatial platform development, spatial data integration, AI integration, automation, 3D mapping, satellite intelligence, and spatial analytics projects:",
 
-tour_title:"Product Tour",
 
-tour_subtitle:"Explore every GeoLand capability through short interactive walkthroughs. Select a feature below to watch the demonstration.",
+    contact_phone:
+        "Phone & WhatsApp",
 
-tour_ai_title:"AI Recommendation Engine",
-tour_ai_desc:"AI-powered business location recommendation.",
+    contact_email:
+        "Operational Email",
 
-tour_assistant_title:"GeoLand AI Assistant",
-tour_assistant_desc:"Natural language spatial assistant.",
 
-tour_batch_title:"Batch Location Analysis",
-tour_batch_desc:"Analyze hundreds of locations simultaneously.",
+    // =========================
+    // Footer
+    // =========================
 
-tour_building_title:"3D Building Intelligence",
-tour_building_desc:"Interactive nationwide building visualization.",
-
-tour_report_title:"AI Spatial Reports",
-tour_report_desc:"Generate professional reports and export selected spatial data with a single click.",
-
-watch_tour:"▶ Watch Product Tour",
-
-// =========================
-// Product Tour
-// =========================
-
-tour_title:"Product Tour",
-
-tour_subtitle:"Explore every GeoLand capability through short interactive walkthroughs. Select a feature below to watch the demonstration.",
-
-
-tour_ai_title:"AI Recommendation Engine",
-
-tour_ai_desc:"AI-powered business location recommendation.",
-
-
-watch_tour:"▶ Watch Product Tour",
-
-
-tour_ai_page_title:"AI Recommendation Engine",
-
-tour_ai_page_subtitle:"Learn how GeoLand identifies the most strategic business and investment locations using AI-powered nationwide spatial analysis.",
-
-
-tour_ai_header:"AI Recommendation Engine",
-
-tour_ai_header_desc:"GeoLand analyzes accessibility, commercial activity, surrounding POIs, demographics, road connectivity, and regional growth to recommend the highest-potential locations for your business.",
-
-
-step_1:"Step 1",
-
-step_2:"Step 2",
-
-step_3:"Step 3",
-
-
-tour_ai_step1:"Select your preferred business category such as restaurant, café, minimarket, pharmacy, warehouse, or other business types.",
-
-
-tour_ai_step2:"Enter your available investment budget to filter locations based on your financial capacity.",
-
-
-tour_ai_step3:"GeoLand evaluates millions of nationwide spatial records and instantly recommends the best locations with AI-generated suitability scores.",
-
-
-back_product_tour:"← Back to Product Tour",
-
-tour_assistant_page_title:"GeoLand AI Assistant",
-
-tour_assistant_page_subtitle:"Interact with GeoLand using natural language to discover locations and receive AI-powered spatial insights.",
-
-
-tour_assistant_header:"GeoLand AI Assistant",
-
-tour_assistant_header_desc:"Ask GeoLand questions in plain language and instantly receive intelligent spatial analysis.",
-
-
-tour_assistant_step1:"Open the GeoLand AI Assistant panel.",
-
-
-tour_assistant_step2:"Ask questions such as \"Best area for a coffee shop\" or \"Show high-growth districts\".",
-
-
-tour_assistant_step3:"GeoLand analyzes nationwide spatial data and returns AI-generated recommendations.",
-
-// =========================
-// Tour Batch Analysis
-// =========================
-
-tour_batch_page_title:"Batch Location Analysis",
-
-tour_batch_page_subtitle:"Analyze hundreds or even thousands of locations in a single process.",
-
-
-tour_batch_header:"Batch Location Analysis",
-
-tour_batch_header_desc:"Upload coordinate datasets and let GeoLand evaluate every location automatically.",
-
-
-tour_batch_step1:"Upload a CSV file containing ID, Latitude, and Longitude columns to perform large-scale location intelligence analysis.",
-
-
-tour_batch_step2:"Select the business category and analysis settings.",
-
-
-tour_batch_step3:"GeoLand analyzes every uploaded location, ranks them using AI-powered spatial intelligence, and generates the Top 5 recommended locations.",
-
-// =========================
-// Tour 3D Building
-// =========================
-
-tour_building_page_title:"3D Building Intelligence",
-
-tour_building_page_subtitle:"Explore more than 100 million building footprints across Indonesia with smooth 3D visualization and building-level intelligence.",
-
-
-tour_building_header:"3D Building Intelligence",
-
-tour_building_header_desc:"Navigate seamlessly across Indonesia and inspect individual buildings together with their surrounding spatial context.",
-
-
-tour_building_step1:"Navigate to any city, district, or coordinate in Indonesia.",
-
-
-tour_building_step2:"Zoom into the map to display interactive 3D buildings.",
-
-
-tour_building_step3:"Select a building to explore property information and surrounding spatial intelligence.",
-
-// =========================
-// Tour AI Spatial Reports
-// =========================
-
-tour_report_page_title:"AI Spatial Reports",
-
-tour_report_page_subtitle:"Generate professional PDF reports that summarize AI-generated location intelligence and spatial analysis.",
-
-
-tour_report_header:"AI Spatial Reports",
-
-tour_report_header_desc:"Create presentation-ready reports containing maps, property information, AI summaries, and investment insights.",
-
-
-tour_report_step1:"Select a property or recommendation result.",
-
-
-tour_report_step2:"Generate the AI-powered spatial report.",
-
-
-tour_report_step3:"Download a professional PDF ready to share with clients and stakeholders.",
-
-// =========================
-// Gallery
-// =========================
-
-gallery_title:"Selected Geospatial Projects",
-
-gallery_subtitle:"A curated collection of WebGIS applications, spatial analytics dashboards, and geospatial solutions developed across various industries, showcasing expertise in GIS, remote sensing, spatial intelligence, and interactive mapping.",
-
-
-gallery_bali_title:"South Bali Spatial Intelligence Dashboard",
-
-gallery_bali_desc:"Multi-theme WebGIS dashboard integrating education, health, accessibility, and tourism pressure analysis.",
-
-
-gallery_bogor_title:"Bogor Economic Accessibility Index",
-
-gallery_bogor_desc:"Economic accessibility and regional development analysis using OSM data.",
-
-
-gallery_mandalika_title:"Mandalika SEZ Land Suitability",
-
-gallery_mandalika_desc:"Multi-Criteria Evaluation (MCE) and Weighted Overlay Analysis for identifying optimal zones for tourism economic development in the Mandalika region.",
-
-
-gallery_ireland_title:"GeoLand The Island of Ireland",
-
-gallery_ireland_desc:"GeoLand AI serves as a spatial intelligence hub, integrating regional data processing and spatial analysis into a high-performance interactive interface. Through this platform, users can explore deep geographic insights to drive scalable planning and asset monitoring.",
-
-
-gallery_open_dashboard:"Open Dashboard",
-
-gallery_view_map:"View Map",
-
-gallery_try_now:"Try Now",
-
-// =========================
-// About
-// =========================
-
-about_title:"The Creator Behind GeoLand",
-
-about_subtitle:"Meet the person behind the vision, architecture, and development of GeoLand — a Location Intelligence platform built to transform geographic data into actionable insights.",
-
-
-about_role:"Platform Architect",
-
-
-about_p1:"GeoLand was created by Bayu Ariyadi as an independent Location Intelligence platform designed to transform complex geographic data into meaningful insights for better decision-making. The platform combines artificial intelligence, spatial analytics, interactive mapping, and advanced visualization to help organizations understand locations, identify opportunities, and make smarter decisions based on geography.",
-
-
-about_p2:"GeoLand integrates multiple geospatial data sources including buildings, transportation networks, points of interest, administrative information, environmental indicators, and regional characteristics into a unified intelligence ecosystem. Through AI-assisted analysis and interactive visualization, users can evaluate locations, discover potential areas, analyze accessibility, understand surrounding activities, and generate data-driven recommendations.",
-
-
-about_p3:"Built as a scalable geospatial intelligence platform, GeoLand is designed to support business expansion, investment analysis, urban planning, asset monitoring, and regional development. The platform continues to evolve as a long-term initiative to make advanced location intelligence more accessible for businesses, governments, researchers, planners, and decision-makers across different industries.",
-
-// =========================
-// Contact
-// =========================
-
-contact_title:
-"Contact",
-
-contact_subtitle:
-"Let's discuss geospatial data integration, imagery processing, and custom web mapping systems for your company.",
-
-contact_desc:
-"Quick response channels for spatial infrastructure project inquiries:",
-
-contact_phone:
-"Phone & WhatsApp",
-
-contact_email:
-"Operational Email",
-
-footer_text:
-"© 2026 GeoLand | Geospatial Intelligence Solutions",
-
+    footer_text:
+        "© 2026 GeoLand | Custom Geospatial Solutions"
 
 };
 

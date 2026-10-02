@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>GeoLand | Geospatial Intelligence Solutions</title>
+<title>GeoLand | Custom Geospatial Solutions</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -26,12 +26,27 @@
 
 <header>
   <div class="container nav-wrap">
-    <a onclick="switchView('home-view')" style="cursor: pointer;" class="logo">
-      GeoLand
-      <div class="location-text">
-        📍 Indonesia
-      </div>
-    </a>
+<a onclick="switchView('home-view')" style="cursor: pointer;" class="logo">
+
+  <div class="logo-wordmark">
+
+    <span class="logo-geo">
+      Geo
+    </span>
+
+    <span class="logo-land">
+      Land
+    </span>
+
+    <span class="logo-dot"></span>
+
+  </div>
+
+  <div class="location-text" data-i18n="brand_tagline">
+    Custom Geospatial Solutions
+  </div>
+
+</a>
 
     <button class="menu-toggle" onclick="toggleMenu()">
 ☰
@@ -39,12 +54,44 @@
 
 <nav id="main-menu">
 
-<a onclick="switchView('home-view')" id="nav-home-view" class="active-nav" data-i18n="nav_home">Home</a>
-<a onclick="switchView('features-view')" id="nav-features-view" data-i18n="nav_features">Features</a>
-<a onclick="switchView('tour-view')" id="nav-tour-view" data-i18n="nav_tour">Product Tour</a>
-<a onclick="switchView('gallery-view')" id="nav-gallery-view" data-i18n="nav_gallery">Map Gallery</a>
-<a onclick="switchView('about-view')" id="nav-about-view" data-i18n="nav_about">Behind GeoLand</a>
-<a onclick="switchView('contact-view')" id="nav-contact-view" data-i18n="nav_contact">Contact</a>
+<a onclick="switchView('home-view')" 
+   id="nav-home-view" 
+   class="active-nav" 
+   data-i18n="nav_home">
+Home
+</a>
+
+<a onclick="switchView('features-view')" 
+   id="nav-features-view" 
+   data-i18n="nav_features">
+Solutions
+</a>
+
+<a onclick="switchView('tour-view')" 
+   id="nav-tour-view" 
+   data-i18n="nav_tour">
+Showcase
+</a>
+
+<a onclick="switchView('gallery-view')" 
+   id="nav-gallery-view" 
+   data-i18n="nav_gallery">
+Projects
+</a>
+
+<a onclick="switchView('about-view')" 
+   id="nav-about-view" 
+   data-i18n="nav_about">
+About
+</a>
+
+<a onclick="switchView('contact-view')" 
+   id="nav-contact-view" 
+   data-i18n="nav_contact">
+Contact
+</a>
+
+
 
 </nav>
 
@@ -68,91 +115,203 @@ ENG
 </header>
 
 <main id="home-view" class="view-section active-view">
-  <section class="container hero-corporate">
-    <h1 data-i18n="hero_title">Where Artificial Intelligence Meets Geography</h1>
-    <p data-i18n="hero_subtitle" style="text-align: center !important;">Transform location data into intelligent insights with an AI-powered Location Intelligence Platform designed for businesses, governments, researchers, and investors.</p>
 
-<!-- Tambahkan style="margin-bottom: 40px;" di dalam tag div -->
-    <div style="margin-bottom: 40px;">
-      <a href="https://geoland-indonesia.vercel.app/" target="_blank" class="btn btn-primary" data-i18n="hero_button">Try Now</a>
-    </div>
+<section class="container hero-corporate">
 
-    <div class="dashboard-panel">
-      <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="assets/img/geoland.mp4" type="video/mp4">
-        Browser Anda tidak mendukung pemutaran video.
-      </video>
-    </div>
+
+  <h1 data-i18n="hero_title">
+    Turning Geospatial Complexity Into Custom Digital Platforms
+  </h1>
+
+  <p data-i18n="hero_subtitle" style="text-align: center !important;">
+    GeoLand provides custom geospatial development services that combine spatial data, AI, automation, 3D visualization, satellite intelligence, and spatial analytics into intuitive web applications built for real-world organizational needs.
+  </p>
+
+  <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-bottom:40px;">
+
+
+    <a href="https://geoland-indonesia.vercel.app/"
+       target="_blank"
+       class="btn btn-primary"
+       data-i18n="hero_secondary">
+      Try the Live Platform
+    </a>
+
+  </div>
+
+
+  <div class="dashboard-panel">
+
+    <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
+
+      <source src="assets/img/geoland.mp4" type="video/mp4">
+
+      Browser Anda tidak mendukung pemutaran video.
+
+    </video>
+
+  </div>
 
 
 <div class="geoland-description glass">
 
-  <!-- BUNGKUS DENGAN DIV INI -->
-<div class="title-wrapper">
+    <div class="title-wrapper">
 
-    <div class="geo-badge" data-i18n="home_badge">
-        GeoLand Indonesia
+      <div class="geo-badge" data-i18n="showcase_badge">
+        WORKING SHOWCASE
+      </div>
+
+      <h2 data-i18n="showcase_title">
+        A Live Geospatial Platform
+      </h2>
+
     </div>
 
 
-    <h2 data-i18n="home_title">
-        AI-Powered National Location Intelligence Platform
-    </h2>
+    <p data-i18n="showcase_p1">
+      This live platform is a working example of how large-scale geospatial data, AI-powered analysis, interactive 3D visualization, and Earth observation workflows can be brought together into a single web-based experience.
+    </p>
+
+
+    <p data-i18n="showcase_p2">
+      Users can directly explore two core capabilities within the platform: 3D Location Intelligence for understanding buildings, locations, and spatial context, and Earth Observation for exploring satellite imagery and performing remote-sensing analysis.
+    </p>
+
+
+    <p data-i18n="showcase_p3">
+      The platform is presented as a working showcase of GeoLand's capabilities — not as a fixed product offering. Its architecture demonstrates how similar geospatial platforms can be tailored to different datasets, workflows, business requirements, and industry needs.
+    </p>
+
+
+    <div style="display:flex; justify-content:center; margin-top:28px;">
+
+
+    </div>
+
   </div>
-  <!-- BATAS BUNGKUS -->
-
-<p data-i18n="home_p1">
-GeoLand Indonesia is a nationwide Location Intelligence platform that transforms
-complex geospatial data into actionable insights for smarter decision-making.
-By integrating building footprints, road networks, administrative boundaries,
-points of interest (POI), satellite information, and spatial indicators,
-GeoLand provides a comprehensive understanding of locations across Indonesia.
-</p>
 
 
-<p data-i18n="home_p2">
-Designed for business expansion, investment analysis, urban planning, and
-regional development, GeoLand enables users to discover strategic locations,
-evaluate area potential, analyze accessibility, understand surrounding
-activities, and identify opportunities through interactive spatial intelligence.
-</p>
+  <div style="margin-top:60px;">
+
+    <div class="title-wrapper">
+
+      <div class="geo-badge" data-i18n="focus_badge">
+        WHAT WE FOCUS ON
+      </div>
+
+      <h2 class="section-title" data-i18n="focus_title">
+        From Geospatial Data to Intelligent Digital Platforms
+      </h2>
+
+      <p class="section-sub" data-i18n="focus_subtitle">
+        GeoLand combines geospatial engineering, AI, automation, and modern web technologies to turn complex spatial workflows into usable digital products.
+      </p>
+
+    </div>
 
 
-<p data-i18n="home_p3">
-Unlike conventional mapping platforms that only visualize geographic data,
-GeoLand combines AI-assisted analytics, 3D building intelligence, property
-insights, business suitability analysis, and automated recommendations into a
-single integrated ecosystem.
-</p>
+    <div class="features-grid">
+
+      <div class="feature-card">
+
+        <div class="geo-badge" data-i18n="focus_platform_badge">
+          PLATFORM
+        </div>
+
+        <h3 data-i18n="focus_platform_title">
+          Custom Geospatial Platforms
+        </h3>
+
+        <p data-i18n="focus_platform_desc">
+          Web-based GIS and geospatial applications designed around specific business processes, datasets, analytical requirements, and user workflows.
+        </p>
+
+      </div>
 
 
-<p data-i18n="home_p4">
-Powered by modern geospatial technologies including PostgreSQL/PostGIS,
-MapLibre, vector tile infrastructure, spatial analytics, and AI-driven
-workflows, GeoLand is built to process large-scale geographic datasets while
-delivering a fast, intuitive, and scalable user experience.
-</p>
+      <div class="feature-card">
+
+        <div class="geo-badge" data-i18n="focus_ai_badge">
+          AI
+        </div>
+
+        <h3 data-i18n="focus_ai_title">
+          AI-Integrated Spatial Intelligence
+        </h3>
+
+        <p data-i18n="focus_ai_desc">
+          Integrate AI into spatial search, analysis, recommendations, natural-language interaction, classification, reporting, and decision-support workflows.
+        </p>
+
+      </div>
 
 
-<p data-i18n="home_p5">
-GeoLand Indonesia represents the future of geospatial decision support —
-connecting location data, intelligent analysis, and interactive visualization
-to help organizations make better decisions based on where things happen.
-</p>
+      <div class="feature-card">
+
+        <div class="geo-badge" data-i18n="focus_automation_badge">
+          AUTOMATION
+        </div>
+
+        <h3 data-i18n="focus_automation_title">
+          Spatial Data & Workflow Automation
+        </h3>
+
+        <p data-i18n="focus_automation_desc">
+          Automate data ingestion, processing, spatial analysis, monitoring, reporting, and repetitive GIS workflows through integrated backend services and APIs.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="geoland-description glass" style="margin-top:60px;">
+
+    <div class="title-wrapper">
+
+      <div class="geo-badge" data-i18n="principle_badge">
+        DESIGN PRINCIPLE
+      </div>
+
+      <h2 data-i18n="principle_title">
+        Complex Systems. Simple User Experience.
+      </h2>
+
+    </div>
+
+
+    <p data-i18n="principle_p1">
+      Behind a modern geospatial platform are complex datasets, analytical processes, AI, automation, and multiple interconnected services.
+    </p>
+
+
+    <p data-i18n="principle_p2">
+      GeoLand brings these components together into a single platform designed to feel simple and intuitive for the end user.
+    </p>
+
+
+    <p data-i18n="principle_p3">
+      The complexity lives in the architecture. The simplicity lives in the experience.
+    </p>
 
 </div>
-  </section>
+
+
+</section>
+
 </main>
 
 <main id="features-view" class="view-section">
 <section class="container">
 
 <h2 class="section-title" data-i18n="features_title">
-Platform Features
+What We Build
 </h2>
 
 <p class="section-sub" data-i18n="features_subtitle">
-Explore the powerful capabilities that transform nationwide geospatial data into AI-powered location intelligence for planning, investment, business expansion, and smarter spatial decision-making.
+Custom geospatial platforms designed around your data, workflow, users, and business objectives — integrating spatial intelligence, AI, automation, 3D visualization, and satellite capabilities.
 </p>
 
 <div class="features-grid">
@@ -173,8 +332,13 @@ Explore the powerful capabilities that transform nationwide geospatial data into
       <line x1="1" y1="14" x2="4" y2="14"></line>
     </svg>
   </div>
-  <h3 data-i18n="feature_ai_title">AI Recommendation Engine</h3>
-  <p data-i18n="feature_ai_description">Identify the most strategic locations for business expansion using AI-powered spatial analysis. GeoLand evaluates accessibility, commercial activity, surrounding POIs, demographics, road connectivity, and regional growth to recommend the highest-potential locations.</p>
+  <h3 data-i18n="feature_ai_title">
+Custom Geospatial Platform Development
+</h3>
+
+<p data-i18n="feature_ai_description">
+Design and build web-based GIS and geospatial platforms tailored to specific business processes, analytical requirements, datasets, and user workflows.
+</p>
 </div>
 
 <div class="feature-card">
@@ -186,8 +350,13 @@ Explore the powerful capabilities that transform nationwide geospatial data into
       <polyline points="2 12 12 17 22 12"></polyline>
     </svg>
   </div>
-  <h3 data-i18n="feature_building_title">Nationwide Building Intelligence</h3>
-  <p data-i18n="feature_building_description">Explore more than 120 million building footprints across Indonesia in interactive 3D. Inspect individual buildings, visualize urban density, and understand the physical characteristics of any location.</p>
+  <h3 data-i18n="feature_building_title">
+3D Geospatial Platforms
+</h3>
+
+<p data-i18n="feature_building_description">
+Build interactive 3D environments for buildings, terrain, infrastructure, assets, and large-scale geographic datasets with modern web mapping technologies.
+</p>
 </div>
 
 <div class="feature-card">
@@ -201,8 +370,13 @@ Explore the powerful capabilities that transform nationwide geospatial data into
       <line x1="12" y1="22" x2="12" y2="18"></line>
     </svg>
   </div>
-  <h3 data-i18n="feature_search_title">Smart Location Search</h3>
-  <p data-i18n="feature_search_description">Instantly navigate using place names, administrative boundaries, coordinates, or current location. Designed for smooth exploration across nationwide spatial datasets.</p>
+  <h3 data-i18n="feature_search_title">
+Geospatial Data Integration
+</h3>
+
+<p data-i18n="feature_search_description">
+Integrate spatial databases, APIs, administrative datasets, POIs, transportation networks, satellite sources, external services, and organization-specific datasets into a unified platform.
+</p>
 </div>
 
 <div class="feature-card">
@@ -212,8 +386,13 @@ Explore the powerful capabilities that transform nationwide geospatial data into
       <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
     </svg>
   </div>
-  <h3 data-i18n="feature_business_title">Business Suitability Analysis</h3>
-  <p data-i18n="feature_business_description">Measure how suitable a location is for different business categories through AI-generated scoring based on accessibility, surrounding activities, competition, commercial density, and regional characteristics.</p>
+ <h3 data-i18n="feature_business_title">
+Spatial Analytics & Decision Support
+</h3>
+
+<p data-i18n="feature_business_description">
+Transform complex geospatial datasets into indicators, scoring systems, spatial models, dashboards, suitability analysis, accessibility analysis, and decision-support workflows.
+</p>
 </div>
 
 <div class="feature-card">
@@ -224,8 +403,13 @@ Explore the powerful capabilities that transform nationwide geospatial data into
       <polyline points="9 22 9 12 15 12 15 22"></polyline>
     </svg>
   </div>
-  <h3 data-i18n="feature_property_title">Property Intelligence</h3>
-  <p data-i18n="feature_property_description">Access AI-generated property insights including estimated land value, building valuation, accessibility metrics, nearby facilities, neighborhood characteristics, and investment potential.</p>
+  <h3 data-i18n="feature_property_title">
+Location Intelligence Solutions
+</h3>
+
+<p data-i18n="feature_property_description">
+Develop location intelligence applications for site selection, market analysis, expansion planning, asset intelligence, property analysis, regional assessment, and spatial decision-making.
+</p>
 </div>
 
 <div class="feature-card">
@@ -236,8 +420,13 @@ Explore the powerful capabilities that transform nationwide geospatial data into
       <circle cx="12" cy="10" r="3"></circle>
     </svg>
   </div>
-  <h3 data-i18n="feature_poi_title">Points of Interest Intelligence</h3>
-  <p data-i18n="feature_poi_description">Discover restaurants, schools, hospitals, retail centers, tourist attractions, government facilities, and thousands of other important locations to better understand local activity.</p>
+  <h3 data-i18n="feature_poi_title">
+Satellite & Earth Observation
+</h3>
+
+<p data-i18n="feature_poi_description">
+Integrate satellite imagery and remote-sensing workflows for monitoring, classification, environmental analysis, change detection, raster processing, and satellite-based spatial intelligence.
+</p>
 </div>
 
 <div class="feature-card">
@@ -249,8 +438,13 @@ Explore the powerful capabilities that transform nationwide geospatial data into
       <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
     </svg>
   </div>
-  <h3 data-i18n="feature_3d_title">Interactive 3D Visualization</h3>
-  <p data-i18n="feature_3d_description">Explore nationwide geospatial information through modern vector tiles, interactive 3D buildings, high-performance rendering, and smooth navigation optimized for massive datasets.</p>
+  <h3 data-i18n="feature_3d_title">
+High-Performance Web Mapping
+</h3>
+
+<p data-i18n="feature_3d_description">
+Build responsive mapping applications capable of handling large spatial datasets through vector tiles, spatial indexing, optimized queries, interactive visualization, and modern web rendering.
+</p>
 </div>
 
 <div class="feature-card">
@@ -262,8 +456,13 @@ Explore the powerful capabilities that transform nationwide geospatial data into
       <line x1="12" y1="22.08" x2="12" y2="12"></line>
     </svg>
   </div>
-  <h3 data-i18n="feature_assistant_title">GeoLand AI Assistant</h3>
-  <p data-i18n="feature_assistant_description">Interact with GeoLand using natural language. Ask location-based questions, discover suitable areas, and receive AI-generated spatial insights without requiring GIS expertise.</p>
+<h3 data-i18n="feature_assistant_title">
+AI-Powered Geospatial Applications
+</h3>
+
+<p data-i18n="feature_assistant_description">
+Integrate AI into geospatial workflows for natural-language interaction, spatial queries, recommendations, automated reasoning, classification, analysis, and intelligent user assistance.
+</p>
 </div>
 
 <div class="feature-card">
@@ -277,8 +476,13 @@ Explore the powerful capabilities that transform nationwide geospatial data into
       <polyline points="10 9 9 9 8 9"></polyline>
     </svg>
   </div>
-  <h3 data-i18n="feature_reports_title">AI Spatial Reports</h3>
-  <p data-i18n="feature_reports_description">Generate professional PDF reports containing AI summaries, location intelligence, property analysis, investment recommendations, and spatial insights ready to share with stakeholders.</p>
+  <h3 data-i18n="feature_reports_title">
+Automated Spatial Reporting
+</h3>
+
+<p data-i18n="feature_reports_description">
+Automate spatial reports, maps, summaries, analytical outputs, and PDF generation so users can move from geographic data to shareable decision-support materials with minimal manual work.
+</p>
 </div>
 
 <div class="feature-card">
@@ -290,8 +494,13 @@ Explore the powerful capabilities that transform nationwide geospatial data into
       <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
     </svg>
   </div>
-  <h3 data-i18n="feature_engine_title">Enterprise Spatial Engine</h3>
-  <p data-i18n="feature_engine_description">Built to process and analyze millions of spatial records, delivering fast, reliable, and scalable Location Intelligence for nationwide decision-making.</p>
+  <h3 data-i18n="feature_engine_title">
+Spatial Data & Automation Engine
+</h3>
+
+<p data-i18n="feature_engine_description">
+Build backend services that process large spatial datasets, automate geospatial workflows, connect analytical engines, and expose spatial intelligence through scalable APIs.
+</p>
 </div>
 
 </div>
@@ -304,16 +513,150 @@ Explore the powerful capabilities that transform nationwide geospatial data into
 </section>
 </main>
 
+<main id="industry-view" class="view-section">
+
+<section class="container">
+
+<h2 class="section-title" data-i18n="industry_title">
+Built for Different Industry Workflows
+</h2>
+
+<p class="section-sub" data-i18n="industry_subtitle">
+The same geospatial architecture can be adapted to different operational, analytical, and decision-making requirements across industries.
+</p>
+
+
+<div class="features-grid">
+
+
+<div class="feature-card">
+
+<div class="geo-badge" data-i18n="industry_realestate_badge">
+REAL ESTATE
+</div>
+
+<h3 data-i18n="industry_realestate_title">
+Property & Real Estate
+</h3>
+
+<p data-i18n="industry_realestate_desc">
+Site selection, property intelligence, development analysis, accessibility, market context, and spatial decision support.
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<div class="geo-badge" data-i18n="industry_retail_badge">
+RETAIL
+</div>
+
+<h3 data-i18n="industry_retail_title">
+Retail, F&B & Expansion
+</h3>
+
+<p data-i18n="industry_retail_desc">
+Location selection, catchment analysis, competition mapping, market intelligence, and expansion planning.
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<div class="geo-badge" data-i18n="industry_agriculture_badge">
+AGRICULTURE
+</div>
+
+<h3 data-i18n="industry_agriculture_title">
+Agriculture & Plantation
+</h3>
+
+<p data-i18n="industry_agriculture_desc">
+Land monitoring, asset mapping, satellite intelligence, environmental indicators, and spatial operations.
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<div class="geo-badge" data-i18n="industry_telecom_badge">
+TELECOM
+</div>
+
+<h3 data-i18n="industry_telecom_title">
+Telecommunications & Infrastructure
+</h3>
+
+<p data-i18n="industry_telecom_desc">
+Infrastructure mapping, site planning, spatial asset intelligence, coverage workflows, and network-related analysis.
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<div class="geo-badge" data-i18n="industry_government_badge">
+GOVERNMENT
+</div>
+
+<h3 data-i18n="industry_government_title">
+Government & Urban Planning
+</h3>
+
+<p data-i18n="industry_government_desc">
+Regional analysis, infrastructure monitoring, spatial dashboards, planning support, and public-sector geospatial workflows.
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<div class="geo-badge" data-i18n="industry_logistics_badge">
+LOGISTICS
+</div>
+
+<h3 data-i18n="industry_logistics_title">
+Logistics & Transportation
+</h3>
+
+<p data-i18n="industry_logistics_desc">
+Accessibility analysis, network intelligence, operational mapping, service areas, and location-based planning.
+</p>
+
+</div>
+
+
+</div>
+
+
+<div class="back-home-container">
+
+<a onclick="switchView('home-view')"
+   class="btn btn-secondary"
+   data-i18n="back_home">
+← Back to Home
+</a>
+
+</div>
+
+</section>
+
+</main>
+
 <main id="tour-view" class="view-section">
 <section class="container">
 
 <h2 class="section-title" data-i18n="tour_title">
-Product Tour
+GeoLand Showcase
 </h2>
 
 <p class="section-sub" data-i18n="tour_subtitle">
-Explore every GeoLand capability through short interactive walkthroughs.
-Select a feature below to watch the demonstration.
+Explore working examples of AI-powered geospatial applications, 3D location intelligence, automated spatial workflows, and satellite intelligence.
 </p>
 
 <div class="features-grid">
@@ -380,6 +723,44 @@ Select a feature below to watch the demonstration.
   <h3 data-i18n="tour_building_title">3D Building Intelligence</h3>
   <p data-i18n="tour_building_desc">Interactive nationwide building visualization.</p>
   <div class="feature-btn" onclick="switchView('tour-building')" data-i18n="watch_tour">▶ Watch Product Tour</div>
+</div>
+
+<div class="feature-card">
+
+  <div class="feature-icon">
+
+    <svg width="28" height="28" viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+
+      <circle cx="12" cy="12" r="9"></circle>
+      <path d="M12 3v18"></path>
+      <path d="M3 12h18"></path>
+      <path d="M5.5 6.5c2 1.4 4.2 2.1 6.5 2.1s4.5-.7 6.5-2.1"></path>
+      <path d="M5.5 17.5c2-1.4 4.2-2.1 6.5-2.1s4.5.7 6.5 2.1"></path>
+
+    </svg>
+
+  </div>
+
+  <h3 data-i18n="tour_satellite_title">
+    Satellite Intelligence
+  </h3>
+
+  <p data-i18n="tour_satellite_desc">
+    Explore satellite imagery and Earth observation workflows integrated into a modern geospatial platform.
+  </p>
+
+  <a href="https://geoland-indonesia.vercel.app/"
+     target="_blank"
+     class="feature-btn"
+     data-i18n="tour_satellite_button">
+    Try Satellite Intelligence
+  </a>
+
 </div>
 
 <div class="feature-card">
@@ -835,11 +1216,11 @@ data-i18n="back_product_tour">
 <main id="gallery-view" class="view-section">
   <section class="container">
 <h2 class="section-title" data-i18n="gallery_title">
-Selected Geospatial Projects
+Selected Geospatial Solutions
 </h2>
 
 <p class="section-sub" data-i18n="gallery_subtitle">
-A curated collection of WebGIS applications, spatial analytics dashboards, and geospatial solutions developed across various industries, showcasing expertise in GIS, remote sensing, spatial intelligence, and interactive mapping.
+A selection of geospatial applications, spatial analytics systems, and location-based solutions demonstrating how geographic data can be transformed into practical digital tools.
 </p>
     
     <div class="project-grid">
@@ -924,74 +1305,119 @@ data-i18n="back_home">
 </main>
 
 <main id="about-view" class="view-section">
+
 <section class="container">
 
 <h2 class="section-title" data-i18n="about_title">
-The Creator Behind GeoLand
+About GeoLand
 </h2>
 
 <p class="section-sub" data-i18n="about_subtitle">
-Meet the person behind the vision, architecture, and development of GeoLand — a Location Intelligence platform built to transform geographic data into actionable insights.
+GeoLand is an independent geospatial technology service focused on building custom digital platforms that integrate geospatial data, spatial analytics, AI, automation, and modern web technologies
 </p>
+
 
 <div class="about-grid">
 
+
 <div class="about-image-wrap">
+
 <img src="assets/img/foto-diri.jpeg"
-alt="Bayu Ariyadi - Creator of GeoLand">
+     alt="Bayu Ariyadi - Founder and Geospatial Platform Architect">
+
 </div>
+
 
 <div class="about-details">
 
-<h3>Bayu Ariyadi</h3>
+<h3>
+Bayu Ariyadi
+</h3>
 
-<div 
-class="geo-badge" 
+
+<div
+class="geo-badge"
 style="margin-top: 16px; margin-bottom: 24px;"
 data-i18n="about_role">
-Platform Architect
+Founder & Geospatial Platform Architect
 </div>
+
 
 <p data-i18n="about_p1">
-GeoLand was created by Bayu Ariyadi as an independent Location Intelligence platform designed to transform complex geographic data into meaningful insights for better decision-making. The platform combines artificial intelligence, spatial analytics, interactive mapping, and advanced visualization to help organizations understand locations, identify opportunities, and make smarter decisions based on geography.
+GeoLand was founded by Bayu Ariyadi to provide custom geospatial technology services for organizations that need more than a conventional mapping application. The work combines GIS, spatial analytics, remote sensing, interactive web mapping, 3D visualization, AI-assisted workflows, and spatial data engineering.
 </p>
+
 
 <p data-i18n="about_p2">
-GeoLand integrates multiple geospatial data sources including buildings, transportation networks, points of interest, administrative information, environmental indicators, and regional characteristics into a unified intelligence ecosystem. Through AI-assisted analysis and interactive visualization, users can evaluate locations, discover potential areas, analyze accessibility, understand surrounding activities, and generate data-driven recommendations.
+Each project starts with the problem and workflow rather than the map itself. Spatial data, analytical logic, automation, APIs, AI, and user interfaces are then brought together into a system designed around how the organization actually works.
 </p>
+
 
 <p data-i18n="about_p3">
-Built as a scalable geospatial intelligence platform, GeoLand is designed to support business expansion, investment analysis, urban planning, asset monitoring, and regional development. The platform continues to evolve as a long-term initiative to make advanced location intelligence more accessible for businesses, governments, researchers, planners, and decision-makers across different industries.
+GeoLand's working showcases, including 3D Location Intelligence, AI-powered spatial analysis, and Earth Observation, demonstrate how different geospatial capabilities can be combined into practical digital platforms that users can explore directly.
+</p>
+
+
+<p data-i18n="about_p4">
+Every organization has different datasets, processes, users, and analytical requirements. The solution is therefore built around those specific needs rather than forcing the same platform or workflow onto every project.
+</p>
+
+
+</div>
+
+</div>
+
+
+<div class="geoland-description glass" style="margin-top:50px;">
+
+<div class="title-wrapper">
+
+<div class="geo-badge" data-i18n="about_principle_badge">
+APPROACH
+</div>
+
+<h2 data-i18n="about_principle_title">
+Build the System Around the Problem, Not the Map
+</h2>
+
+</div>
+
+<p data-i18n="about_principle_p">
+A map is only one part of a geospatial application. The real value comes from connecting data, analysis, automation, intelligence, and user workflows into one coherent system.
 </p>
 
 </div>
 
-</div>
 
-    <div class="back-home-container">
-      <a 
-onclick="switchView('home-view')" 
+<div class="back-home-container">
+
+<a
+onclick="switchView('home-view')"
 class="btn btn-secondary"
 data-i18n="back_home">
 ← Back to Home
 </a>
-    </div>
-  </section>
+
+</div>
+
+
+</section>
+
 </main>
 
 <main id="contact-view" class="view-section">
   <section class="container">
 <h2 class="section-title" data-i18n="contact_title">
-Contact
+Let's Build Your Geospatial Platform
 </h2>
 
 <p class="section-sub" data-i18n="contact_subtitle">
-Let's discuss geospatial data integration, imagery processing, and custom web mapping systems for your company.
+Tell us about your data, workflow, or business problem and explore how it can be transformed into a custom geospatial platform.
 </p>
     
     <div class="contact-corporate-card glass">
       <p class="contact-desc" data-i18n="contact_desc">
-Quick response channels for spatial infrastructure project inquiries:
+For custom geospatial platform development, spatial data integration, AI integration, automation, 3D mapping, satellite intelligence, and spatial analytics projects:
 </p>
       
       <div class="contact-channels">
@@ -1031,7 +1457,7 @@ data-i18n="back_home">
 </main>
 
 <footer data-i18n="footer_text">
-© 2026 GeoLand | Geospatial Intelligence Solutions
+© 2026 GeoLand | Custom Geospatial Solutions
 </footer>
 
 <script type="module" src="assets/js/translations.js"></script>

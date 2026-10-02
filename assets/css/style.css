@@ -142,25 +142,56 @@ header {
 }
 .logo {
   display: flex;
-  flex-direction: column; 
-  line-height: 1.1;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
   font-weight: 800;
-  font-size: 24px;
-  background: linear-gradient(90deg, #ffffff, #00f0ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: -0.02em;
+  font-size: 1.75rem;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.5px;
+  text-decoration: none;
+  user-select: none;
+  white-space: nowrap;
 }
-.location-text {
+
+.logo-wordmark {
   display: flex;
-  align-items: center;
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: #64748b;
-  margin-top: 4px;
-  letter-spacing: 0.05em;
+  align-items: baseline;
+  gap: 2px;
+  height: auto;
+}
+
+.logo-geo {
+  color: #ffffff;
+}
+
+.logo-land {
+  color: #00f0ff;
+  text-shadow: 0 0 12px rgba(0, 229, 255, 0.4);
+}
+
+.logo-dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #00f0ff;
+  box-shadow: 0 0 8px rgba(0, 229, 255, 0.8);
+  margin-left: 3px;
+  transform: translateY(-2px);
+}
+
+.location-text {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 3.2px;
+  line-height: 1.2;
   text-transform: uppercase;
-  -webkit-text-fill-color: #64748b;
+  color: rgba(0, 229, 255, 0.85);
+  -webkit-text-fill-color: rgba(0, 229, 255, 0.85);
 }
 nav a {
   margin-left: 32px;
@@ -678,16 +709,30 @@ header{
     flex-direction:column;
     align-items:center;
 
-    font-size:22px;
+    font-size:1.45rem;
     line-height:1;
 
     margin:0;
     white-space:nowrap;
 }
 
+.logo-wordmark {
+    align-items: baseline;
+    justify-content: center;
+}
+
+.logo-dot {
+    width:4px;
+    height:4px;
+    margin-left:2px;
+    transform:translateY(-1px);
+}
+
 .location-text{
-    font-size:.6rem;
-    margin-top:3px;
+    font-size:.52rem;
+    margin-top:4px;
+    letter-spacing:2.4px;
+    text-align:center;
 }
 
 /* TIMPA KODE INI DI DALAM @media (max-width:768px) */
