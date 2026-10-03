@@ -10,7 +10,7 @@ nav_home: "Home",
 nav_features: "Solutions", 
 nav_why_custom: "Why Custom",
 nav_tour: "Showcase", 
-nav_gallery: "Projects", 
+nav_gallery: "Map Gallery", 
 nav_about: "About GeoLand", 
 nav_contact: "Contact", 
 
@@ -33,7 +33,7 @@ hero_primary:
     "Explore Solutions",
 
 hero_secondary:
-    "Try GeoLand",
+    "Try Live Platform",
 
 
     // =========================

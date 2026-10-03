@@ -10,7 +10,7 @@ nav_home: "Beranda",
 nav_features: "Solusi", 
 nav_why_custom: "Kenapa Custom",
 nav_tour: "Showcase", 
-nav_gallery: "Proyek", 
+nav_gallery: "Galeri Peta", 
 nav_about: "Tentang GeoLand", 
 nav_contact: "Kontak", 
 
@@ -33,7 +33,7 @@ hero_primary:
     "Lihat Solusi",
 
 hero_secondary:
-    "Coba GeoLand",
+    "Coba Platform Langsung",
 
 
     // =========================
