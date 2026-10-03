@@ -6,13 +6,14 @@ const id = {
 
     brand_tagline: "Custom Geospatial Solutions",
 
-    nav_home: "Beranda",
-    nav_features: "Solusi",
-    nav_tour: "Showcase",
-    nav_gallery: "Proyek",
-    nav_about: "Tentang GeoLand",
-    nav_contact: "Kontak",
-    nav_try: "Coba GeoLand",
+nav_home: "Beranda", 
+nav_features: "Solusi", 
+nav_why_custom: "Kenapa Custom",
+nav_tour: "Showcase", 
+nav_gallery: "Proyek", 
+nav_about: "Tentang GeoLand", 
+nav_contact: "Kontak", 
+
 
 
     // =========================
@@ -96,6 +97,59 @@ showcase_try:
 
     focus_automation_desc:
         "Mengotomatisasi ingestion data, processing, spatial analysis, monitoring, reporting, dan workflow GIS berulang melalui backend services dan API terintegrasi.",
+
+    // =========================
+    // Why Custom Geospatial Platforms
+    // =========================
+
+    value_badge:
+        "KENAPA CUSTOM",
+
+    value_title:
+        "Dibangun Sesuai Data. Dirancang Sesuai Workflow Anda.",
+
+    value_subtitle:
+        "Platform geospasial kustom dapat menggabungkan teknologi yang Anda butuhkan sekaligus menjaga pengalaman tetap fokus pada cara organisasi Anda bekerja.",
+
+
+    value_ai_badge:
+        "SELF-HOSTED AI",
+
+    value_ai_title:
+        "AI Lokal Tanpa Biaya Token API",
+
+    value_ai_desc:
+        "Jalankan model AI secara lokal menggunakan teknologi seperti Ollama, sehingga mengurangi ketergantungan pada API AI komersial berbasis per-request dan memungkinkan workflow AI berjalan di dalam infrastruktur Anda sendiri.",
+
+
+    value_privacy_badge:
+        "DATA CONTROL",
+
+    value_privacy_title:
+        "Privasi & Kontrol Data",
+
+    value_privacy_desc:
+        "Untuk deployment self-hosted, data spasial sensitif dan proses AI dapat tetap berada di dalam infrastruktur organisasi tanpa harus dikirim ke layanan AI pihak ketiga.",
+
+
+    value_ux_badge:
+        "CUSTOM UX",
+
+    value_ux_title:
+        "UI/UX Dibangun Sesuai Workflow",
+
+    value_ux_desc:
+        "Antarmuka dirancang berdasarkan pengguna, role, data, dan proses operasional Anda — bukan berdasarkan antarmuka GIS generik.",
+
+
+    value_integration_badge:
+        "INTEGRATION",
+
+    value_integration_title:
+        "Terintegrasi & Fleksibel",
+
+    value_integration_desc:
+        "Hubungkan database spasial, API, analisis, otomasi, AI, reporting, dan sistem lainnya ke dalam satu workflow geospasial yang disesuaikan.",
 
 
     // =========================
@@ -207,7 +261,6 @@ principle_p3:
 nav_pricing:
     "Pricing",
 
-
 pricing_title:
     "Geospatial Platform Development",
 
@@ -215,10 +268,9 @@ pricing_subtitle:
     "Kisaran harga indikatif untuk pengembangan custom geospatial platform. Harga final ditentukan berdasarkan scope, kebutuhan data, integrasi, kompleksitas workflow, dan infrastruktur.",
 
 
+// =========================
 // Starter
-
-pricing_starter_badge:
-    "STARTER SCOPE",
+// =========================
 
 pricing_starter_title:
     "Geospatial Starter",
@@ -227,28 +279,30 @@ pricing_starter_desc:
     "Untuk organisasi yang membutuhkan aplikasi WebGIS terfokus yang dibangun berdasarkan satu workflow geospasial utama.",
 
 pricing_starter_item1:
-    "Aplikasi GIS berbasis web",
+    "Fondasi teknologi open-source bila sesuai kebutuhan",
 
 pricing_starter_item2:
-    "Setup spatial database",
+    "Aplikasi GIS berbasis web",
 
 pricing_starter_item3:
-    "Backend dan API dasar",
+    "Setup spatial database",
 
 pricing_starter_item4:
-    "Spatial analysis sesuai scope",
+    "Backend dan API services",
 
 pricing_starter_item5:
-    "Responsive user interface",
+    "Satu workflow spatial analysis utama",
 
 pricing_starter_item6:
-    "Deployment dan dokumentasi",
+    "Responsive interface, deployment, dan dokumentasi",
+
+pricing_starter_value:
+    "Nilai bisnis: Platform geospasial terfokus yang dibangun untuk kebutuhan operasional tertentu, tanpa kompleksitas platform yang tidak diperlukan.",
 
 
-// Intelligence
-
-pricing_intelligence_badge:
-    "INTELLIGENCE SCOPE",
+// =========================
+// Geospatial Intelligence
+// =========================
 
 pricing_intelligence_title:
     "Geospatial Intelligence",
@@ -256,29 +310,37 @@ pricing_intelligence_title:
 pricing_intelligence_desc:
     "Untuk sistem yang menggabungkan beberapa workflow, spatial analytics tingkat lanjut, AI, otomasi, dan integrasi berbagai sumber data.",
 
-pricing_intelligence_item1:
-    "Multiple geospatial workflows",
+pricing_intelligence_base:
+    "Mencakup scope Geospatial Starter, ditambah:",
 
-pricing_intelligence_item2:
+pricing_intelligence_item1:
     "Advanced spatial analytics",
 
+pricing_intelligence_item2:
+    "Multiple geospatial workflows",
+
 pricing_intelligence_item3:
-    "AI integration",
+    "AI integration dan workflow orchestration",
 
 pricing_intelligence_item4:
-    "Workflow automation",
+    "Optional local AI dengan Ollama",
 
 pricing_intelligence_item5:
-    "Multiple data integrations",
+    "Workflow automation",
 
 pricing_intelligence_item6:
-    "Dashboard dan automated reporting",
+    "Multiple data sources dan integrations",
+
+pricing_intelligence_item7:
+    "Dashboards dan automated reporting",
+
+pricing_intelligence_value:
+    "Nilai bisnis: Analisis menjadi lebih repeatable, pekerjaan manual dapat dikurangi, dan beberapa workflow geospasial dapat terhubung dalam satu platform.",
 
 
+// =========================
 // Custom Platform
-
-pricing_custom_badge:
-    "CUSTOM PLATFORM",
+// =========================
 
 pricing_custom_title:
     "Custom Geospatial Platform",
@@ -286,29 +348,37 @@ pricing_custom_title:
 pricing_custom_desc:
     "Untuk organisasi yang membutuhkan platform geospasial yang sepenuhnya disesuaikan dengan workflow kompleks dan kebutuhan operasional tertentu.",
 
+pricing_custom_base:
+    "Mencakup scope Geospatial Intelligence, ditambah:",
+
 pricing_custom_item1:
-    "Custom system architecture",
+    "Custom system architecture sesuai workflow Anda",
 
 pricing_custom_item2:
-    "Complex spatial analytics",
+    "Complex spatial analytics dan processing",
 
 pricing_custom_item3:
-    "3D atau Earth Observation workflows",
+    "3D dan/atau Earth Observation workflows",
 
 pricing_custom_item4:
     "AI-powered geospatial workflows",
 
 pricing_custom_item5:
-    "Multiple API dan sumber data",
+    "Self-hosted local AI dengan Ollama bila diperlukan",
 
 pricing_custom_item6:
-    "Large-scale spatial processing",
+    "Multiple APIs, data sources, dan integrations",
+
+pricing_custom_item7:
+    "Client-specific deployment dan processing requirements",
+
+pricing_custom_value:
+    "Nilai bisnis: Platform dirancang berdasarkan workflow, data, pengguna, dan kebutuhan operasional organisasi Anda, bukan memaksa proses bisnis mengikuti aplikasi GIS generik.",
 
 
+// =========================
 // Complex
-
-pricing_complex_badge:
-    "CUSTOM / COMPLEX",
+// =========================
 
 pricing_complex_title:
     "Complex Geospatial Solutions",
@@ -319,11 +389,14 @@ pricing_complex_price:
 pricing_complex_desc:
     "Untuk proyek berskala besar, multi-system, atau sangat spesifik yang membutuhkan scope dan arsitektur custom.",
 
+pricing_complex_base:
+    "Mencakup scope Custom Geospatial Platform, ditambah:",
+
 pricing_complex_item1:
-    "Enterprise-scale workflows",
+    "Enterprise-scale geospatial workflows",
 
 pricing_complex_item2:
-    "Multiple user roles dan systems",
+    "Multiple user roles dan connected systems",
 
 pricing_complex_item3:
     "Specialized data pipelines",
@@ -332,13 +405,21 @@ pricing_complex_item4:
     "Advanced AI orchestration",
 
 pricing_complex_item5:
-    "Custom infrastructure requirements",
+    "Local atau self-hosted AI dengan Ollama bila sesuai kebutuhan",
 
 pricing_complex_item6:
-    "Long-term platform development",
+    "Custom infrastructure dan deployment requirements",
+
+pricing_complex_item7:
+    "Long-term platform development dan extensibility",
+
+pricing_complex_value:
+    "Nilai bisnis: Platform geospasial khusus yang dirancang untuk mendukung workflow organisasi yang kompleks, multiple systems, dan kebutuhan operasional yang dapat berkembang dari waktu ke waktu.",
 
 
+// =========================
 // Pricing Note
+// =========================
 
 pricing_note_title:
     "Pricing Is Based on Complexity, Not Page Count",
@@ -347,7 +428,9 @@ pricing_note_desc:
     "Harga final ditentukan berdasarkan jumlah workflow, sumber data, integrasi, kebutuhan analisis, user roles, otomasi, infrastruktur, dan kompleksitas keseluruhan proyek.",
 
 
-// Included
+// =========================
+// Typically Included
+// =========================
 
 pricing_included_title:
     "Typically Included",
@@ -380,7 +463,9 @@ pricing_included_9:
     "Bug-fix warranty dalam scope yang disepakati",
 
 
-// Separate
+// =========================
+// Typically Quoted Separately
+// ==========================
 
 pricing_separate_title:
     "Typically Quoted Separately",
@@ -392,19 +477,35 @@ pricing_separate_2:
     "Cloud, VPS, atau production infrastructure",
 
 pricing_separate_3:
-    "Biaya penggunaan third-party API",
+    "Biaya penggunaan third-party AI atau API ketika layanan eksternal dipilih",
 
 pricing_separate_4:
-    "Large-scale data preparation atau cleaning",
+    "GPU atau server infrastructure untuk self-hosted AI",
 
 pricing_separate_5:
-    "Data acquisition atau digitization",
+    "Large-scale data preparation atau cleaning",
 
 pricing_separate_6:
+    "Data acquisition atau digitization",
+
+pricing_separate_7:
     "Ongoing maintenance dan support",
 
 
+// =========================
+// Value Message
+// =========================
+
+pricing_value_title:
+    "Built Around Your Workflow, With More Control Over Your Technology Stack",
+
+pricing_value_desc:
+    "Custom geospatial platforms dapat menggunakan komponen open-source bila sesuai, sehingga mengurangi ketergantungan pada lisensi software proprietary. Untuk deployment berbasis AI, local AI melalui Ollama dapat menjadi alternatif terhadap commercial LLM API berbasis per-request ketika self-hosted infrastructure sesuai untuk proyek.",
+
+
+// =========================
 // CTA
+// =========================
 
 pricing_cta_text:
     "Butuh scope yang berbeda?",

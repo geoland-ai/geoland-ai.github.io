@@ -6,13 +6,14 @@ const en = {
 
     brand_tagline: "Custom Geospatial Solutions",
 
-    nav_home: "Home",
-    nav_features: "Solutions",
-    nav_tour: "Showcase",
-    nav_gallery: "Projects",
-    nav_about: "About GeoLand",
-    nav_contact: "Contact",
-    nav_try: "Try GeoLand",
+nav_home: "Home", 
+nav_features: "Solutions", 
+nav_why_custom: "Why Custom",
+nav_tour: "Showcase", 
+nav_gallery: "Projects", 
+nav_about: "About GeoLand", 
+nav_contact: "Contact", 
+
 
 
     // =========================
@@ -100,6 +101,60 @@ showcase_try:
 
     focus_automation_desc:
         "Automate data ingestion, processing, spatial analysis, monitoring, reporting, and repetitive GIS workflows through integrated backend services and APIs.",
+
+
+    // =========================
+    // Why Custom Geospatial Platforms
+    // =========================
+
+    value_badge:
+        "WHY CUSTOM",
+
+    value_title:
+        "Built Around Your Data. Designed Around Your Workflow.",
+
+    value_subtitle:
+        "Custom geospatial platforms can combine the technologies you need while keeping the experience focused on how your organization actually works.",
+
+
+    value_ai_badge:
+        "SELF-HOSTED AI",
+
+    value_ai_title:
+        "Local AI, No Per-Token API Costs",
+
+    value_ai_desc:
+        "Run AI models locally with technologies such as Ollama, reducing dependency on commercial per-request AI APIs and allowing AI workflows to operate within your own infrastructure.",
+
+
+    value_privacy_badge:
+        "DATA CONTROL",
+
+    value_privacy_title:
+        "Privacy & Data Control",
+
+    value_privacy_desc:
+        "For self-hosted deployments, sensitive spatial data and AI processing can remain within your organization's infrastructure instead of being sent to third-party AI services.",
+
+
+    value_ux_badge:
+        "CUSTOM UX",
+
+    value_ux_title:
+        "UI/UX Built Around the Workflow",
+
+    value_ux_desc:
+        "Design the interface around your users, roles, data, and operational processes — not around a generic GIS interface.",
+
+
+    value_integration_badge:
+        "INTEGRATION",
+
+    value_integration_title:
+        "Integrated & Flexible",
+
+    value_integration_desc:
+        "Connect spatial databases, APIs, analytics, automation, AI, reporting, and other systems into one tailored geospatial workflow.",
 
 
     // =========================
@@ -212,7 +267,6 @@ principle_p3:
 nav_pricing:
     "Pricing",
 
-
 pricing_title:
     "Geospatial Platform Development",
 
@@ -220,10 +274,9 @@ pricing_subtitle:
     "Indicative project ranges for custom geospatial platform development. Final pricing depends on scope, data requirements, integrations, workflow complexity, and infrastructure.",
 
 
+// =========================
 // Starter
-
-pricing_starter_badge:
-    "STARTER SCOPE",
+// =========================
 
 pricing_starter_title:
     "Geospatial Starter",
@@ -232,28 +285,30 @@ pricing_starter_desc:
     "For organizations that need a focused WebGIS application built around one primary geospatial workflow.",
 
 pricing_starter_item1:
-    "Web-based GIS application",
+    "Open-source technology foundation where appropriate",
 
 pricing_starter_item2:
-    "Spatial database setup",
+    "Web-based GIS application",
 
 pricing_starter_item3:
-    "Basic backend and API",
+    "Spatial database setup",
 
 pricing_starter_item4:
-    "Agreed spatial analysis",
+    "Backend and API services",
 
 pricing_starter_item5:
-    "Responsive user interface",
+    "One primary spatial analysis workflow",
 
 pricing_starter_item6:
-    "Deployment and documentation",
+    "Responsive interface, deployment, and documentation",
+
+pricing_starter_value:
+    "Business value: A focused geospatial platform built around a specific operational need, without unnecessary platform complexity.",
 
 
-// Intelligence
-
-pricing_intelligence_badge:
-    "INTELLIGENCE SCOPE",
+// =========================
+// Geospatial Intelligence
+// =========================
 
 pricing_intelligence_title:
     "Geospatial Intelligence",
@@ -261,29 +316,37 @@ pricing_intelligence_title:
 pricing_intelligence_desc:
     "For systems that combine multiple workflows, advanced spatial analysis, AI, automation, and data integrations.",
 
-pricing_intelligence_item1:
-    "Multiple geospatial workflows",
+pricing_intelligence_base:
+    "Builds on the Geospatial Starter scope, plus:",
 
-pricing_intelligence_item2:
+pricing_intelligence_item1:
     "Advanced spatial analytics",
 
+pricing_intelligence_item2:
+    "Multiple geospatial workflows",
+
 pricing_intelligence_item3:
-    "AI integration",
+    "AI integration and workflow orchestration",
 
 pricing_intelligence_item4:
-    "Workflow automation",
+    "Optional local AI with Ollama",
 
 pricing_intelligence_item5:
-    "Multiple data integrations",
+    "Workflow automation",
 
 pricing_intelligence_item6:
+    "Multiple data sources and integrations",
+
+pricing_intelligence_item7:
     "Dashboards and automated reporting",
 
+pricing_intelligence_value:
+    "Business value: More repeatable analysis, less manual processing, and the ability to connect multiple geospatial workflows into one platform.",
 
+
+// =========================
 // Custom Platform
-
-pricing_custom_badge:
-    "CUSTOM PLATFORM",
+// =========================
 
 pricing_custom_title:
     "Custom Geospatial Platform",
@@ -291,29 +354,37 @@ pricing_custom_title:
 pricing_custom_desc:
     "For organizations that require a fully customized geospatial platform built around complex workflows and specific operational requirements.",
 
+pricing_custom_base:
+    "Builds on the Geospatial Intelligence scope, plus:",
+
 pricing_custom_item1:
-    "Custom system architecture",
+    "Custom system architecture built around your workflow",
 
 pricing_custom_item2:
-    "Complex spatial analytics",
+    "Complex spatial analytics and processing",
 
 pricing_custom_item3:
-    "3D or Earth Observation workflows",
+    "3D and/or Earth Observation workflows",
 
 pricing_custom_item4:
     "AI-powered geospatial workflows",
 
 pricing_custom_item5:
-    "Multiple APIs and data sources",
+    "Self-hosted local AI with Ollama when required",
 
 pricing_custom_item6:
-    "Large-scale spatial processing",
+    "Multiple APIs, data sources, and integrations",
+
+pricing_custom_item7:
+    "Client-specific deployment and processing requirements",
+
+pricing_custom_value:
+    "Business value: The platform is designed around your organization's actual workflow, data, users, and operational requirements instead of forcing the process into a generic GIS application.",
 
 
+// =========================
 // Complex
-
-pricing_complex_badge:
-    "CUSTOM / COMPLEX",
+// =========================
 
 pricing_complex_title:
     "Complex Geospatial Solutions",
@@ -324,11 +395,14 @@ pricing_complex_price:
 pricing_complex_desc:
     "For large-scale, multi-system, or highly specialized projects that require a custom scope and architecture.",
 
+pricing_complex_base:
+    "Builds on the Custom Geospatial Platform scope, plus:",
+
 pricing_complex_item1:
-    "Enterprise-scale workflows",
+    "Enterprise-scale geospatial workflows",
 
 pricing_complex_item2:
-    "Multiple user roles and systems",
+    "Multiple user roles and connected systems",
 
 pricing_complex_item3:
     "Specialized data pipelines",
@@ -337,13 +411,21 @@ pricing_complex_item4:
     "Advanced AI orchestration",
 
 pricing_complex_item5:
-    "Custom infrastructure requirements",
+    "Local or self-hosted AI with Ollama when appropriate",
 
 pricing_complex_item6:
-    "Long-term platform development",
+    "Custom infrastructure and deployment requirements",
+
+pricing_complex_item7:
+    "Long-term platform development and extensibility",
+
+pricing_complex_value:
+    "Business value: A specialized geospatial platform designed to support complex organizational workflows, multiple systems, and evolving operational requirements.",
 
 
+// =========================
 // Pricing Note
+// =========================
 
 pricing_note_title:
     "Pricing Is Based on Complexity, Not Page Count",
@@ -352,7 +434,9 @@ pricing_note_desc:
     "Final pricing is determined by the number of workflows, data sources, integrations, analytical requirements, user roles, automation, infrastructure, and overall project complexity.",
 
 
-// Included
+// =========================
+// Typically Included
+// =========================
 
 pricing_included_title:
     "Typically Included",
@@ -385,7 +469,9 @@ pricing_included_9:
     "Bug-fix warranty within the agreed scope",
 
 
-// Separate
+// =========================
+// Typically Quoted Separately
+// ==========================
 
 pricing_separate_title:
     "Typically Quoted Separately",
@@ -397,19 +483,35 @@ pricing_separate_2:
     "Cloud, VPS, or production infrastructure",
 
 pricing_separate_3:
-    "Third-party API usage fees",
+    "Third-party AI or API usage fees when external services are selected",
 
 pricing_separate_4:
-    "Large-scale data preparation or cleaning",
+    "GPU or server infrastructure for self-hosted AI",
 
 pricing_separate_5:
-    "Data acquisition or digitization",
+    "Large-scale data preparation or cleaning",
 
 pricing_separate_6:
+    "Data acquisition or digitization",
+
+pricing_separate_7:
     "Ongoing maintenance and support",
 
 
+// =========================
+// Value Message
+// =========================
+
+pricing_value_title:
+    "Built Around Your Workflow, With More Control Over Your Technology Stack",
+
+pricing_value_desc:
+    "Custom geospatial platforms can use open-source components where appropriate, reducing dependency on proprietary software licensing. For AI-enabled deployments, local AI through Ollama can provide an alternative to per-request commercial LLM APIs when self-hosted infrastructure is suitable for the project.",
+
+
+// =========================
 // CTA
+// =========================
 
 pricing_cta_text:
     "Need a different scope?",

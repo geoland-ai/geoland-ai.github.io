@@ -138,7 +138,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
+  width: 100%;
+  max-width: none;
+  padding: 16px 32px;
 }
 .logo {
   display: flex;
@@ -898,6 +900,10 @@ body .radar{
 }
 
 
+/* ==========================================
+   PRICING CARD
+========================================== */
+
 .pricing-card {
   position: relative;
   display: flex;
@@ -922,23 +928,18 @@ body .radar{
 }
 
 
-/* Price */
+/* ==========================================
+   PRICE
+========================================== */
 
 .pricing-price {
   margin: 4px 0 20px 0;
-
   color: #00f0ff;
-
   font-family: 'Space Grotesk', sans-serif;
-
   font-size: 1.55rem;
-
   font-weight: 700;
-
   line-height: 1.2;
-
   letter-spacing: -0.02em;
-
   text-shadow:
     0 0 10px rgba(0, 240, 255, 0.12);
 }
@@ -946,79 +947,82 @@ body .radar{
 
 .pricing-custom-price {
   margin: 4px 0 20px 0;
-
   color: #ffffff;
-
   font-family: 'Space Grotesk', sans-serif;
-
   font-size: 1.55rem;
-
   font-weight: 700;
-
   line-height: 1.2;
-
   letter-spacing: -0.02em;
 }
 
 
-/* Description */
+/* ==========================================
+   DESCRIPTION
+========================================== */
 
 .pricing-description {
   color: #94a3b8;
-
   line-height: 1.7;
-
   font-size: 0.95rem;
-
   font-weight: 300;
-
+  margin-top: 0;
   margin-bottom: 26px;
 }
 
 
-/* Package list */
+/* ==========================================
+   PACKAGE LIST
+========================================== */
 
 .pricing-list {
   display: flex;
   flex-direction: column;
   gap: 11px;
-
-  margin-top: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
 .pricing-list div {
   position: relative;
-
   padding-left: 18px;
-
   color: #cbd5e1;
-
   font-size: 0.88rem;
-
   line-height: 1.5;
-
   font-weight: 300;
 }
 
 
 .pricing-list div::before {
   content: "";
-
   position: absolute;
-
   left: 0;
   top: 0.6em;
-
   width: 5px;
   height: 5px;
-
   border-radius: 50%;
-
   background: #00f0ff;
-
   box-shadow:
     0 0 7px rgba(0, 240, 255, 0.55);
+}
+
+
+/* ==========================================
+   BUSINESS VALUE
+   Clear separation from package list
+========================================== */
+
+.pricing-business-value {
+  margin-top: 30px !important;
+  margin-bottom: 0 !important;
+  padding-top: 22px;
+
+  border-top: 1px solid rgba(0, 240, 255, 0.10);
+
+  color: #94a3b8;
+  line-height: 1.75 !important;
+  font-size: 0.95rem;
+  font-weight: 300;
 }
 
 
@@ -1258,15 +1262,25 @@ body .radar{
   }
 
 
-.pricing-card {
+  .pricing-card {
     padding: 32px 24px;
+
     min-height: 0;
-}
+  }
 
 
   .pricing-price,
   .pricing-custom-price {
     font-size: 1.4rem;
+  }
+
+
+  .pricing-business-value {
+    margin-top: 26px !important;
+
+    padding-top: 20px;
+
+    line-height: 1.7 !important;
   }
 
 
@@ -1317,7 +1331,15 @@ body .radar{
     font-size: 1.3rem;
   }
 
+
+  .pricing-business-value {
+    margin-top: 24px !important;
+
+    padding-top: 18px;
+  }
+
 }
+
 
 /* ==========================================
    PRICING DESKTOP TYPOGRAPHY
@@ -1327,18 +1349,33 @@ body .radar{
 
   .pricing-description {
     font-size: 0.92rem;
+
     line-height: 1.6;
   }
+
 
   .pricing-list {
     gap: 9px;
   }
 
+
   .pricing-list div {
     font-size: 0.86rem;
   }
 
+
+  .pricing-business-value {
+    font-size: 0.92rem;
+
+    line-height: 1.7 !important;
+
+    margin-top: 30px !important;
+
+    padding-top: 22px;
+  }
+
 }
+
 
 /* ==========================================
    DESKTOP LANGUAGE SWITCH SPACING
@@ -1348,6 +1385,7 @@ body .radar{
 
   .language-switch {
     margin-left: 30px;
+
     margin-right: 0;
   }
 
@@ -1672,6 +1710,49 @@ body .radar{
   .home-focus-card {
 
     padding: 28px 20px;
+  }
+
+}
+
+/* ==========================================
+   WHY CUSTOM GEOSPATIAL PLATFORMS
+========================================== */
+
+.home-value-section {
+  margin-top: 60px;
+}
+
+.home-value-section .title-wrapper {
+  margin-bottom: 40px;
+}
+
+.home-value-section .section-title {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-value-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.home-value-grid .home-focus-card {
+  min-height: 100%;
+}
+
+@media (max-width: 768px) {
+
+  .home-value-section {
+    margin-top: 50px;
+  }
+
+  .home-value-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
 }
