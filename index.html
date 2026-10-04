@@ -355,43 +355,28 @@ ENG
 
 
 
-  <!-- ==========================================
-       DESIGN PRINCIPLE
-  =========================================== -->
+<!-- ==========================================
+     DESIGN PRINCIPLE
+========================================== -->
 
-  <div class="home-info-card home-principle-card" style="margin-top:60px;">
-
-  <div class="home-card-icon">
-    <!-- Compass / Design Principle -->
-    <svg width="28" height="28" viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round">
-
-      <circle cx="12" cy="12" r="9"></circle>
-
-      <path d="M15.5 8.5l-2.2 4.8-4.8 2.2 2.2-4.8 4.8-2.2z"></path>
-
-    </svg>
-  </div>
-
+<div class="floating-principle">
 
   <div class="title-wrapper">
 
-<div class="geo-badge" data-i18n="principle_badge"></div>
+    <div
+      class="geo-badge"
+      data-i18n="principle_badge">
+    </div>
 
-<h2 data-i18n="principle_title"></h2>
+    <h2 data-i18n="principle_title"></h2>
 
   </div>
 
+  <p data-i18n="principle_p1"></p>
 
-<p data-i18n="principle_p1"></p>
+  <p data-i18n="principle_p2"></p>
 
-<p data-i18n="principle_p2"></p>
-
-<p data-i18n="principle_p3"></p>
+  <p data-i18n="principle_p3"></p>
 
 </div>
 
@@ -528,36 +513,31 @@ ENG
 </div>
 
 
-<div class="pricing-note-card" style="margin-top:50px;">
+<!-- ==========================================
+     PROCESS PRINCIPLE
+========================================== -->
 
-  <div class="home-card-icon">
+<div class="floating-principle process-principle">
 
-    <svg width="28" height="28" viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round">
+  <div class="title-wrapper">
 
-      <circle cx="12" cy="12" r="9"></circle>
-      <path d="M12 7v5l3 2"></path>
-
-    </svg>
+    <h2 data-i18n="process_note_title">
+      Built Around the Work
+    </h2>
 
   </div>
 
-  <h3 data-i18n="process_note_title"></h3>
-
-  <p data-i18n="process_note_desc"></p>
-
-</div>
-
-
-<div class="pricing-bottom-cta">
-
-
+  <p data-i18n="process_note_desc">
+    We do not build a system around the map or the technology alone.
+    We build it around the work users need to perform and the outcomes
+    the organization needs to achieve.
+  </p>
 
 </div>
+
+
+<!-- SPACING ONLY -->
+<div style="height:10px;"></div>
 
 
 <div class="back-home-container">
@@ -1220,31 +1200,21 @@ ENG
      PRICING PRINCIPLE
 ========================== -->
 
-<div class="pricing-note-card">
+<div class="floating-principle pricing-principle">
 
-  <div class="home-card-icon">
+  <div class="title-wrapper">
 
-    <svg
-      width="28"
-      height="28"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round">
-
-      <circle cx="12" cy="12" r="9"></circle>
-      <path d="M12 7v5l3 2"></path>
-
-    </svg>
+    <h2 data-i18n="pricing_note_title">
+      Pricing Is Based on Complexity, Not Page Count
+    </h2>
 
   </div>
 
-
-  <h3 data-i18n="pricing_note_title"></h3>
-
-  <p data-i18n="pricing_note_desc"></p>
+  <p data-i18n="pricing_note_desc">
+    Final pricing is determined by the number of workflows,
+    data sources, integrations, analytical requirements, user roles,
+    automation, infrastructure, and overall project complexity.
+  </p>
 
 </div>
 
@@ -1349,32 +1319,22 @@ ENG
      VALUE MESSAGE
 ========================== -->
 
-<div class="pricing-note-card">
+<div class="floating-principle pricing-value-principle">
 
-  <div class="home-card-icon">
+  <div class="title-wrapper">
 
-    <svg
-      width="28"
-      height="28"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round">
-
-      <path d="M4 6h16"></path>
-      <path d="M4 12h16"></path>
-      <path d="M4 18h10"></path>
-
-    </svg>
+    <h2 data-i18n="pricing_value_title">
+      Built Around Your Workflow, With More Control Over Your Technology Stack
+    </h2>
 
   </div>
 
-
-  <h3 data-i18n="pricing_value_title"></h3>
-
-  <p data-i18n="pricing_value_desc"></p>
+  <p data-i18n="pricing_value_desc">
+    Custom geospatial platforms can use open-source components where appropriate,
+    reducing dependency on proprietary software licensing. For AI-enabled deployments,
+    local AI through Ollama can provide an alternative to per-request commercial LLM APIs
+    when self-hosted infrastructure is suitable for the project.
+  </p>
 
 </div>
 
@@ -2211,21 +2171,37 @@ data-i18n="back_home">
   </section>
 </main>
 
+<!-- ==========================================
+     ABOUT VIEW
+========================================== -->
+
 <main id="about-view" class="view-section">
 
 <section class="container">
 
-  <h2 class="section-title" data-i18n="about_title">
-    About GeoLand
-  </h2>
+  <!-- ==========================================
+       ABOUT INTRO
+  =========================================== -->
 
-  <p class="section-sub" data-i18n="about_subtitle">
-    GeoLand is an independent geospatial technology service focused on building custom digital platforms that integrate geospatial data, spatial analytics, AI, automation, and modern web technologies.
-  </p>
+  <div class="menu-intro">
+
+    <h2
+      class="section-title"
+      data-i18n="about_title">
+      About GeoLand
+    </h2>
+
+    <p
+      class="section-sub"
+      data-i18n="about_subtitle">
+      An independent geospatial technology practice building custom digital platforms by integrating geospatial data, spatial analytics, AI, automation, and modern web technologies around real operational needs.
+    </p>
+
+  </div>
 
 
   <!-- ==========================================
-       GEOLAND IDENTITY
+       IDENTITY + CAPABILITIES
   =========================================== -->
 
   <div class="about-overview-card">
@@ -2254,140 +2230,125 @@ data-i18n="back_home">
 
       </div>
 
-      <div class="geo-badge" data-i18n="about_identity_badge">
-        GEOSPATIAL TECHNOLOGY PRACTICE
+<div class="geo-badge" data-i18n="about_identity_badge">
+  GEOSPATIAL PLATFORM ENGINEERING
+</div>
+
+<p data-i18n="about_identity_desc">
+  Building digital platforms that turn geospatial data into practical tools for analysis, visualization, decision support, and operational workflows.
+</p>
+
+    </div>
+
+
+    <div class="about-capabilities">
+
+      <div
+        class="about-capabilities-title"
+        data-i18n="about_capabilities_title">
+        PLATFORM CAPABILITIES
       </div>
 
-      <h3 data-i18n="about_identity_title">
-        GeoLand
-      </h3>
+      <div class="about-capability-grid">
 
-      <p data-i18n="about_identity_desc">
-        An independent geospatial technology practice focused on building custom digital platforms around real operational workflows.
-      </p>
+        <div class="about-capability-item">
+          <span class="capability-dot"></span>
+          <span data-i18n="about_capability_1">
+            Geospatial Platform Engineering
+          </span>
+        </div>
 
-    </div>
+        <div class="about-capability-item">
+          <span class="capability-dot"></span>
+          <span data-i18n="about_capability_2">
+            Location Intelligence & Decision Support
+          </span>
+        </div>
 
+        <div class="about-capability-item">
+          <span class="capability-dot"></span>
+          <span data-i18n="about_capability_3">
+            Spatial Data Infrastructure
+          </span>
+        </div>
 
-<div class="about-capabilities">
+        <div class="about-capability-item">
+          <span class="capability-dot"></span>
+          <span data-i18n="about_capability_4">
+            WebGIS & Interactive Mapping
+          </span>
+        </div>
 
-  <div class="about-capabilities-title" data-i18n="about_capabilities_title">
-    PLATFORM CAPABILITIES
-  </div>
+        <div class="about-capability-item">
+          <span class="capability-dot"></span>
+          <span data-i18n="about_capability_5">
+            3D Geospatial & Digital Twin
+          </span>
+        </div>
 
-  <div class="about-capability-grid">
+        <div class="about-capability-item">
+          <span class="capability-dot"></span>
+          <span data-i18n="about_capability_6">
+            Earth Observation & Satellite Analytics
+          </span>
+        </div>
 
-    <div class="about-capability-item">
-      <span class="capability-dot"></span>
-      <span data-i18n="about_capability_1">
-        Geospatial Platform Engineering
-      </span>
-    </div>
+        <div class="about-capability-item">
+          <span class="capability-dot"></span>
+          <span data-i18n="about_capability_7">
+            AI-Assisted Spatial Workflows
+          </span>
+        </div>
 
-    <div class="about-capability-item">
-      <span class="capability-dot"></span>
-      <span data-i18n="about_capability_2">
-        Location Intelligence & Decision Support
-      </span>
-    </div>
+        <div class="about-capability-item">
+          <span class="capability-dot"></span>
+          <span data-i18n="about_capability_8">
+            Spatial Automation & System Integration
+          </span>
+        </div>
 
-    <div class="about-capability-item">
-      <span class="capability-dot"></span>
-      <span data-i18n="about_capability_3">
-        Spatial Data Infrastructure
-      </span>
-    </div>
+      </div>
 
-    <div class="about-capability-item">
-      <span class="capability-dot"></span>
-      <span data-i18n="about_capability_4">
-        WebGIS & Interactive Mapping
-      </span>
-    </div>
-
-    <div class="about-capability-item">
-      <span class="capability-dot"></span>
-      <span data-i18n="about_capability_5">
-        3D Geospatial & Digital Twin
-      </span>
-    </div>
-
-    <div class="about-capability-item">
-      <span class="capability-dot"></span>
-      <span data-i18n="about_capability_6">
-        Earth Observation & Satellite Analytics
-      </span>
-    </div>
-
-    <div class="about-capability-item">
-      <span class="capability-dot"></span>
-      <span data-i18n="about_capability_7">
-        AI-Assisted Spatial Workflows
-      </span>
-    </div>
-
-    <div class="about-capability-item">
-      <span class="capability-dot"></span>
-      <span data-i18n="about_capability_8">
-        Spatial Automation & System Integration
-      </span>
     </div>
 
   </div>
 
-</div>
 
 <!-- ==========================================
-     CLOSE GEOLAND IDENTITY
+     ABOUT PRINCIPLE
 ========================================== -->
 
-</div>
+<div class="floating-principle about-principle">
 
+  <div class="title-wrapper">
 
-<!-- ==========================================
-     FOUNDER + APPROACH
-========================================== -->
+    <h2 data-i18n="about_principle_title">
+      Build Around the Problem
+    </h2>
 
-<div class="about-founder-grid">
+    <div class="floating-principle-subtitle">
 
-
-  <!-- ========================================
-       FOUNDER CARD
-  ========================================= -->
-
-  <div class="about-founder-card">
-
-    <div class="feature-icon">
-
-      <svg
-        width="28"
-        height="28"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round">
-
-        <circle cx="12" cy="8" r="4"></circle>
-        <path d="M5 21c0-4 3-7 7-7s7 3 7 7"></path>
-
-      </svg>
+      <span data-i18n="about_story_title">
+        From Geospatial Data to Operational Systems
+      </span>
 
     </div>
 
-
-    <div
-      class="geo-badge"
-      data-i18n="about_founder_badge">
-      FOUNDER
-    </div>
+  </div>
 
 
-    <h3>
+  <p data-i18n="about_principle_p">
+    A map is only one component. The real value of a geospatial platform comes from bringing data, analytics, automation, integrations, and user workflows together into a system that supports real work.
+  </p>
+
+
+  <!-- Founder attribution -->
+
+  <div class="about-founder-attribution">
+
+    <div class="about-founder-name">
       Bayu Ariyadi
-    </h3>
-
+    </div>
 
     <div
       class="about-founder-role"
@@ -2395,77 +2356,9 @@ data-i18n="back_home">
       Founder & Geospatial Platform Architect
     </div>
 
-
-    <p data-i18n="about_founder_desc">
-      GeoLand is built around practical geospatial engineering, combining spatial data, analytics, software development, and modern visualization into usable digital systems.
-    </p>
-
-  </div>
-
-
-  <!-- ========================================
-       THE APPROACH CARD
-  ========================================= -->
-
-  <div class="about-story-card">
-
-    <div class="about-story-heading">
-
-      <div
-        class="geo-badge"
-        data-i18n="about_story_badge">
-        THE APPROACH
-      </div>
-
-
-      <h3 data-i18n="about_story_title">
-        From Geospatial Data to Operational Systems
-      </h3>
-
-    </div>
-
-
-    <div class="about-story-content">
-
-      <p data-i18n="about_p1">
-        GeoLand starts from the operational problem rather than the map itself. Spatial data, analytics, automation, integrations, and user workflows are brought together into a system designed around how the organization actually works.
-      </p>
-
-    </div>
-
   </div>
 
 </div>
-
-
-<!-- ==========================================
-     DESIGN PRINCIPLE
-========================================== -->
-
-<div class="geoland-description about-approach-card">
-
-  <div class="title-wrapper">
-
-    <div
-      class="geo-badge"
-      data-i18n="about_principle_badge">
-      APPROACH
-    </div>
-
-
-    <h2 data-i18n="about_principle_title">
-      Build the System Around the Problem, Not the Map
-    </h2>
-
-  </div>
-
-
-  <p data-i18n="about_principle_p">
-    A map is only one part of a geospatial application. The real value comes from connecting data, analysis, automation, intelligence, and user workflows into one coherent system.
-  </p>
-
-</div>
-
 
   <!-- ==========================================
        BACK HOME

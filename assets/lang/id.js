@@ -909,11 +909,7 @@ tour_subtitle:
         "Coba Sekarang",
 
 
-    // =========================
-    // About GeoLand
-    // =========================
-
-    // =========================
+// =========================
 // About GeoLand
 // =========================
 
@@ -921,22 +917,10 @@ about_title:
     "Tentang GeoLand",
 
 about_subtitle:
-    "GeoLand adalah layanan teknologi geospasial independen yang berfokus pada pembangunan platform digital kustom dengan integrasi data geospasial, spatial analytics, AI, otomatisasi, dan teknologi web modern.",
+    "GeoLand adalah praktik teknologi geospasial independen yang membangun platform digital kustom dengan mengintegrasikan data geospasial, spatial analytics, AI, otomasi, dan teknologi web modern sesuai kebutuhan operasional.",
 
 about_role:
     "Founder & Geospatial Platform Architect",
-
-about_p1:
-    "GeoLand didirikan oleh Bayu Ariyadi untuk menyediakan jasa teknologi geospasial kustom bagi organisasi yang membutuhkan lebih dari sekadar aplikasi pemetaan konvensional. Pekerjaan ini menggabungkan GIS, spatial analytics, remote sensing, interactive web mapping, 3D visualization, AI-assisted workflows, dan spatial data engineering.",
-
-about_p2:
-    "Setiap proyek dimulai dari permasalahan dan workflow, bukan dari peta itu sendiri. Data spasial, analytical logic, automation, API, AI, dan user interface kemudian dirangkai menjadi sebuah sistem yang dirancang mengikuti cara organisasi tersebut bekerja.",
-
-about_p3:
-    "Working reference systems GeoLand, termasuk 3D Location Intelligence, AI-assisted spatial analysis, dan Earth Observation, menunjukkan bagaimana berbagai kemampuan geospasial dapat direkayasa menjadi platform digital yang benar-benar dapat digunakan dan dieksplorasi.",
-
-about_p4:
-    "Setiap organisasi memiliki dataset, proses, pengguna, dan kebutuhan analisis yang berbeda. Karena itu, solusi dibangun berdasarkan kebutuhan tersebut, bukan dengan memaksakan platform atau workflow yang sama untuk setiap proyek.",
 
 about_principle_badge:
     "APPROACH",
@@ -945,28 +929,51 @@ about_principle_title:
     "Build Around the Problem",
 
 about_principle_p:
-    "Peta hanyalah salah satu komponen. Nilai sebuah platform geospasial muncul ketika data, analisis, automation, integration, dan user workflow dirancang menjadi satu sistem yang benar-benar mendukung pekerjaan.",
+    "Peta hanyalah salah satu komponen. Nilai sebuah platform geospasial muncul ketika data, analisis, automation, integration, dan user workflow dirancang menjadi satu sistem yang mendukung pekerjaan nyata.",
 
-about_identity_badge: "PRAKTIK TEKNOLOGI GEOSPASIAL",
-about_identity_title: "GeoLand",
-about_identity_desc: "Praktik teknologi geospasial independen yang membangun platform digital kustom berdasarkan kebutuhan dan workflow operasional nyata.",
+about_identity_badge:
+    "GEOSPATIAL PLATFORM ENGINEERING",
 
-about_capabilities_title: "KAPABILITAS PLATFORM",
-about_capability_1: "Pengembangan Platform Geospasial",
-about_capability_2: "Location Intelligence & Decision Support",
-about_capability_3: "Infrastruktur Data Spasial",
-about_capability_4: "WebGIS & Interactive Mapping",
-about_capability_5: "3D Geospatial & Digital Twin",
-about_capability_6: "Earth Observation & Satellite Analytics",
-about_capability_7: "AI-Assisted Spatial Workflows",
-about_capability_8: "Spatial Automation & System Integration",
+about_identity_desc:
+    "Membangun platform digital yang mengubah data geospasial menjadi tools praktis untuk analisis, visualisasi, pengambilan keputusan, dan workflow operasional.",
+about_capabilities_title:
+    "KAPABILITAS PLATFORM",
 
-about_founder_badge: "FOUNDER",
-about_founder_desc: "GeoLand dibangun dengan pendekatan engineering geospasial praktis yang menggabungkan data spasial, analytics, software development, dan visualisasi modern menjadi sistem digital yang dapat digunakan.",
+about_capability_1:
+    "Pengembangan Platform Geospasial",
 
-about_story_badge: "PENDEKATAN",
-about_story_title: "Dari Data Geospasial Menjadi Sistem Operasional",
+about_capability_2:
+    "Location Intelligence & Decision Support",
 
+about_capability_3:
+    "Infrastruktur Data Spasial",
+
+about_capability_4:
+    "WebGIS & Interactive Mapping",
+
+about_capability_5:
+    "3D Geospatial & Digital Twin",
+
+about_capability_6:
+    "Earth Observation & Satellite Analytics",
+
+about_capability_7:
+    "AI-Assisted Spatial Workflows",
+
+about_capability_8:
+    "Spatial Automation & System Integration",
+
+about_founder_badge:
+    "FOUNDER",
+
+about_founder_desc:
+    "GeoLand dibangun dengan pendekatan engineering geospasial praktis yang menggabungkan data spasial, analytics, software development, dan visualisasi modern menjadi platform digital yang dapat digunakan.",
+
+about_story_badge:
+    "PENDEKATAN",
+
+about_story_title:
+    "Dari Data Geospasial Menjadi Sistem Operasional",
     // =========================
     // Contact
     // =========================

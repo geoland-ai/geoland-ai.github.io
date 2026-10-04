@@ -913,7 +913,7 @@ tour_subtitle:
         "Try Now",
 
 
-    // =========================
+// =========================
 // About GeoLand
 // =========================
 
@@ -921,23 +921,11 @@ about_title:
     "About GeoLand",
 
 about_subtitle:
-    "GeoLand is an independent geospatial technology service focused on building custom digital platforms that integrate geospatial data, spatial analytics, AI, automation, and modern web technologies.",
+    "GeoLand is an independent geospatial technology practice building custom digital platforms that integrate geospatial data, spatial analytics, AI, automation, and modern web technologies around real operational needs.",
 
 about_role:
     "Founder & Geospatial Platform Architect",
 
-about_p1:
-    "GeoLand was founded by Bayu Ariyadi to provide custom geospatial technology services for organizations that need more than a conventional mapping application. The work combines GIS, spatial analytics, remote sensing, interactive web mapping, 3D visualization, AI-assisted workflows, and spatial data engineering.",
-
-about_p2:
-    "Each project starts with the problem and workflow rather than the map itself. Spatial data, analytical logic, automation, APIs, AI, and user interfaces are then brought together into a system designed around how the organization actually works.",
-
-about_p3:
-    "GeoLand's working reference systems, including 3D Location Intelligence, AI-assisted spatial analysis, and Earth Observation, demonstrate how different geospatial capabilities can be engineered into practical digital platforms that users can explore directly.",
-
-about_p4:
-    "Every organization has different datasets, processes, users, and analytical requirements. The solution is therefore built around those specific needs rather than forcing the same platform or workflow onto every project.",
-  
 about_principle_badge:
     "APPROACH",
 
@@ -947,25 +935,51 @@ about_principle_title:
 about_principle_p:
     "A map is only one component. The real value of a geospatial platform comes from bringing data, analytics, automation, integrations, and user workflows together into a system that supports real work.",
 
-about_identity_badge: "GEOSPATIAL TECHNOLOGY PRACTICE",
-about_identity_title: "GeoLand",
-about_identity_desc: "An independent geospatial technology practice focused on building custom digital platforms around real operational workflows.",
+about_identity_badge:
+    "GEOSPATIAL PLATFORM ENGINEERING",
 
-about_capabilities_title: "PLATFORM CAPABILITIES",
-about_capability_1: "Geospatial Platform Engineering",
-about_capability_2: "Location Intelligence & Decision Support",
-about_capability_3: "Spatial Data Infrastructure",
-about_capability_4: "WebGIS & Interactive Mapping",
-about_capability_5: "3D Geospatial & Digital Twin",
-about_capability_6: "Earth Observation & Satellite Analytics",
-about_capability_7: "AI-Assisted Spatial Workflows",
-about_capability_8: "Spatial Automation & System Integration",
 
-about_founder_badge: "FOUNDER",
-about_founder_desc: "GeoLand is built around practical geospatial engineering, combining spatial data, analytics, software development, and modern visualization into usable digital systems.",
+about_identity_desc:
+    "Building digital platforms that turn geospatial data into practical tools for analysis, visualization, decision support, and operational workflows.",
+    
+about_capabilities_title:
+    "PLATFORM CAPABILITIES",
 
-about_story_badge: "THE APPROACH",
-about_story_title: "From Geospatial Data to Operational Systems",
+about_capability_1:
+    "Geospatial Platform Engineering",
+
+about_capability_2:
+    "Location Intelligence & Decision Support",
+
+about_capability_3:
+    "Spatial Data Infrastructure",
+
+about_capability_4:
+    "WebGIS & Interactive Mapping",
+
+about_capability_5:
+    "3D Geospatial & Digital Twin",
+
+about_capability_6:
+    "Earth Observation & Satellite Analytics",
+
+about_capability_7:
+    "AI-Assisted Spatial Workflows",
+
+about_capability_8:
+    "Spatial Automation & System Integration",
+
+about_founder_badge:
+    "FOUNDER",
+
+about_founder_desc:
+    "GeoLand is built around practical geospatial engineering, combining spatial data, analytics, software development, and modern visualization into usable digital platforms.",
+
+about_story_badge:
+    "THE APPROACH",
+
+about_story_title:
+    "From Geospatial Data to Operational Systems",
 
     // =========================
     // Contact

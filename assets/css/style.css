@@ -307,26 +307,104 @@ nav a.active-nav {
 
 }
 
-/* ===== REUSABLE COMPONENT STYLES ===== */
-section { padding: 100px 0; }
-.section-title { 
-  font-size: 2.5rem; 
-  margin-bottom: 16px; 
-  color: #ffffff; 
-  text-align: center; 
-  font-weight: 700; 
-  letter-spacing: -0.02em; 
+/* ==========================================
+   FLOATING SECTION / MENU TYPOGRAPHY
+========================================== */
+
+.section-title {
+  max-width: 900px;
+  margin: 0 auto 14px auto;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(2.35rem, 5vw, 4rem);
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: -0.045em;
 }
-.section-sub { 
-  color: #94a3b8; 
-  margin-bottom: 50px; 
-  text-align: center !important; /* DITAMBAHKAN !important agar tidak kalah oleh tag <p> global */
-  max-width: 620px; 
-  margin-left: auto; 
-  margin-right: auto;
-  font-size: 1.05rem;
+
+.section-sub {
+  max-width: 700px;
+  margin: 0 auto;
+  color: rgba(148, 163, 184, 0.82);
+  text-align: center !important;
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(0.98rem, 1.5vw, 1.12rem);
+  line-height: 1.75;
   font-weight: 300;
+  letter-spacing: 0.005em;
 }
+
+.back-home-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* ==========================================
+   MENU INTRO — FLOATING, NO CARD
+========================================== */
+
+.menu-intro {
+  max-width: 900px;
+  margin: 0 auto 55px auto;
+  padding: 10px 20px 0;
+  text-align: center;
+}
+
+.menu-intro .section-title {
+  margin-bottom: 14px;
+}
+
+.menu-intro .section-sub {
+  margin-bottom: 0;
+}
+
+.menu-intro .back-home-container {
+  margin-top: 28px;
+}
+
+.menu-intro .btn,
+.menu-intro .btn-primary,
+.menu-intro .btn-secondary {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .menu-intro {
+    margin-bottom: 42px;
+    padding: 4px 12px 0;
+  }
+
+  .menu-intro .section-title {
+    font-size: clamp(2rem, 9vw, 2.8rem);
+    line-height: 1.08;
+  }
+
+  .menu-intro .section-sub {
+    font-size: 0.96rem;
+    line-height: 1.7;
+  }
+
+  .menu-intro .back-home-container {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-intro {
+    padding: 0 6px;
+  }
+
+  .menu-intro .section-title {
+    font-size: 2rem;
+  }
+
+  .menu-intro .section-sub {
+    font-size: 0.92rem;
+  }
+}
+
 
 /* Clean Glassmorphism */
 .glass {
@@ -368,7 +446,7 @@ section { padding: 100px 0; }
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 240, 255, 0.1);
 }
-.back-home-container { display: flex; justify-content: center; margin-top: 50px; }
+
 
 /* ===== ROUTER VIEWS CONTROLLER ===== */
 .view-section { display: none; }
@@ -785,236 +863,205 @@ section { padding: 100px 0; }
 
 
 /* ==========================================
-   FOUNDER + APPROACH
+   ABOUT PRINCIPLE
+   SINGLE FLOATING COMPOSITION
 ========================================== */
 
-.about-founder-grid {
+.about-principle {
   width: 100%;
-  max-width: 950px;
-  margin: 24px auto 0;
+  max-width: 900px;
 
-  display: grid;
-  grid-template-columns: 320px minmax(0, 1fr);
-  gap: 24px;
+  margin: 65px auto 0;
+  padding: 0;
 
-  align-items: start;
-  box-sizing: border-box;
-}
-
-.about-founder-card,
-.about-story-card {
-  width: 100%;
-  height: auto;
-  min-height: 0;
-  padding: 30px;
-  border-radius: 16px;
-
-  background:
-    linear-gradient(
-      180deg,
-      rgba(15, 23, 42, 0.4) 0%,
-      rgba(15, 23, 42, 0.1) 100%
-    );
-
-  border: 1px solid rgba(255, 255, 255, 0.03);
-
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-
-  box-sizing: border-box;
-  align-self: start;
-}
-
-
-/* ==========================================
-   FOUNDER CARD
-========================================== */
-
-.about-founder-card {
   text-align: center;
 }
 
-.about-founder-card .feature-icon {
-  margin: 0 auto 18px auto;
-}
 
-.about-founder-card .geo-badge {
-  margin-bottom: 14px;
-}
+/* ==========================================
+   MAIN STATEMENT
+========================================== */
 
-.about-founder-card h3 {
+.about-principle h2 {
+  max-width: 820px;
+
+  margin: 0 auto 14px;
+
   color: #ffffff;
-  font-size: 1.4rem;
-  margin-bottom: 8px;
-}
 
-.about-founder-role {
-  color: #00f0ff;
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 0.78rem;
-  font-weight: 600;
+
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 700;
+
+  line-height: 1.12;
+  letter-spacing: -0.045em;
+
+  text-align: center;
+}
+
+
+/* ==========================================
+   SECONDARY STATEMENT
+========================================== */
+
+.about-principle .floating-principle-subtitle {
+  max-width: 720px;
+
+  margin: 0 auto 24px;
+
+  color: rgba(203, 213, 225, 0.9);
+
+  font-family: 'Space Grotesk', sans-serif;
+
+  font-size: clamp(1.05rem, 2vw, 1.4rem);
+  font-weight: 500;
+
   line-height: 1.45;
-  margin-bottom: 18px;
-}
+  letter-spacing: -0.015em;
 
-.about-founder-card p {
-  margin: 0;
-  color: #94a3b8;
-  font-size: 0.88rem;
-  line-height: 1.65;
-  font-weight: 300;
-  text-align: center !important;
+  text-align: center;
 }
 
 
 /* ==========================================
-   STORY / APPROACH CARD
+   PRINCIPLE DESCRIPTION
 ========================================== */
 
-.about-story-card {
-  text-align: left;
-}
-
-.about-story-heading {
-  width: 100%;
-  margin-bottom: 18px;
-}
-
-.about-story-heading .geo-badge {
-  margin-bottom: 12px;
-}
-
-.about-story-heading h3 {
-  margin: 0;
-  color: #ffffff;
-  font-size: 1.35rem;
-  line-height: 1.35;
-}
-
-
-/* IMPORTANT:
-   SINGLE COLUMN — NO GRID
-*/
-
-.about-story-content {
-  width: 100%;
-  display: block;
-}
-
-
-.about-story-content p {
-  max-width: 560px;
-  margin: 0 auto;
-  color: #94a3b8;
-  font-size: 0.92rem;
-  line-height: 1.75;
-  font-weight: 300;
-  text-align: center !important;
-}
-
-
-/* ==========================================
-   APPROACH PRINCIPLE CARD
-========================================== */
-
-.about-approach-card {
-  width: 100%;
-  max-width: 950px;
-  margin: 24px auto 0;
-  padding: 30px 40px;
-  box-sizing: border-box;
-}
-
-.about-approach-card .title-wrapper {
-  margin-bottom: 18px;
-}
-
-.about-approach-card .geo-badge {
-  margin-bottom: 12px;
-}
-
-.about-approach-card h2 {
+.about-principle .about-closing-principle {
   max-width: 760px;
-  margin-left: auto;
-  margin-right: auto;
 
-  font-size: 1.55rem;
-  line-height: 1.35;
-}
-
-.about-approach-card p {
-  max-width: 780px;
   margin: 0 auto;
 
-  color: #cbd5e1;
-  font-size: 0.94rem;
-  line-height: 1.7;
+  color: rgba(148, 163, 184, 0.82);
+
+  font-family: 'Outfit', sans-serif;
+
+  font-size: 1rem;
   font-weight: 300;
+
+  line-height: 1.8;
 
   text-align: center !important;
 }
 
 
 /* ==========================================
-   ABOUT MOBILE
+   FOUNDER ATTRIBUTION
+   PART OF THE SAME PRINCIPLE
+========================================== */
+
+.about-founder-attribution {
+  margin: 68px auto 0;
+  padding-top: 26px;
+  padding-bottom: 42px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+
+  text-align: center;
+}
+
+
+.about-founder-name {
+  margin: 0 0 6px;
+
+  color: #ffffff;
+
+  font-family: 'Space Grotesk', sans-serif;
+
+  font-size: 1.08rem;
+  font-weight: 700;
+
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+}
+
+
+.about-founder-attribution .about-founder-role {
+  margin: 0;
+
+  color: rgba(0, 240, 255, 0.82);
+
+  font-family: 'Space Grotesk', sans-serif;
+
+  font-size: 0.72rem;
+  font-weight: 600;
+
+  line-height: 1.4;
+
+  letter-spacing: 0.01em;
+}
+
+
+/* ==========================================
+   MOBILE
 ========================================== */
 
 @media (max-width: 768px) {
 
-  .about-overview-card {
-    grid-template-columns: 1fr;
-    gap: 28px;
-    padding: 30px 24px;
+  .about-principle {
+    margin-top: 55px;
   }
 
-  .about-capabilities {
-    border-left: none;
-    border-top: 1px solid rgba(0, 240, 255, 0.1);
-    padding-left: 0;
-    padding-top: 26px;
+  .about-principle h2 {
+    max-width: 100%;
+
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+    line-height: 1.15;
   }
 
-  .about-capability-grid {
-    grid-template-columns: 1fr;
+  .about-principle .floating-principle-subtitle {
+    margin-bottom: 18px;
+
+    font-size: 1.05rem;
   }
 
-  .about-founder-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
+  .about-principle .about-closing-principle {
+    font-size: 0.94rem;
+    line-height: 1.7;
   }
 
-  .about-story-content {
-    display: block;
-  }
-
-  .about-story-content p {
-    max-width: none;
-  }
-
-  .about-approach-card {
-    padding: 28px 24px;
+  .about-founder-attribution {
+    margin-top: 48px;
+    padding-top: 22px;
   }
 
 }
 
 
 /* ==========================================
-   ABOUT SMALL MOBILE
+   SMALL MOBILE
 ========================================== */
 
 @media (max-width: 480px) {
 
-  .about-overview-card {
-    padding: 28px 20px;
+  .about-principle {
+    margin-top: 50px;
   }
 
-  .about-founder-card,
-  .about-story-card {
-    padding: 28px 22px;
+  .about-principle h2 {
+    font-size: 1.7rem;
   }
 
-  .about-approach-card {
-    padding: 26px 20px;
+  .about-principle .floating-principle-subtitle {
+    font-size: 1rem;
+  }
+
+  .about-principle .about-closing-principle {
+    font-size: 0.9rem;
+  }
+
+  .about-founder-attribution {
+    margin-top: 42px;
+    padding-top: 20px;
+  }
+
+  .about-founder-name {
+    font-size: 1rem;
+  }
+
+  .about-founder-attribution .about-founder-role {
+    font-size: 0.68rem;
   }
 
 }
@@ -1766,11 +1813,10 @@ body .radar{
 
 /* ==========================================
    HOME INFORMATION CARDS
-   Unified with Showcase / Solutions Cards
+   IMPORTANT CONTENT ONLY
 ========================================== */
 
-.home-info-card,
-.home-section-card {
+.home-info-card {
   position: relative;
   overflow: hidden;
   max-width: 950px;
@@ -1802,17 +1848,11 @@ body .radar{
     box-shadow 0.4s ease;
 }
 
-
-/* Top futuristic line */
-
 .home-info-card::before,
-.home-section-card::before,
 .home-focus-card::before {
-
   content: "";
 
   position: absolute;
-
   top: 0;
   left: 0;
 
@@ -1828,17 +1868,11 @@ body .radar{
     );
 
   opacity: 0;
-
   transition: opacity 0.4s ease;
 }
 
-
-/* Hover */
-
 .home-info-card:hover,
-.home-section-card:hover,
 .home-focus-card:hover {
-
   transform: translateY(-6px);
 
   border-color:
@@ -1848,14 +1882,60 @@ body .radar{
     0 20px 40px rgba(0, 0, 0, 0.5);
 }
 
-
 .home-info-card:hover::before,
-.home-section-card:hover::before,
 .home-focus-card:hover::before {
-
   opacity: 1;
 }
 
+/* ==========================================
+   FLOATING HOME SECTION HEADING
+   NO CARD / NO BORDER / NO SHADOW
+========================================== */
+
+.home-section-card {
+  position: relative;
+
+  width: 100%;
+  max-width: 950px;
+
+  margin: 0 auto 40px auto;
+  padding: 0;
+
+  background: transparent;
+  border: none;
+  border-radius: 0;
+
+  box-shadow: none;
+
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+
+  text-align: center;
+  overflow: visible;
+}
+
+.home-section-card::before,
+.home-section-card:hover::before {
+  display: none;
+}
+
+.home-section-card:hover {
+  transform: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.home-section-card .home-card-icon {
+  margin-bottom: 20px;
+}
+
+.home-section-card .section-title {
+  margin-bottom: 14px;
+}
+
+.home-section-card .section-sub {
+  margin-bottom: 0;
+}
 
 /* ==========================================
    HOME FUTURISTIC ICON
@@ -2002,87 +2082,95 @@ body .radar{
 
 
 /* ==========================================
-   PRINCIPLE CARD
+   HOME PRINCIPLE
+   FLOATING — NO CARD
 ========================================== */
 
 .home-principle-card {
+  width: 100%;
+  max-width: 900px;
 
-  margin-top: 60px;
+  margin: 70px auto 0;
+  padding: 0;
+
+  background: transparent;
+  border: none;
+  border-radius: 0;
+
+  box-shadow: none;
+
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+
+  text-align: center;
 }
-
 
 .home-principle-card .title-wrapper {
-
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
+.home-principle-card .geo-badge {
+  margin-bottom: 14px;
+}
 
 .home-principle-card h2 {
-
   max-width: 760px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 16px auto;
+
+  color: #ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.75rem, 3.4vw, 2.7rem);
+  line-height: 1.18;
+  font-weight: 700;
+  letter-spacing: -0.03em;
 }
 
+.home-principle-card p {
+  max-width: 760px;
+  margin: 0 auto;
 
-/* ==========================================
-   MOBILE
-========================================== */
+  color: rgba(148, 163, 184, 0.82);
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 300;
+
+  text-align: center !important;
+}
+
+.home-principle-card:hover {
+  transform: none;
+  border-color: transparent;
+  box-shadow: none;
+}
 
 @media (max-width: 768px) {
 
-  .home-info-card,
-  .home-section-card {
-
-    padding: 32px 24px;
-
-    border-radius: 14px;
-  }
-
-
-  .home-focus-card {
-
-    padding: 32px 24px;
-
-    border-radius: 14px;
-  }
-
-
-  .home-card-icon {
-
-    width: 52px;
-    height: 52px;
-
-    margin-bottom: 20px;
-  }
-
-
-  .home-card-icon svg {
-
-    width: 26px;
-    height: 26px;
-  }
-
-
   .home-principle-card {
+    margin-top: 55px;
+    padding: 0;
+  }
 
-    margin-top: 50px;
+  .home-principle-card h2 {
+    font-size: 1.8rem;
+  }
+
+  .home-principle-card p {
+    font-size: 0.94rem;
+    line-height: 1.7;
   }
 
 }
 
-
-/* ==========================================
-   SMALL MOBILE
-========================================== */
-
 @media (max-width: 480px) {
 
-  .home-info-card,
-  .home-section-card,
-  .home-focus-card {
+  .home-principle-card {
+    margin-top: 50px;
+    padding: 0;
+  }
 
-    padding: 28px 20px;
+  .home-principle-card h2 {
+    font-size: 1.65rem;
   }
 
 }
@@ -2276,6 +2364,329 @@ body .radar{
     max-width: none;
     margin: 0 auto !important;
     text-align: center !important;
+  }
+
+}
+/* =========================================================
+   FINAL FLOATING PRINCIPLES
+   NO CARD / NO BORDER / NO GLOW LINE
+========================================================= */
+
+.home-principle-card,
+.floating-principle {
+  position: relative;
+
+  width: 100%;
+  max-width: 900px;
+
+  margin: 70px auto 0;
+  padding: 0;
+
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+
+  overflow: visible;
+
+  text-align: center;
+}
+
+/* Matikan SEMUA garis / pseudo decorative element */
+.home-principle-card::before,
+.home-principle-card::after,
+.home-principle-card:hover::before,
+.home-principle-card:hover::after,
+.floating-principle::before,
+.floating-principle::after,
+.floating-principle:hover::before,
+.floating-principle:hover::after,
+
+/* penting kalau wrapper masih memakai home-info-card */
+.home-principle-card.home-info-card::before,
+.home-principle-card.home-info-card::after,
+.home-principle-card.home-info-card:hover::before,
+.home-principle-card.home-info-card:hover::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Matikan SEMUA efek hover card */
+.home-principle-card:hover,
+.floating-principle:hover,
+.home-principle-card.home-info-card:hover {
+  transform: none !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* ==========================================
+   PRINCIPLE TYPOGRAPHY
+========================================== */
+
+.home-principle-card .title-wrapper,
+.floating-principle .title-wrapper {
+  margin-bottom: 20px;
+}
+
+/* Kecil — label */
+.home-principle-card .geo-badge,
+.floating-principle .geo-badge {
+  display: inline-block;
+
+  margin-bottom: 16px;
+
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+
+  color: #00f0ff;
+
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.3;
+
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* Besar — principle statement */
+.home-principle-card h2,
+.floating-principle h2 {
+  max-width: 820px;
+
+  margin: 0 auto 16px auto;
+
+  color: #ffffff;
+
+  font-family: 'Space Grotesk', sans-serif;
+
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 700;
+
+  line-height: 1.12;
+  letter-spacing: -0.045em;
+
+  text-align: center;
+}
+
+/* Penjelasan */
+.home-principle-card p,
+.floating-principle p {
+  max-width: 760px;
+
+  margin: 0 auto;
+
+  color: rgba(148, 163, 184, 0.82);
+
+  font-family: 'Outfit', sans-serif;
+
+  font-size: 1rem;
+  font-weight: 300;
+
+  line-height: 1.8;
+  letter-spacing: 0;
+
+  text-align: center !important;
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+  .home-principle-card,
+  .floating-principle {
+    margin-top: 55px;
+    padding: 0;
+  }
+
+  .home-principle-card h2,
+  .floating-principle h2 {
+    max-width: 100%;
+
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+    line-height: 1.15;
+    letter-spacing: -0.035em;
+  }
+
+  .home-principle-card p,
+  .floating-principle p {
+    font-size: 0.94rem;
+    line-height: 1.7;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .home-principle-card,
+  .floating-principle {
+    margin-top: 50px;
+  }
+
+  .home-principle-card .geo-badge,
+  .floating-principle .geo-badge {
+    font-size: 0.67rem;
+    letter-spacing: 0.13em;
+  }
+
+  .home-principle-card h2,
+  .floating-principle h2 {
+    font-size: 1.7rem;
+  }
+
+  .home-principle-card p,
+  .floating-principle p {
+    font-size: 0.9rem;
+  }
+
+}
+/* ==========================================
+   FLOATING PRINCIPLE SECONDARY TITLE
+========================================== */
+
+.floating-principle-subtitle {
+  max-width: 720px;
+
+  margin: -2px auto 22px auto;
+
+  color: rgba(203, 213, 225, 0.9);
+
+  font-family: 'Space Grotesk', sans-serif;
+
+  font-size: clamp(1.05rem, 2vw, 1.4rem);
+  font-weight: 500;
+
+  line-height: 1.45;
+  letter-spacing: -0.015em;
+
+  text-align: center;
+}
+
+.floating-principle-subtitle span {
+  display: inline;
+}
+
+@media (max-width: 768px) {
+
+  .floating-principle-subtitle {
+    margin-bottom: 18px;
+    font-size: 1.05rem;
+  }
+
+}
+/* ==========================================
+   ABOUT FLOATING APPROACH
+========================================== */
+
+.about-principle {
+  margin-top: 65px;
+}
+
+.about-principle h2 {
+  max-width: 820px;
+}
+
+@media (max-width: 768px) {
+
+  .about-principle {
+    margin-top: 50px;
+  }
+
+}
+/* ==========================================
+   ABOUT FOUNDER — FINAL OVERRIDE
+   NO LINE / PROPORTIONAL SPACING
+========================================== */
+
+#about-view .about-founder-attribution {
+  margin: 58px auto 0;
+  padding: 0 !important;
+
+  border-top: none !important;
+  border-bottom: none !important;
+
+  background: transparent !important;
+  box-shadow: none !important;
+
+  text-align: center;
+}
+
+
+#about-view .about-founder-name {
+  margin: 0 0 6px;
+
+  color: #ffffff;
+
+  font-family: 'Space Grotesk', sans-serif;
+
+  font-size: 1.08rem;
+  font-weight: 700;
+
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+}
+
+
+#about-view .about-founder-attribution .about-founder-role {
+  margin: 0;
+
+  color: rgba(0, 240, 255, 0.82);
+
+  font-family: 'Space Grotesk', sans-serif;
+
+  font-size: 0.72rem;
+  font-weight: 600;
+
+  line-height: 1.4;
+
+  text-align: center;
+}
+
+
+/* Jarak dari founder ke Back to Home */
+
+#about-view .back-home-container {
+  margin-top: 42px;
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+  #about-view .about-founder-attribution {
+    margin-top: 44px;
+  }
+
+  #about-view .back-home-container {
+    margin-top: 34px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  #about-view .about-founder-attribution {
+    margin-top: 38px;
+  }
+
+  #about-view .back-home-container {
+    margin-top: 30px;
   }
 
 }
