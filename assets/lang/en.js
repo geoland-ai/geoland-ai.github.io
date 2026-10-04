@@ -4,15 +4,17 @@ const en = {
     // Branding & Navigation
     // =========================
 
-    brand_tagline: "Custom Geospatial Solutions",
+    brand_tagline: "Custom Geospatial Platform Development",
 
-nav_home: "Home", 
-nav_features: "Solutions", 
+nav_home: "Home",
+nav_how_we_work: "How We Work",
+nav_features: "Solutions",
 nav_why_custom: "Why Custom",
-nav_tour: "Showcase", 
-nav_gallery: "Map Gallery", 
-nav_about: "About GeoLand", 
-nav_contact: "Contact", 
+nav_pricing: "Pricing",
+nav_tour: "Showcase",
+nav_gallery: "Map Gallery",
+nav_about: "About",
+nav_contact: "Contact",
 
 
 
@@ -21,19 +23,19 @@ nav_contact: "Contact",
     // =========================
 
 hero_badge:
-    "CUSTOM GEOSPATIAL SOLUTIONS",
+    "CUSTOM GEOSPATIAL PLATFORM DEVELOPMENT",
 
 hero_title:
-    "Complex Geospatial Problems. Simple Digital Solutions.",
+    "Custom Geospatial Platforms Built Around Your Workflow",
 
 hero_subtitle:
-    "GeoLand provides custom geospatial development services that combine spatial data, AI, automation, 3D visualization, satellite intelligence, and spatial analytics into intuitive web applications built for real-world organizational needs.",
+    "GeoLand designs and builds custom geospatial platforms that combine spatial data, spatial analytics, AI, automation, 3D visualization, and Earth observation into practical digital systems for real-world operational needs.",
 
 hero_primary:
-    "Explore Solutions",
+    "Discuss a Project",
 
 hero_secondary:
-    "Try Live Platform",
+    "Explore Working Platforms",
 
 
     // =========================
@@ -41,22 +43,22 @@ hero_secondary:
     // =========================
 
 showcase_badge:
-    "WORKING SHOWCASE",
+    "WORKING PLATFORM REFERENCES",
 
 showcase_title:
-    "A Live Geospatial Platform",
+    "Working Geospatial Platform References",
 
 showcase_p1:
-    "This live platform is a working example of how large-scale geospatial data, AI-powered analysis, interactive 3D visualization, and Earth observation workflows can be brought together into a single web-based experience.",
+    "These reference systems demonstrate how GeoLand designs and builds custom geospatial platforms by combining spatial data, analytics, databases, APIs, automation, AI-assisted workflows, web mapping, 3D visualization, and Earth observation according to the needs of each system.",
 
 showcase_p2:
-    "Users can directly explore two core capabilities within the platform: 3D Location Intelligence for understanding buildings, locations, and spatial context, and Earth Observation for exploring satellite imagery and performing remote-sensing analysis.",
+    "Each platform is built around a different objective and workflow. The available references demonstrate how geospatial components can be engineered into usable digital systems that can be extended and adapted to an organization's needs.",
 
 showcase_p3:
-    "The platform is presented as a working showcase of GeoLand's capabilities — not as a fixed product offering. Its architecture demonstrates how similar geospatial platforms can be tailored to different datasets, workflows, business requirements, and industry needs.",
+    "These platforms are working references of GeoLand's engineering capabilities, not fixed products or off-the-shelf packages. The approach and architecture can be adapted to each project's datasets, users, operational processes, integrations, and scope.",
 
 showcase_try:
-    "Try the Live Platform",
+    "Explore Working Platform",
 
 
     // =========================
@@ -83,15 +85,14 @@ showcase_try:
         "Web-based GIS and geospatial applications designed around specific business processes, datasets, analytical requirements, and user workflows.",
 
 
-    focus_ai_badge:
-        "AI",
+   focus_ai_badge:
+    "SPATIAL INTELLIGENCE",
 
-    focus_ai_title:
-        "AI-Integrated Spatial Intelligence",
+focus_ai_title:
+    "Spatial Intelligence & Analytics",
 
-    focus_ai_desc:
-        "Integrate AI into spatial search, analysis, recommendations, natural-language interaction, classification, reporting, and decision-support workflows.",
-
+focus_ai_desc:
+    "Turn geospatial data into scoring, spatial models, recommendations, accessibility analysis, suitability analysis, monitoring, and decision-support workflows. AI can be integrated where it adds practical value.",
 
     focus_automation_badge:
         "AUTOMATION",
@@ -102,20 +103,81 @@ showcase_try:
     focus_automation_desc:
         "Automate data ingestion, processing, spatial analysis, monitoring, reporting, and repetitive GIS workflows through integrated backend services and APIs.",
 
+// =========================
+// How We Work
+// =========================
+
+process_badge:
+    "HOW WE WORK",
+
+process_title:
+    "From Geospatial Problems to Working Platforms",
+
+process_subtitle:
+    "Each project starts with the operational problem and workflow, then moves through system design, engineering, integration, and deployment based on the actual requirements.",
+
+process_step1_label:
+    "01",
+
+process_step1_title:
+    "Understand the Problem",
+
+process_step1_desc:
+    "We identify the objectives, users, datasets, constraints, operational processes, and decisions the system needs to support.",
+
+process_step2_label:
+    "02",
+
+process_step2_title:
+    "Design the System",
+
+process_step2_desc:
+    "We define the spatial data model, system architecture, analytical workflow, integrations, backend services, and user experience around the required workflow.",
+
+process_step3_label:
+    "03",
+
+process_step3_title:
+    "Build & Integrate",
+
+process_step3_desc:
+    "We build the platform, connect the required data sources and services, and implement the agreed geospatial workflows.",
+
+process_step4_label:
+    "04",
+
+process_step4_title:
+    "Deploy & Handover",
+
+process_step4_desc:
+    "We deploy the system, complete the documentation and testing, and hand over the platform and source code according to the agreed scope.",
+
+process_note_title:
+    "Built Around the Work",
+
+process_note_desc:
+    "We do not build a system around the map or the technology alone. We build it around the work users need to perform and the outcomes the organization needs to achieve.",
+
+process_cta_text:
+    "Have a geospatial workflow that needs to become a working digital system?",
+
+process_cta_button:
+    "Discuss a Project",
+
 
     // =========================
     // Why Custom Geospatial Platforms
     // =========================
 
-    value_badge:
-        "WHY CUSTOM",
+value_badge:
+    "WHY CUSTOM",
 
-    value_title:
-        "Built Around Your Data. Designed Around Your Workflow.",
+value_title:
+    "Built Around Your Data and Workflow.",
 
-    value_subtitle:
-        "Custom geospatial platforms can combine the technologies you need while keeping the experience focused on how your organization actually works.",
-
+value_subtitle:
+    "Custom geospatial platforms allow technology, data, analytics, and user experience to be designed around the organization's needs instead of forcing the workflow into a generic application.",
+    
 
     value_ai_badge:
         "SELF-HOSTED AI",
@@ -165,16 +227,16 @@ principle_badge:
     "DESIGN PRINCIPLE",
 
 principle_title:
-    "Complex Systems. Simple User Experience.",
+    "Complex Technology. Simple User Experience.",
 
 principle_p1:
-    "Behind a modern geospatial platform are complex datasets, analytical processes, AI, automation, and multiple interconnected services.",
+    "Geospatial platforms can involve large datasets, spatial analytics, APIs, automation, AI, and multiple interconnected services.",
 
 principle_p2:
-    "GeoLand brings these components together into a single platform designed to feel simple and intuitive for the end user.",
+    "GeoLand brings these components together into a single system while keeping the workflow clear and easy to use.",
 
 principle_p3:
-    "The complexity lives in the architecture. The simplicity lives in the experience.",
+    "The complexity stays behind the system. The user experience stays simple.",
 
     // =========================
     // What We Build
@@ -183,9 +245,8 @@ principle_p3:
     features_title:
         "What We Build",
 
-    features_subtitle:
-        "Custom geospatial platforms designed around your data, workflow, users, and business objectives — integrating spatial intelligence, AI, automation, 3D visualization, and satellite capabilities.",
-
+   features_subtitle:
+    "Custom geospatial platforms designed around your data, workflow, users, and business objectives — integrating spatial analytics, automation, 3D visualization, Earth observation, AI, and multiple data sources.",
 
     feature_ai_title:
         "Custom Geospatial Platform Development",
@@ -222,8 +283,8 @@ principle_p3:
         "Develop location intelligence applications for site selection, market analysis, expansion planning, asset intelligence, property analysis, regional assessment, and spatial decision-making.",
 
 
-    feature_poi_title:
-        "Satellite & Earth Observation",
+   feature_poi_title:
+    "Earth Observation & Satellite Analysis",
 
     feature_poi_description:
         "Integrate satellite imagery and remote-sensing workflows for monitoring, classification, environmental analysis, change detection, raster processing, and satellite-based spatial intelligence.",
@@ -236,12 +297,11 @@ principle_p3:
         "Build responsive mapping applications capable of handling large spatial datasets through vector tiles, spatial indexing, optimized queries, interactive visualization, and modern web rendering.",
 
 
-    feature_assistant_title:
-        "AI-Powered Geospatial Applications",
+  feature_assistant_title:
+    "AI-Integrated Geospatial Workflows",
 
-    feature_assistant_description:
-        "Integrate AI into geospatial workflows for natural-language interaction, spatial queries, recommendations, automated reasoning, classification, analysis, and intelligent user assistance.",
-
+feature_assistant_description:
+    "Integrate AI into geospatial workflows for natural-language interaction, spatial queries, recommendations, classification, analysis, reporting, and intelligent user assistance where it adds practical value.",
 
     feature_reports_title:
         "Automated Spatial Reporting",
@@ -250,8 +310,8 @@ principle_p3:
         "Automate spatial reports, maps, summaries, analytical outputs, and PDF generation so users can move from geographic data to shareable decision-support materials with minimal manual work.",
 
 
-    feature_engine_title:
-        "Spatial Data & Automation Engine",
+ feature_engine_title:
+    "Geospatial Backend & Automation",
 
     feature_engine_description:
         "Build backend services that process large spatial datasets, automate geospatial workflows, connect analytical engines, and expose spatial intelligence through scalable APIs.",
@@ -595,12 +655,11 @@ pricing_cta_button:
     // GeoLand Showcase
     // =========================
 
-    tour_title:
-        "GeoLand Showcase",
+  tour_title:
+    "Working Platform References",
 
-    tour_subtitle:
-        "Explore working examples of AI-powered geospatial applications, 3D location intelligence, automated spatial workflows, and satellite intelligence.",
-
+tour_subtitle:
+    "Explore working reference implementations demonstrating GeoLand's capabilities across 3D GIS, Location Intelligence, spatial analytics, AI-assisted workflows, and Earth Observation platforms.",
 
     tour_ai_title:
         "AI Recommendation Engine",
@@ -874,20 +933,20 @@ about_p2:
     "Each project starts with the problem and workflow rather than the map itself. Spatial data, analytical logic, automation, APIs, AI, and user interfaces are then brought together into a system designed around how the organization actually works.",
 
 about_p3:
-    "GeoLand's working showcases, including 3D Location Intelligence, AI-powered spatial analysis, and Earth Observation, demonstrate how different geospatial capabilities can be combined into practical digital platforms that users can explore directly.",
+    "GeoLand's working reference systems, including 3D Location Intelligence, AI-assisted spatial analysis, and Earth Observation, demonstrate how different geospatial capabilities can be engineered into practical digital platforms that users can explore directly.",
 
 about_p4:
     "Every organization has different datasets, processes, users, and analytical requirements. The solution is therefore built around those specific needs rather than forcing the same platform or workflow onto every project.",
   
-    about_principle_badge:
-        "APPROACH",
+about_principle_badge:
+    "APPROACH",
 
-    about_principle_title:
-        "Build the System Around the Problem, Not the Map",
+about_principle_title:
+    "Build Around the Problem",
 
-    about_principle_p:
-        "A map is only one part of a geospatial application. The real value comes from connecting data, analysis, automation, intelligence, and user workflows into one coherent system.",
-
+about_principle_p:
+    "A map is only one component. The real value of a geospatial platform comes from bringing data, analytics, automation, integrations, and user workflows together into a system that supports real work.",
+    
 
     // =========================
     // Contact
@@ -915,7 +974,7 @@ about_p4:
     // =========================
 
     footer_text:
-        "© 2026 GeoLand | Custom Geospatial Solutions"
+        "© 2026 GeoLand | Custom Geospatial Platform Development"
 
 };
 

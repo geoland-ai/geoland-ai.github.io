@@ -4,15 +4,18 @@ const id = {
     // Branding & Navigation
     // =========================
 
-    brand_tagline: "Custom Geospatial Solutions",
+    brand_tagline:
+    "Pengembangan Platform Geospasial Kustom",
 
-nav_home: "Beranda", 
-nav_features: "Solusi", 
+nav_home: "Beranda",
+nav_how_we_work: "Cara Kami Bekerja",
+nav_features: "Solusi",
 nav_why_custom: "Kenapa Custom",
-nav_tour: "Showcase", 
-nav_gallery: "Galeri Peta", 
-nav_about: "Tentang GeoLand", 
-nav_contact: "Kontak", 
+nav_pricing: "Harga",
+nav_tour: "Showcase",
+nav_gallery: "Galeri Peta",
+nav_about: "Tentang GeoLand",
+nav_contact: "Kontak",
 
 
 
@@ -21,19 +24,19 @@ nav_contact: "Kontak",
     // =========================
 
 hero_badge:
-    "SOLUSI GEOSPASIAL KUSTOM",
+    "CUSTOM GEOSPATIAL PLATFORM DEVELOPMENT",
 
 hero_title:
-    "Masalah Geospasial Kompleks. Solusi Digital yang Sederhana.",
+    "Platform Geospasial Kustom yang Dibangun Sesuai Workflow Anda",
 
 hero_subtitle:
-    "GeoLand menyediakan jasa pengembangan geospasial kustom yang menggabungkan data spasial, AI, otomasi, visualisasi 3D, satellite intelligence, dan analisis spasial ke dalam aplikasi web intuitif yang dibangun untuk kebutuhan organisasi di dunia nyata.",
+    "GeoLand merancang dan membangun platform geospasial kustom yang menggabungkan data spasial, spatial analytics, AI, otomasi, visualisasi 3D, dan Earth observation menjadi sistem digital praktis untuk mendukung kebutuhan operasional organisasi.",
 
 hero_primary:
-    "Lihat Solusi",
+    "Diskusikan Proyek",
 
 hero_secondary:
-    "Coba Platform Langsung",
+    "Lihat Working Platforms",
 
 
     // =========================
@@ -41,22 +44,22 @@ hero_secondary:
     // =========================
 
 showcase_badge:
-    "WORKING SHOWCASE",
+    "WORKING PLATFORM REFERENCES",
 
 showcase_title:
-    "Platform Geospasial yang Dapat Langsung Dicoba",
+    "Working Geospatial Platform References",
 
 showcase_p1:
-    "Platform ini merupakan contoh nyata bagaimana data geospasial berskala besar, analisis berbasis AI, visualisasi 3D interaktif, dan workflow Earth Observation dapat digabungkan ke dalam satu pengalaman berbasis web.",
+    "Reference systems ini menunjukkan bagaimana GeoLand merancang dan membangun platform geospasial kustom dengan menggabungkan data spasial, spatial analytics, database, API, automation, AI-assisted workflows, web mapping, visualisasi 3D, dan Earth observation sesuai kebutuhan sistem.",
 
 showcase_p2:
-    "Pengguna dapat langsung menjelajahi dua kemampuan utama di dalam platform ini: 3D Location Intelligence untuk memahami bangunan, lokasi, dan konteks spasial, serta Earth Observation untuk mengeksplorasi citra satelit dan melakukan analisis remote sensing.",
+    "Setiap platform dibangun berdasarkan tujuan dan workflow yang berbeda. Reference yang tersedia menunjukkan bagaimana berbagai komponen geospasial dapat dirangkai menjadi sistem digital yang dapat digunakan, dikembangkan, dan disesuaikan dengan kebutuhan organisasi.",
 
 showcase_p3:
-    "Platform ini disajikan sebagai working showcase dari kemampuan GeoLand — bukan sebagai produk tetap yang ditawarkan ke semua pengguna. Arsitekturnya menunjukkan bagaimana platform geospasial serupa dapat disesuaikan dengan dataset, workflow, kebutuhan bisnis, dan kebutuhan industri yang berbeda.",
+    "Platform-platform ini merupakan working references dari kemampuan engineering GeoLand, bukan produk tetap atau paket siap pakai. Pendekatan dan arsitekturnya dapat disesuaikan dengan dataset, pengguna, proses operasional, kebutuhan integrasi, dan ruang lingkup masing-masing proyek.",
 
 showcase_try:
-    "Coba Live Platform",
+    "Buka Working Platform",
 
 
     // =========================
@@ -68,8 +71,8 @@ showcase_try:
     focus_title:
         "Dari Data Geospasial Menjadi Platform Digital yang Cerdas",
 
-    focus_subtitle:
-        "GeoLand menggabungkan geospatial engineering, AI, otomasi, dan teknologi web modern untuk mengubah workflow spasial yang kompleks menjadi produk digital yang mudah digunakan.",
+  focus_subtitle:
+    "GeoLand menggabungkan rekayasa geospasial, AI, otomasi, dan teknologi web modern untuk mengubah workflow spasial yang kompleks menjadi platform digital yang mudah digunakan.",
 
 
     focus_platform_badge: "PLATFORM",
@@ -81,15 +84,15 @@ showcase_try:
         "Aplikasi GIS dan geospasial berbasis web yang dirancang berdasarkan proses bisnis, dataset, kebutuhan analisis, dan workflow pengguna.",
 
 
-    focus_ai_badge: "AI",
+   focus_ai_badge:
+    "SPATIAL INTELLIGENCE",
 
-    focus_ai_title:
-        "AI-Integrated Spatial Intelligence",
+focus_ai_title:
+    "Spatial Intelligence & Analytics",
 
-    focus_ai_desc:
-        "Mengintegrasikan AI ke dalam pencarian spasial, analisis, rekomendasi, natural-language interaction, klasifikasi, reporting, dan decision-support workflows.",
-
-
+focus_ai_desc:
+    "Mengubah data geospasial menjadi scoring, spatial models, recommendations, accessibility analysis, suitability analysis, monitoring, dan decision-support workflows. AI dapat diintegrasikan ketika memberikan nilai praktis.",
+    
     focus_automation_badge: "AUTOMATION",
 
     focus_automation_title:
@@ -98,18 +101,80 @@ showcase_try:
     focus_automation_desc:
         "Mengotomatisasi ingestion data, processing, spatial analysis, monitoring, reporting, dan workflow GIS berulang melalui backend services dan API terintegrasi.",
 
+
+// =========================
+// How We Work
+// =========================
+
+process_badge:
+    "CARA KAMI BEKERJA",
+
+process_title:
+    "Dari Masalah Geospasial Menjadi Platform yang Berfungsi",
+
+process_subtitle:
+    "Setiap proyek dimulai dari permasalahan operasional dan workflow, lalu diterjemahkan menjadi rancangan sistem, engineering, integrasi, dan deployment yang sesuai kebutuhan.",
+
+process_step1_label:
+    "01",
+
+process_step1_title:
+    "Memahami Masalah",
+
+process_step1_desc:
+    "Kami mengidentifikasi tujuan, pengguna, dataset, keterbatasan, proses operasional, dan keputusan yang perlu didukung oleh sistem.",
+
+process_step2_label:
+    "02",
+
+process_step2_title:
+    "Merancang Sistem",
+
+process_step2_desc:
+    "Kami menentukan model data spasial, arsitektur sistem, analytical workflow, integrasi, backend services, dan user experience berdasarkan kebutuhan workflow.",
+
+process_step3_label:
+    "03",
+
+process_step3_title:
+    "Build & Integrasi",
+
+process_step3_desc:
+    "Kami membangun platform, menghubungkan sumber data dan service yang diperlukan, lalu mengimplementasikan workflow geospasial sesuai ruang lingkup proyek.",
+
+process_step4_label:
+    "04",
+
+process_step4_title:
+    "Deploy & Handover",
+
+process_step4_desc:
+    "Kami melakukan deployment, dokumentasi, pengujian, dan handover platform beserta source code sesuai ruang lingkup yang disepakati.",
+
+process_note_title:
+    "Built Around the Work",
+
+process_note_desc:
+    "Kami tidak membangun sistem hanya berdasarkan peta atau teknologi. Kami membangunnya berdasarkan pekerjaan yang perlu dilakukan pengguna dan hasil yang perlu dicapai organisasi.",
+
+process_cta_text:
+    "Punya workflow geospasial yang perlu dikembangkan menjadi sistem digital yang benar-benar berjalan?",
+
+process_cta_button:
+    "Diskusikan Proyek",
+
     // =========================
     // Why Custom Geospatial Platforms
     // =========================
 
-    value_badge:
-        "KENAPA CUSTOM",
+value_badge:
+    "KENAPA CUSTOM",
 
-    value_title:
-        "Dibangun Sesuai Data. Dirancang Sesuai Workflow Anda.",
+value_title:
+    "Dibangun Berdasarkan Data dan Workflow Anda.",
 
-    value_subtitle:
-        "Platform geospasial kustom dapat menggabungkan teknologi yang Anda butuhkan sekaligus menjaga pengalaman tetap fokus pada cara organisasi Anda bekerja.",
+value_subtitle:
+    "Platform geospasial kustom memungkinkan teknologi, data, analisis, dan user experience disusun sesuai kebutuhan organisasi tanpa memaksa workflow mengikuti aplikasi generik.",
 
 
     value_ai_badge:
@@ -156,19 +221,20 @@ showcase_try:
     // Design Principle
     // =========================
 
-   principle_badge: "DESIGN PRINCIPLE",
+principle_badge:
+    "PRINSIP DESAIN",
 
 principle_title:
-    "Sistem Kompleks. Pengalaman Pengguna yang Sederhana.",
+    "Teknologi Kompleks. Pengalaman Tetap Sederhana.",
 
 principle_p1:
-    "Di balik sebuah platform geospasial modern terdapat dataset yang kompleks, proses analisis, AI, otomasi, dan berbagai layanan yang saling terhubung.",
+    "Platform geospasial dapat melibatkan dataset besar, spatial analytics, API, automation, AI, dan berbagai service yang saling terhubung.",
 
 principle_p2:
-    "GeoLand menyatukan berbagai komponen tersebut ke dalam satu platform yang dirancang agar tetap sederhana dan intuitif bagi pengguna.",
+    "GeoLand menyatukan komponen tersebut ke dalam satu sistem dengan workflow yang tetap jelas dan mudah digunakan.",
 
 principle_p3:
-    "Kompleksitas berada di arsitektur. Kesederhanaan hadir dalam pengalaman.",
+    "Kompleksitas ada di balik sistem. Pengguna tetap mendapatkan pengalaman yang sederhana.",
 
     // =========================
     // What We Build
@@ -176,10 +242,8 @@ principle_p3:
 
     features_title:
         "What We Build",
-
-    features_subtitle:
-        "Platform geospasial kustom yang dirancang berdasarkan data, workflow, pengguna, dan tujuan bisnis — dengan integrasi spatial intelligence, AI, otomasi, visualisasi 3D, dan kemampuan satellite.",
-
+features_subtitle:
+    "Platform geospasial kustom yang dirancang berdasarkan data, workflow, pengguna, dan tujuan bisnis — dengan spatial analytics, otomasi, visualisasi 3D, Earth observation, AI, dan integrasi berbagai sumber data.",
 
     feature_ai_title:
         "Custom Geospatial Platform Development",
@@ -217,7 +281,7 @@ principle_p3:
 
 
     feature_poi_title:
-        "Satellite & Earth Observation",
+        "Earth Observation & Satellite Analysis",
 
     feature_poi_description:
         "Mengintegrasikan imagery satellite dan workflow remote sensing untuk monitoring, classification, environmental analysis, change detection, raster processing, dan satellite-based spatial intelligence.",
@@ -230,12 +294,11 @@ principle_p3:
         "Membangun aplikasi pemetaan responsif yang mampu menangani dataset geospasial besar melalui vector tiles, spatial indexing, query optimization, interactive visualization, dan modern web rendering.",
 
 
-    feature_assistant_title:
-        "AI-Powered Geospatial Applications",
+   feature_assistant_title:
+    "AI-Integrated Geospatial Workflows",
 
-    feature_assistant_description:
-        "Mengintegrasikan AI ke dalam workflow geospasial untuk natural-language interaction, spatial queries, recommendations, automated reasoning, classification, analysis, dan intelligent user assistance.",
-
+feature_assistant_description:
+    "Mengintegrasikan AI ke dalam workflow geospasial untuk natural-language interaction, spatial queries, recommendations, classification, analysis, reporting, dan intelligent user assistance ketika memberikan nilai praktis.",
 
     feature_reports_title:
         "Automated Spatial Reporting",
@@ -245,7 +308,7 @@ principle_p3:
 
 
     feature_engine_title:
-        "Spatial Data & Automation Engine",
+         "Geospatial Backend & Automation",
 
     feature_engine_description:
         "Membangun backend service untuk memproses dataset spasial berskala besar, mengotomatisasi workflow geospasial, menghubungkan analytical engine, dan menyediakan spatial intelligence melalui scalable API.",
@@ -589,12 +652,11 @@ pricing_cta_button:
     // GeoLand Showcase
     // =========================
 
-    tour_title:
-        "GeoLand Showcase",
+  tour_title:
+    "Working Platform References",
 
-    tour_subtitle:
-        "Jelajahi working examples dari aplikasi geospasial berbasis AI, 3D location intelligence, workflow spasial terotomasi, dan satellite intelligence.",
-
+tour_subtitle:
+    "Jelajahi working reference implementations yang menunjukkan kemampuan GeoLand dalam membangun platform 3D GIS, Location Intelligence, spatial analytics, AI-assisted workflows, dan Earth Observation.",
 
     tour_ai_title:
         "AI Recommendation Engine",
@@ -806,8 +868,8 @@ pricing_cta_button:
     gallery_title:
         "Selected Geospatial Solutions",
 
-    gallery_subtitle:
-        "Kumpulan aplikasi geospasial, sistem spatial analytics, dan location-based solutions yang menunjukkan bagaimana data geografis dapat diubah menjadi digital tools yang praktis.",
+   gallery_subtitle:
+    "Kumpulan aplikasi geospasial, sistem spatial analytics, dan solusi berbasis lokasi yang menunjukkan bagaimana data geografis dapat diubah menjadi tools digital yang praktis.",
 
 
     gallery_bali_title:
@@ -860,7 +922,7 @@ about_title:
     "Tentang GeoLand",
 
 about_subtitle:
-    "GeoLand adalah jasa teknologi geospasial independen yang berfokus pada pembangunan platform digital kustom yang mengintegrasikan data geospasial, spatial analytics, AI, otomasi, dan teknologi web modern.",
+    "GeoLand adalah layanan teknologi geospasial independen yang berfokus pada pembangunan platform digital kustom dengan integrasi data geospasial, spatial analytics, AI, otomatisasi, dan teknologi web modern.",
 
 about_role:
     "Founder & Geospatial Platform Architect",
@@ -872,20 +934,20 @@ about_p2:
     "Setiap proyek dimulai dari permasalahan dan workflow, bukan dari peta itu sendiri. Data spasial, analytical logic, automation, API, AI, dan user interface kemudian dirangkai menjadi sebuah sistem yang dirancang mengikuti cara organisasi tersebut bekerja.",
 
 about_p3:
-    "Working showcase GeoLand, termasuk 3D Location Intelligence, AI-powered spatial analysis, dan Earth Observation, menunjukkan bagaimana berbagai kemampuan geospasial dapat digabungkan menjadi platform digital yang praktis dan dapat langsung dieksplorasi oleh pengguna.",
+    "Working reference systems GeoLand, termasuk 3D Location Intelligence, AI-assisted spatial analysis, dan Earth Observation, menunjukkan bagaimana berbagai kemampuan geospasial dapat direkayasa menjadi platform digital yang benar-benar dapat digunakan dan dieksplorasi.",
 
 about_p4:
     "Setiap organisasi memiliki dataset, proses, pengguna, dan kebutuhan analisis yang berbeda. Karena itu, solusi dibangun berdasarkan kebutuhan tersebut, bukan dengan memaksakan platform atau workflow yang sama untuk setiap proyek.",
 
-    about_principle_badge:
-        "APPROACH",
+about_principle_badge:
+    "APPROACH",
 
-    about_principle_title:
-        "Build the System Around the Problem, Not the Map",
+about_principle_title:
+    "Build Around the Problem",
 
-    about_principle_p:
-        "Peta hanyalah salah satu bagian dari aplikasi geospasial. Nilai sebenarnya muncul ketika data, analisis, otomasi, intelligence, dan workflow pengguna dihubungkan menjadi satu sistem yang koheren.",
-
+about_principle_p:
+    "Peta hanyalah salah satu komponen. Nilai sebuah platform geospasial muncul ketika data, analisis, automation, integration, dan user workflow dirancang menjadi satu sistem yang benar-benar mendukung pekerjaan.",
+    
 
     // =========================
     // Contact
@@ -894,8 +956,8 @@ about_p4:
     contact_title:
         "Let's Build Your Geospatial Platform",
 
-    contact_subtitle:
-        "Ceritakan data, workflow, atau business problem Anda dan eksplorasi bagaimana semuanya dapat diubah menjadi custom geospatial platform.",
+ contact_subtitle:
+    "Ceritakan data, workflow, atau permasalahan bisnis Anda dan jelaskan bagaimana proses tersebut dapat dikembangkan menjadi platform geospasial kustom.",
 
     contact_desc:
         "Untuk kebutuhan custom geospatial platform development, spatial data integration, AI integration, automation, 3D mapping, satellite intelligence, dan spatial analytics:",
@@ -913,7 +975,7 @@ about_p4:
     // =========================
 
     footer_text:
-        "© 2026 GeoLand | Custom Geospatial Solutions"
+        "© 2026 GeoLand | Custom Geospatial Platform Development"
 
 };
 

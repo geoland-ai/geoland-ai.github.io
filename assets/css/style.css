@@ -18,9 +18,15 @@ body {
 }
 
 
-p, .contact-desc, .tour-step p, .feature-card p, .project-content p, .about-details p {
-  text-align: justify !important;
-  text-justify: inter-word;
+p,
+.contact-desc,
+.tour-step p,
+.feature-card p,
+.project-content p,
+.about-details p {
+  text-align: left;
+  text-justify: auto;
+  word-spacing: normal;
 }
 
 /* Terapkan font techy untuk heading */
@@ -660,7 +666,14 @@ section { padding: 100px 0; }
   backdrop-filter: blur(12px);
   text-align: center;
 }
-.contact-desc { color: #94a3b8; margin-bottom: 40px; font-size: 1.1rem; line-height: 1.7; font-weight: 300; }
+.contact-desc {
+  color: #94a3b8;
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-weight: 300;
+  text-align: center !important;
+}
 .contact-channels { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 40px; }
 .channel-item {
   background: rgba(255,255,255,0.01);
@@ -1121,16 +1134,12 @@ body .radar{
 
 .pricing-note-card p {
   max-width: 760px;
-
   margin: 0 auto;
-
   color: #94a3b8;
-
   font-size: 0.98rem;
-
   line-height: 1.7;
-
   font-weight: 300;
+  text-align: center !important;
 }
 
 
@@ -1755,4 +1764,27 @@ body .radar{
     gap: 20px;
   }
 
+}
+
+.home-principle-card {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.home-principle-card .title-wrapper {
+  margin-bottom: 30px;
+}
+
+.home-principle-card h2 {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-principle-card p {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+  line-height: 1.75;
 }
