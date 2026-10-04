@@ -655,6 +655,354 @@ section { padding: 100px 0; }
 .edu-info h4 { color: #ffffff; font-size: 1.1rem; margin-bottom: 6px; }
 .edu-info p { color: #94a3b8; font-size: 0.9rem; margin: 0; font-weight: 400; }
 
+/* ==========================================
+   ABOUT GEOLAND
+========================================== */
+
+.about-overview-card {
+  width: 100%;
+  max-width: 950px;
+  margin: 45px auto 0;
+  padding: 38px 42px;
+  border-radius: 16px;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(15, 23, 42, 0.4) 0%,
+      rgba(15, 23, 42, 0.1) 100%
+    );
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 42px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+/* ==========================================
+   OVERVIEW — LEFT
+========================================== */
+
+.about-overview-main {
+  text-align: center;
+}
+
+.about-overview-main .home-card-icon {
+  margin-bottom: 20px;
+}
+
+.about-overview-main .geo-badge {
+  margin-bottom: 14px;
+}
+
+.about-overview-main h3 {
+  color: #ffffff;
+  font-size: 1.9rem;
+  margin-bottom: 12px;
+}
+
+.about-overview-main p {
+  max-width: 400px;
+  margin: 0 auto;
+  color: #94a3b8;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  font-weight: 300;
+  text-align: center !important;
+}
+
+
+/* ==========================================
+   PLATFORM CAPABILITIES — RIGHT
+========================================== */
+
+.about-capabilities {
+  border-left: 1px solid rgba(0, 240, 255, 0.1);
+  padding-left: 36px;
+}
+
+.about-capabilities-title {
+  color: #ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 16px;
+}
+
+.about-capability-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.about-capability-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: 8px;
+
+  background: rgba(0, 240, 255, 0.03);
+  border: 1px solid rgba(0, 240, 255, 0.08);
+
+  color: #cbd5e1;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  box-sizing: border-box;
+}
+
+.capability-dot {
+  width: 5px;
+  height: 5px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #00f0ff;
+  box-shadow: 0 0 7px rgba(0, 240, 255, 0.6);
+}
+
+
+/* ==========================================
+   FOUNDER + APPROACH
+========================================== */
+
+.about-founder-grid {
+  width: 100%;
+  max-width: 950px;
+  margin: 24px auto 0;
+
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 24px;
+
+  align-items: start;
+  box-sizing: border-box;
+}
+
+.about-founder-card,
+.about-story-card {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  padding: 30px;
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(15, 23, 42, 0.4) 0%,
+      rgba(15, 23, 42, 0.1) 100%
+    );
+
+  border: 1px solid rgba(255, 255, 255, 0.03);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  box-sizing: border-box;
+  align-self: start;
+}
+
+
+/* ==========================================
+   FOUNDER CARD
+========================================== */
+
+.about-founder-card {
+  text-align: center;
+}
+
+.about-founder-card .feature-icon {
+  margin: 0 auto 18px auto;
+}
+
+.about-founder-card .geo-badge {
+  margin-bottom: 14px;
+}
+
+.about-founder-card h3 {
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.about-founder-role {
+  color: #00f0ff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 18px;
+}
+
+.about-founder-card p {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  font-weight: 300;
+  text-align: center !important;
+}
+
+
+/* ==========================================
+   STORY / APPROACH CARD
+========================================== */
+
+.about-story-card {
+  text-align: left;
+}
+
+.about-story-heading {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.about-story-heading .geo-badge {
+  margin-bottom: 12px;
+}
+
+.about-story-heading h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.35rem;
+  line-height: 1.35;
+}
+
+
+/* IMPORTANT:
+   SINGLE COLUMN — NO GRID
+*/
+
+.about-story-content {
+  width: 100%;
+  display: block;
+}
+
+
+.about-story-content p {
+  max-width: 560px;
+  margin: 0 auto;
+  color: #94a3b8;
+  font-size: 0.92rem;
+  line-height: 1.75;
+  font-weight: 300;
+  text-align: center !important;
+}
+
+
+/* ==========================================
+   APPROACH PRINCIPLE CARD
+========================================== */
+
+.about-approach-card {
+  width: 100%;
+  max-width: 950px;
+  margin: 24px auto 0;
+  padding: 30px 40px;
+  box-sizing: border-box;
+}
+
+.about-approach-card .title-wrapper {
+  margin-bottom: 18px;
+}
+
+.about-approach-card .geo-badge {
+  margin-bottom: 12px;
+}
+
+.about-approach-card h2 {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 1.55rem;
+  line-height: 1.35;
+}
+
+.about-approach-card p {
+  max-width: 780px;
+  margin: 0 auto;
+
+  color: #cbd5e1;
+  font-size: 0.94rem;
+  line-height: 1.7;
+  font-weight: 300;
+
+  text-align: center !important;
+}
+
+
+/* ==========================================
+   ABOUT MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+  .about-overview-card {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 30px 24px;
+  }
+
+  .about-capabilities {
+    border-left: none;
+    border-top: 1px solid rgba(0, 240, 255, 0.1);
+    padding-left: 0;
+    padding-top: 26px;
+  }
+
+  .about-capability-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-founder-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .about-story-content {
+    display: block;
+  }
+
+  .about-story-content p {
+    max-width: none;
+  }
+
+  .about-approach-card {
+    padding: 28px 24px;
+  }
+
+}
+
+
+/* ==========================================
+   ABOUT SMALL MOBILE
+========================================== */
+
+@media (max-width: 480px) {
+
+  .about-overview-card {
+    padding: 28px 20px;
+  }
+
+  .about-founder-card,
+  .about-story-card {
+    padding: 28px 22px;
+  }
+
+  .about-approach-card {
+    padding: 26px 20px;
+  }
+
+}
+
 /* ===== VIEW 4: CONTACT US ===== */
 .contact-corporate-card {
   max-width: 700px;
@@ -1787,4 +2135,131 @@ body .radar{
   margin-right: auto;
   text-align: center !important;
   line-height: 1.75;
+}
+
+/* ==========================================
+   ABOUT FOUNDER + APPROACH — FINAL LAYOUT
+========================================== */
+
+.about-founder-grid {
+  width: 100%;
+  max-width: 950px;
+  margin: 24px auto 0;
+
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 24px;
+
+  align-items: start;
+  box-sizing: border-box;
+}
+
+
+.about-founder-card,
+.about-story-card {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  align-self: start;
+  box-sizing: border-box;
+}
+
+
+.about-founder-card {
+  text-align: center;
+}
+
+
+.about-founder-card p {
+  margin: 0;
+  text-align: center !important;
+}
+
+
+/* ==========================================
+   THE APPROACH CARD
+========================================== */
+
+.about-story-card {
+  text-align: center;
+}
+
+
+.about-story-heading {
+  width: 100%;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+
+.about-story-heading .geo-badge {
+  margin-bottom: 12px;
+}
+
+
+.about-story-heading h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.35rem;
+  line-height: 1.35;
+  text-align: center;
+}
+
+
+/* SINGLE COLUMN — CENTERED */
+
+.about-story-content {
+  width: 100%;
+  display: block;
+  text-align: center !important;
+}
+
+
+.about-story-content p {
+  max-width: 560px;
+  margin: 0 auto !important;
+
+  color: #94a3b8;
+  font-size: 0.92rem;
+  line-height: 1.75;
+  font-weight: 300;
+
+  text-align: center !important;
+}
+
+
+/* ==========================================
+   ABOUT MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+  .about-founder-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .about-story-card {
+    text-align: center;
+  }
+
+  .about-story-heading {
+    text-align: center;
+  }
+
+  .about-story-heading h3 {
+    text-align: center;
+  }
+
+  .about-story-content {
+    display: block;
+    text-align: center !important;
+  }
+
+  .about-story-content p {
+    max-width: none;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
 }

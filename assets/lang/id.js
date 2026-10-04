@@ -947,7 +947,26 @@ about_principle_title:
 
 about_principle_p:
     "Peta hanyalah salah satu komponen. Nilai sebuah platform geospasial muncul ketika data, analisis, automation, integration, dan user workflow dirancang menjadi satu sistem yang benar-benar mendukung pekerjaan.",
-    
+
+about_identity_badge: "PRAKTIK TEKNOLOGI GEOSPASIAL",
+about_identity_title: "GeoLand",
+about_identity_desc: "Praktik teknologi geospasial independen yang membangun platform digital kustom berdasarkan kebutuhan dan workflow operasional nyata.",
+
+about_capabilities_title: "KAPABILITAS PLATFORM",
+about_capability_1: "Pengembangan Platform Geospasial",
+about_capability_2: "Location Intelligence & Decision Support",
+about_capability_3: "Infrastruktur Data Spasial",
+about_capability_4: "WebGIS & Interactive Mapping",
+about_capability_5: "3D Geospatial & Digital Twin",
+about_capability_6: "Earth Observation & Satellite Analytics",
+about_capability_7: "AI-Assisted Spatial Workflows",
+about_capability_8: "Spatial Automation & System Integration",
+
+about_founder_badge: "FOUNDER",
+about_founder_desc: "GeoLand dibangun dengan pendekatan engineering geospasial praktis yang menggabungkan data spasial, analytics, software development, dan visualisasi modern menjadi sistem digital yang dapat digunakan.",
+
+about_story_badge: "PENDEKATAN",
+about_story_title: "Dari Data Geospasial Menjadi Sistem Operasional",
 
     // =========================
     // Contact

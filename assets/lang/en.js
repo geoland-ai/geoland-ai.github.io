@@ -946,7 +946,26 @@ about_principle_title:
 
 about_principle_p:
     "A map is only one component. The real value of a geospatial platform comes from bringing data, analytics, automation, integrations, and user workflows together into a system that supports real work.",
-    
+
+about_identity_badge: "GEOSPATIAL TECHNOLOGY PRACTICE",
+about_identity_title: "GeoLand",
+about_identity_desc: "An independent geospatial technology practice focused on building custom digital platforms around real operational workflows.",
+
+about_capabilities_title: "PLATFORM CAPABILITIES",
+about_capability_1: "Geospatial Platform Engineering",
+about_capability_2: "Location Intelligence & Decision Support",
+about_capability_3: "Spatial Data Infrastructure",
+about_capability_4: "WebGIS & Interactive Mapping",
+about_capability_5: "3D Geospatial & Digital Twin",
+about_capability_6: "Earth Observation & Satellite Analytics",
+about_capability_7: "AI-Assisted Spatial Workflows",
+about_capability_8: "Spatial Automation & System Integration",
+
+about_founder_badge: "FOUNDER",
+about_founder_desc: "GeoLand is built around practical geospatial engineering, combining spatial data, analytics, software development, and modern visualization into usable digital systems.",
+
+about_story_badge: "THE APPROACH",
+about_story_title: "From Geospatial Data to Operational Systems",
 
     // =========================
     // Contact
