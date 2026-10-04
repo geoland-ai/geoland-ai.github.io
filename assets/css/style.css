@@ -152,11 +152,16 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
+
+  flex-shrink: 0;
+
   line-height: 1;
   font-weight: 800;
-  font-size: 1.75rem;
+  font-size: 1.85rem;
   font-family: 'Space Grotesk', sans-serif;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.6px;
+
   text-decoration: none;
   user-select: none;
   white-space: nowrap;
@@ -191,24 +196,35 @@ header {
 
 .location-text {
   display: block;
-  margin-top: 5px;
-  font-size: 0.62rem;
-  font-weight: 700;
+
+  margin-top: 6px;
+
+  font-size: 0.48rem;
+  font-weight: 500;
   font-family: 'Inter', sans-serif;
-  letter-spacing: 3.2px;
-  line-height: 1.2;
+
+  letter-spacing: 1.8px;
+  line-height: 1.15;
+
   text-transform: uppercase;
-  color: rgba(0, 229, 255, 0.85);
-  -webkit-text-fill-color: rgba(0, 229, 255, 0.85);
+  white-space: nowrap;
+
+  color: rgba(0, 229, 255, 0.62);
+  -webkit-text-fill-color: rgba(0, 229, 255, 0.62);
 }
+
 nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
   gap: 20px;
+
   flex-wrap: nowrap;
   flex: 1;
   min-width: 0;
+
+  margin-left: 24px;
 }
 
 nav a {

@@ -4,7 +4,7 @@ const en = {
     // Branding & Navigation
     // =========================
 
-    brand_tagline: "Custom Geospatial Platform Development",
+    brand_tagline: "Geospatial Platform Engineering",
 
 nav_home: "Home",
 nav_how_we_work: "How We Work",

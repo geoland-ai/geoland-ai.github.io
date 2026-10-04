@@ -4,8 +4,7 @@ const id = {
     // Branding & Navigation
     // =========================
 
-    brand_tagline:
-    "Pengembangan Platform Geospasial Kustom",
+brand_tagline: "Geospatial Platform Engineering",
 
 nav_home: "Beranda",
 nav_how_we_work: "Cara Kami Bekerja",
