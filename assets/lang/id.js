@@ -162,59 +162,58 @@ process_cta_text:
 process_cta_button:
     "Diskusikan Proyek",
 
-    // =========================
-    // Why Custom Geospatial Platforms
-    // =========================
+// =========================
+// Your Platform
+// =========================
 
 value_badge:
-    "KENAPA CUSTOM",
+    "PLATFORM SENDIRI",
 
 value_title:
-    "Dibangun Berdasarkan Data dan Workflow Anda.",
+    "Bangun Platform yang Mengikuti Cara Kerja Anda.",
 
 value_subtitle:
-    "Platform geospasial kustom memungkinkan teknologi, data, analisis, dan user experience disusun sesuai kebutuhan organisasi tanpa memaksa workflow mengikuti aplikasi generik.",
+    "Platform geospasial sendiri memberi organisasi kendali atas data, teknologi, analisis, integrasi, dan pengalaman pengguna — sehingga sistem dapat dibangun untuk kebutuhan nyata, bukan menyesuaikan workflow dengan aplikasi generik.",
 
 
-    value_ai_badge:
-        "SELF-HOSTED AI",
+value_ai_badge:
+    "AI TERINTEGRASI",
 
-    value_ai_title:
-        "AI Lokal Tanpa Biaya Token API",
+value_ai_title:
+    "AI yang Menjadi Bagian dari Workflow",
 
-    value_ai_desc:
-        "Jalankan model AI secara lokal menggunakan teknologi seperti Ollama, sehingga mengurangi ketergantungan pada API AI komersial berbasis per-request dan memungkinkan workflow AI berjalan di dalam infrastruktur Anda sendiri.",
-
-
-    value_privacy_badge:
-        "DATA CONTROL",
-
-    value_privacy_title:
-        "Privasi & Kontrol Data",
-
-    value_privacy_desc:
-        "Untuk deployment self-hosted, data spasial sensitif dan proses AI dapat tetap berada di dalam infrastruktur organisasi tanpa harus dikirim ke layanan AI pihak ketiga.",
+value_ai_desc:
+    "Integrasikan AI ke dalam proses geospasial Anda untuk membantu pencarian data, analisis, interpretasi, otomasi, dan pengambilan keputusan tanpa menjadikan AI sebagai aplikasi yang berdiri sendiri.",
 
 
-    value_ux_badge:
-        "CUSTOM UX",
+value_privacy_badge:
+    "DATA CONTROL",
 
-    value_ux_title:
-        "UI/UX Dibangun Sesuai Workflow",
+value_privacy_title:
+    "Data Tetap di Bawah Kendali Anda",
 
-    value_ux_desc:
-        "Antarmuka dirancang berdasarkan pengguna, role, data, dan proses operasional Anda — bukan berdasarkan antarmuka GIS generik.",
+value_privacy_desc:
+    "Platform dapat dirancang dengan deployment dan infrastruktur yang sesuai kebutuhan organisasi, sehingga data spasial, proses analisis, dan workflow internal dapat dikelola dengan kontrol yang lebih besar.",
 
 
-    value_integration_badge:
-        "INTEGRATION",
+value_ux_badge:
+    "CUSTOM WORKFLOW",
 
-    value_integration_title:
-        "Terintegrasi & Fleksibel",
+value_ux_title:
+    "Antarmuka untuk Pekerjaan Anda",
 
-    value_integration_desc:
-        "Hubungkan database spasial, API, analisis, otomasi, AI, reporting, dan sistem lainnya ke dalam satu workflow geospasial yang disesuaikan.",
+value_ux_desc:
+    "Bangun pengalaman pengguna berdasarkan role, proses, dan kebutuhan operasional organisasi — dari pengumpulan data hingga analisis, visualisasi, reporting, dan keputusan.",
 
+
+value_integration_badge:
+    "INTEGRATION",
+
+value_integration_title:
+    "Semua Terhubung dalam Satu Platform",
+
+value_integration_desc:
+    "Hubungkan database spasial, API, satellite data, analisis, otomasi, AI, reporting, dan sistem organisasi lainnya dalam satu workflow yang dapat terus dikembangkan.",
 
     // =========================
     // Design Principle

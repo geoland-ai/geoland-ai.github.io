@@ -165,59 +165,59 @@ process_cta_button:
     "Discuss a Project",
 
 
-    // =========================
-    // Why Custom Geospatial Platforms
-    // =========================
+// =========================
+// Your Platform
+// =========================
 
 value_badge:
-    "WHY CUSTOM",
+    "YOUR OWN PLATFORM",
 
 value_title:
-    "Built Around Your Data and Workflow.",
+    "Build a Platform Around the Way You Work.",
 
 value_subtitle:
-    "Custom geospatial platforms allow technology, data, analytics, and user experience to be designed around the organization's needs instead of forcing the workflow into a generic application.",
+    "Your own geospatial platform gives your organization greater control over data, technology, analysis, integrations, and user experience — allowing the system to be built around real operational needs instead of adapting workflows to generic applications.",
+
+
+value_ai_badge:
+    "INTEGRATED AI",
+
+value_ai_title:
+    "AI Built Into Your Workflow",
+
+value_ai_desc:
+    "Integrate AI directly into your geospatial workflows to support data discovery, analysis, interpretation, automation, and decision-making without treating AI as a separate application.",
+
+
+value_privacy_badge:
+    "DATA CONTROL",
+
+value_privacy_title:
+    "Keep Your Data Under Your Control",
+
+value_privacy_desc:
+    "Deploy the platform and its infrastructure according to your organization's requirements, giving you greater control over spatial data, analytical processes, and internal workflows.",
+
+
+value_ux_badge:
+    "CUSTOM WORKFLOW",
+
+value_ux_title:
+    "An Interface Built for Your Work",
+
+value_ux_desc:
+    "Design the user experience around your organization's roles, processes, and operational needs — from data collection to analysis, visualization, reporting, and decision-making.",
+
+
+value_integration_badge:
+    "INTEGRATION",
+
+value_integration_title:
+    "Connect Everything in One Platform",
+
+value_integration_desc:
+    "Connect spatial databases, APIs, satellite data, analytics, automation, AI, reporting, and other organizational systems into a single workflow that can continuously evolve.",
     
-
-    value_ai_badge:
-        "SELF-HOSTED AI",
-
-    value_ai_title:
-        "Local AI, No Per-Token API Costs",
-
-    value_ai_desc:
-        "Run AI models locally with technologies such as Ollama, reducing dependency on commercial per-request AI APIs and allowing AI workflows to operate within your own infrastructure.",
-
-
-    value_privacy_badge:
-        "DATA CONTROL",
-
-    value_privacy_title:
-        "Privacy & Data Control",
-
-    value_privacy_desc:
-        "For self-hosted deployments, sensitive spatial data and AI processing can remain within your organization's infrastructure instead of being sent to third-party AI services.",
-
-
-    value_ux_badge:
-        "CUSTOM UX",
-
-    value_ux_title:
-        "UI/UX Built Around the Workflow",
-
-    value_ux_desc:
-        "Design the interface around your users, roles, data, and operational processes — not around a generic GIS interface.",
-
-
-    value_integration_badge:
-        "INTEGRATION",
-
-    value_integration_title:
-        "Integrated & Flexible",
-
-    value_integration_desc:
-        "Connect spatial databases, APIs, analytics, automation, AI, reporting, and other systems into one tailored geospatial workflow.",
-
 
     // =========================
     // Design Principle
