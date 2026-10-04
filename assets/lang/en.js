@@ -9,7 +9,7 @@ const en = {
 nav_home: "Home",
 nav_how_we_work: "How We Work",
 nav_features: "Solutions",
-nav_why_custom: "Why Custom",
+nav_why_custom: "YOUR OWN PLATFORM",
 nav_pricing: "Pricing",
 nav_tour: "Showcase",
 nav_gallery: "Map Gallery",
@@ -217,7 +217,7 @@ value_integration_title:
 
 value_integration_desc:
     "Connect spatial databases, APIs, satellite data, analytics, automation, AI, reporting, and other organizational systems into a single workflow that can continuously evolve.",
-    
+
 
     // =========================
     // Design Principle
@@ -227,7 +227,7 @@ principle_badge:
     "DESIGN PRINCIPLE",
 
 principle_title:
-    "Complex Technology. Simple User Experience.",
+    "Powerful Systems. Simple Workflows.",
 
 principle_p1:
     "Geospatial platforms can involve large datasets, spatial analytics, APIs, automation, AI, and multiple interconnected services.",

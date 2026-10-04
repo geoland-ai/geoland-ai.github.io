@@ -223,7 +223,7 @@ principle_badge:
     "PRINSIP DESAIN",
 
 principle_title:
-    "Teknologi Kompleks. Pengalaman Tetap Sederhana.",
+    "Sistem yang Kuat. Alur Kerja yang Sederhana.",
 
 principle_p1:
     "Platform geospasial dapat melibatkan dataset besar, spatial analytics, API, automation, AI, dan berbagai service yang saling terhubung.",
