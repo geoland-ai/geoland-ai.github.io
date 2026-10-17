@@ -1,12 +1,18 @@
 /* IMPORT FUTURISTIC & CLEAN FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@500;700;800&display=swap");
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   /* Font Outfit untuk clean readability */
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   color: #e2e8f0;
   /* Deep Obsidian Background */
   background: #05070f;
@@ -16,7 +22,6 @@ body {
   position: relative;
   isolation: isolate;
 }
-
 
 p,
 .contact-desc,
@@ -30,12 +35,24 @@ p,
 }
 
 /* Terapkan font techy untuk heading */
-h1, h2, h3, h4, .logo, .section-title, .geo-badge {
-  font-family: 'Space Grotesk', sans-serif;
+h1,
+h2,
+h3,
+h4,
+.logo,
+.section-title,
+.geo-badge {
+  font-family: "Space Grotesk", sans-serif;
 }
 
-a { text-decoration: none; color: inherit; }
-img { max-width: 100%; display: block; }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
 
 /* 
   ===================================
@@ -57,14 +74,7 @@ body .radar {
   background:
     /* Glow halus di tengah radar sedikit diredupkan */
     radial-gradient(circle, rgba(0, 240, 255, 0.03), transparent 60%),
-    /* Garis lingkaran radar dibuat lebih proporsional (tidak terlalu mencolok) */
-    repeating-radial-gradient(
-      circle,
-      rgba(0, 240, 255, 0.08) 0px,
-      rgba(0, 240, 255, 0.15) 1.5px,
-      transparent 1.5px,
-      transparent 80px
-    );
+    /* Garis lingkaran radar dibuat lebih proporsional (tidak terlalu mencolok) */ repeating-radial-gradient(circle, rgba(0, 240, 255, 0.08) 0px, rgba(0, 240, 255, 0.15) 1.5px, transparent 1.5px, transparent 80px);
 }
 
 /* Sapuan Scanner (Sweep) diperpendek dan diredupkan */
@@ -77,8 +87,8 @@ body .radar::before {
   background: conic-gradient(
     from 0deg,
     transparent 0deg,
-    transparent 0deg, /* DITAMBAH: Ekor dipotong, membuat sapuan lebih pendek */
-    rgba(0, 240, 255, 0.08) 330deg,
+    transparent 0deg,
+    /* DITAMBAH: Ekor dipotong, membuat sapuan lebih pendek */ rgba(0, 240, 255, 0.08) 330deg,
     rgba(0, 240, 255, 0.15) 355deg,
     rgba(200, 245, 255, 0.25) 360deg /* DITURUNKAN: Ujung jarum tidak terlalu silau */
   );
@@ -94,40 +104,54 @@ body .radar::after {
   pointer-events: none;
   background:
     /* Titik Cyan */
-    radial-gradient(circle at 10% 20%, #00f0ff 1.5px, rgba(0,240,255,0.4) 4px, transparent 6px),
-    radial-gradient(circle at 40% 35%, #00f0ff 2px, rgba(0,240,255,0.5) 5px, transparent 8px),
-    radial-gradient(circle at 80% 75%, #00f0ff 1px, rgba(0,240,255,0.4) 3px, transparent 5px),
-    radial-gradient(circle at 15% 55%, #00f0ff 1.5px, rgba(0,240,255,0.4) 4px, transparent 6px),
-    radial-gradient(circle at 65% 15%, #00f0ff 1.5px, rgba(0,240,255,0.4) 4px, transparent 6px),
-    radial-gradient(circle at 85% 20%, #00f0ff 1px, rgba(0,240,255,0.4) 3px, transparent 5px),
-    /* Titik Violet */
-    radial-gradient(circle at 25% 80%, #8a2be2 1.5px, rgba(138,43,226,0.5) 4px, transparent 6px),
-    radial-gradient(circle at 70% 25%, #8a2be2 2px, rgba(138,43,226,0.5) 5px, transparent 8px),
-    radial-gradient(circle at 50% 60%, #8a2be2 1px, rgba(138,43,226,0.4) 3px, transparent 5px),
-    radial-gradient(circle at 85% 40%, #8a2be2 1.5px, rgba(138,43,226,0.4) 4px, transparent 6px),
-    radial-gradient(circle at 35% 15%, #8a2be2 1.5px, rgba(138,43,226,0.4) 4px, transparent 6px),
-    /* Titik Putih Terang */
-    radial-gradient(circle at 55% 85%, #ffffff 1px, rgba(255,255,255,0.4) 3px, transparent 5px),
-    radial-gradient(circle at 90% 60%, #ffffff 1.5px, rgba(255,255,255,0.5) 4px, transparent 6px),
-    radial-gradient(circle at 30% 40%, #ffffff 1px, rgba(255,255,255,0.4) 3px, transparent 5px),
-    radial-gradient(circle at 15% 85%, #ffffff 1.5px, rgba(255,255,255,0.4) 4px, transparent 6px);
-  
+    radial-gradient(circle at 10% 20%, #00f0ff 1.5px, rgba(0, 240, 255, 0.4) 4px, transparent 6px),
+    radial-gradient(circle at 40% 35%, #00f0ff 2px, rgba(0, 240, 255, 0.5) 5px, transparent 8px),
+    radial-gradient(circle at 80% 75%, #00f0ff 1px, rgba(0, 240, 255, 0.4) 3px, transparent 5px),
+    radial-gradient(circle at 15% 55%, #00f0ff 1.5px, rgba(0, 240, 255, 0.4) 4px, transparent 6px),
+    radial-gradient(circle at 65% 15%, #00f0ff 1.5px, rgba(0, 240, 255, 0.4) 4px, transparent 6px),
+    radial-gradient(circle at 85% 20%, #00f0ff 1px, rgba(0, 240, 255, 0.4) 3px, transparent 5px),
+    /* Titik Violet */ radial-gradient(circle at 25% 80%, #8a2be2 1.5px, rgba(138, 43, 226, 0.5) 4px, transparent 6px),
+    radial-gradient(circle at 70% 25%, #8a2be2 2px, rgba(138, 43, 226, 0.5) 5px, transparent 8px),
+    radial-gradient(circle at 50% 60%, #8a2be2 1px, rgba(138, 43, 226, 0.4) 3px, transparent 5px),
+    radial-gradient(circle at 85% 40%, #8a2be2 1.5px, rgba(138, 43, 226, 0.4) 4px, transparent 6px),
+    radial-gradient(circle at 35% 15%, #8a2be2 1.5px, rgba(138, 43, 226, 0.4) 4px, transparent 6px),
+    /* Titik Putih Terang */ radial-gradient(circle at 55% 85%, #ffffff 1px, rgba(255, 255, 255, 0.4) 3px, transparent 5px),
+    radial-gradient(circle at 90% 60%, #ffffff 1.5px, rgba(255, 255, 255, 0.5) 4px, transparent 6px),
+    radial-gradient(circle at 30% 40%, #ffffff 1px, rgba(255, 255, 255, 0.4) 3px, transparent 5px),
+    radial-gradient(circle at 15% 85%, #ffffff 1.5px, rgba(255, 255, 255, 0.4) 4px, transparent 6px);
+
   /* Animasi kedip yang lebih responsif */
   animation: dotPulse 2.5s ease-in-out infinite alternate;
 }
 
-@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-
-@keyframes dotPulse {
-  0% { opacity: 0.15; filter: brightness(0.8) drop-shadow(0 0 0px transparent); }
-  100% { opacity: 1; filter: brightness(1.5) drop-shadow(0 0 8px #00f0ff); }
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.container { width: min(1150px, 92%); margin: auto; }
+@keyframes dotPulse {
+  0% {
+    opacity: 0.15;
+    filter: brightness(0.8) drop-shadow(0 0 0px transparent);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1.5) drop-shadow(0 0 8px #00f0ff);
+  }
+}
+
+.container {
+  width: min(1150px, 92%);
+  margin: auto;
+}
 
 /* DESKTOP DEFAULT */
-.menu-toggle{
-  display:none;
+.menu-toggle {
+  display: none;
 }
 
 /* ===== NAVIGATION ===== */
@@ -159,7 +183,7 @@ header {
   line-height: 1;
   font-weight: 800;
   font-size: 1.85rem;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   letter-spacing: -0.6px;
 
   text-decoration: none;
@@ -201,7 +225,7 @@ header {
 
   font-size: 0.48rem;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
   letter-spacing: 1.8px;
   line-height: 1.15;
@@ -268,7 +292,7 @@ nav a.active-nav {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.02);
   color: #ffffff;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 0.85rem; /* Font diperbesar */
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -288,11 +312,10 @@ nav a.active-nav {
 
 /* Menghilangkan pemisah / simbol | */
 .language-switch span {
-  display: none; 
+  display: none;
 }
 
 @media (max-width: 1100px) {
-
   nav {
     gap: 12px;
   }
@@ -304,7 +327,6 @@ nav a.active-nav {
   .language-switch {
     margin-left: 12px;
   }
-
 }
 
 /* ==========================================
@@ -316,7 +338,7 @@ nav a.active-nav {
   margin: 0 auto 14px auto;
   color: #ffffff;
   text-align: center;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: clamp(2.35rem, 5vw, 4rem);
   line-height: 1.05;
   font-weight: 700;
@@ -328,7 +350,7 @@ nav a.active-nav {
   margin: 0 auto;
   color: rgba(148, 163, 184, 0.82);
   text-align: center !important;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: clamp(0.98rem, 1.5vw, 1.12rem);
   line-height: 1.75;
   font-weight: 300;
@@ -405,7 +427,6 @@ nav a.active-nav {
   }
 }
 
-
 /* Clean Glassmorphism */
 .glass {
   background: rgba(15, 23, 42, 0.3);
@@ -416,49 +437,68 @@ nav a.active-nav {
 
 /* TIMPA KODE DARI .btn SAMPAI .feature-btn:hover DI REUSABLE COMPONENT STYLES */
 
-.btn, .btn-primary, .btn-secondary, .feature-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 22px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.02);
-    color: #ffffff;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 600;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    
-    /* FIX HP: Mencegah tombol melar mengikuti lebar layar */
-    width: fit-content; 
-    white-space: nowrap;
+.btn,
+.btn-primary,
+.btn-secondary,
+.feature-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+  color: #ffffff;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* FIX HP: Mencegah tombol melar mengikuti lebar layar */
+  width: fit-content;
+  white-space: nowrap;
 }
 
-.btn:hover, .btn-primary:hover, .btn-secondary:hover, .feature-btn:hover {
-    border-color: #00f0ff;
-    background: rgba(0, 240, 255, 0.05);
-    color: #00f0ff;
-    text-shadow: none;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 240, 255, 0.1);
+.btn:hover,
+.btn-primary:hover,
+.btn-secondary:hover,
+.feature-btn:hover {
+  border-color: #00f0ff;
+  background: rgba(0, 240, 255, 0.05);
+  color: #00f0ff;
+  text-shadow: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 240, 255, 0.1);
 }
-
 
 /* ===== ROUTER VIEWS CONTROLLER ===== */
-.view-section { display: none; }
-.view-section.active-view { display: block; animation: slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
+.view-section {
+  display: none;
+}
+.view-section.active-view {
+  display: block;
+  animation: slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
 
 @keyframes slideUpFade {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ===== VIEW 1: HOME PAGE ===== */
-.hero-corporate { text-align: center; padding: 80px 0 50px 0; }
+.hero-corporate {
+  text-align: center;
+  padding: 80px 0 50px 0;
+}
 .hero-corporate h1 {
   font-size: clamp(2.5rem, 6vw, 4.5rem);
   line-height: 1.1;
@@ -484,7 +524,9 @@ nav a.active-nav {
   border-radius: 16px;
   overflow: hidden;
   border: 1px solid rgba(0, 240, 255, 0.2);
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), 0 0 30px rgba(0, 240, 255, 0.1);
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(0, 240, 255, 0.1);
   aspect-ratio: 16/9;
   position: relative;
   background: #080c17;
@@ -497,7 +539,14 @@ nav a.active-nav {
   pointer-events: none;
   z-index: 1;
 }
-.dashboard-panel video, .dashboard-panel img { width: 100%; height: 100%; object-fit: cover; opacity: 0.9; filter: contrast(1.1); }
+.dashboard-panel video,
+.dashboard-panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+  filter: contrast(1.1);
+}
 .panel-placeholder {
   position: absolute;
   inset: 0;
@@ -509,12 +558,24 @@ nav a.active-nav {
   text-align: center;
   background: radial-gradient(circle, #0c1222 0%, #05070f 100%);
 }
-.panel-placeholder svg { width: 56px; height: 56px; color: #00f0ff; margin-bottom: 16px; filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.4)); }
+.panel-placeholder svg {
+  width: 56px;
+  height: 56px;
+  color: #00f0ff;
+  margin-bottom: 16px;
+  filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.4));
+}
 
 /* =====================================
    GEOLAND DESCRIPTION
 ===================================== */
-.title-wrapper { display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 30px; }
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 .geoland-description {
   max-width: 950px;
@@ -524,12 +585,12 @@ nav a.active-nav {
   background: rgba(15, 23, 42, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 .geo-badge {
   display: inline-block;
   padding: 6px 14px;
-  border-radius: 4px; 
+  border-radius: 4px;
   background: rgba(0, 240, 255, 0.1);
   border: 1px solid rgba(0, 240, 255, 0.3);
   color: #00f0ff;
@@ -538,9 +599,21 @@ nav a.active-nav {
   text-transform: uppercase;
   margin-bottom: 24px;
 }
-.geoland-description h2 { font-size: 2rem; margin-bottom: 20px; color: #ffffff; }
-.geoland-description p { color: #cbd5e1; font-size: 1.05rem; line-height: 1.8; margin-bottom: 20px; font-weight: 300; }
-.geoland-description p:last-child { margin-bottom: 0; }
+.geoland-description h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.geoland-description p {
+  color: #cbd5e1;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.geoland-description p:last-child {
+  margin-bottom: 0;
+}
 
 /* ===================================
    FEATURES
@@ -559,14 +632,18 @@ nav a.active-nav {
   backdrop-filter: blur(12px);
   transition: all 0.4s ease;
   position: relative;
-  overflow: hidden;display: flex;
+  overflow: hidden;
+  display: flex;
   flex-direction: column;
   height: 100%;
 }
 .feature-card::before {
   content: "";
   position: absolute;
-  top: 0; left: 0; width: 100%; height: 1px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
   background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.5), transparent);
   opacity: 0;
   transition: opacity 0.4s;
@@ -576,7 +653,9 @@ nav a.active-nav {
   border-color: rgba(0, 240, 255, 0.2);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
-.feature-card:hover::before { opacity: 1; }
+.feature-card:hover::before {
+  opacity: 1;
+}
 
 .feature-icon {
   width: 56px;
@@ -591,22 +670,30 @@ nav a.active-nav {
   border: 1px solid rgba(0, 240, 255, 0.15);
   margin-bottom: 24px;
 }
-.feature-card h3 { font-size: 1.25rem; margin-bottom: 16px; color: #f8fafc; }
-.feature-card p { 
-  color: #94a3b8; 
-  line-height: 1.7; 
-  font-size: 0.95rem; 
-  font-weight: 300; 
-  /* Mendorong tombol ke bawah dan memberi jarak */
-  flex-grow: 1; 
-  margin-bottom: 24px; 
+.feature-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+  color: #f8fafc;
 }
-
+.feature-card p {
+  color: #94a3b8;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  font-weight: 300;
+  /* Mendorong tombol ke bawah dan memberi jarak */
+  flex-grow: 1;
+  margin-bottom: 24px;
+}
 
 /* ===================================
    PRODUCT TOUR
 =================================== */
-.tour-stack { display: flex; flex-direction: column; gap: 40px; margin-top: 60px; }
+.tour-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 60px;
+}
 .tour-card {
   padding: 40px;
   border-radius: 16px;
@@ -615,10 +702,22 @@ nav a.active-nav {
   backdrop-filter: blur(12px);
   transition: 0.3s;
 }
-.tour-card:hover { border-color: rgba(138, 43, 226, 0.3); } 
-.tour-header { margin-bottom: 30px; }
-.tour-header h3 { font-size: 1.8rem; color: #fff; margin-bottom: 12px; }
-.tour-header p { color: #94a3b8; line-height: 1.7; font-weight: 300; }
+.tour-card:hover {
+  border-color: rgba(138, 43, 226, 0.3);
+}
+.tour-header {
+  margin-bottom: 30px;
+}
+.tour-header h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.tour-header p {
+  color: #94a3b8;
+  line-height: 1.7;
+  font-weight: 300;
+}
 .tour-media {
   width: 100%;
   max-width: 850px;
@@ -630,8 +729,17 @@ nav a.active-nav {
   position: relative;
   overflow: hidden;
 }
-.tour-media video { width: 100%; height: 100%; object-fit: cover; opacity: 0.85; }
-.tour-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+.tour-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.85;
+}
+.tour-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
 .tour-step {
   padding: 24px;
   border-radius: 12px;
@@ -644,28 +752,32 @@ nav a.active-nav {
 }
 .tour-step span {
   display: block;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
-  color: #8a2be2; 
+  color: #8a2be2;
   margin-bottom: 8px;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-.tour-step p { 
-  margin: 0; 
-  color: #cbd5e1; 
-  line-height: 1.6; 
-  font-size: 0.95rem; 
-  font-weight: 300; 
+.tour-step p {
+  margin: 0;
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  font-weight: 300;
   /* Mendorong tombol ke bawah dan memberi jarak */
-  flex-grow: 1; 
-  margin-bottom: 24px; 
+  flex-grow: 1;
+  margin-bottom: 24px;
 }
 
 /* KODE BARU: Memastikan semua tombol/link di dalam card selalu di tengah bawah */
-.feature-card a, .feature-card button, .feature-card .btn,
-.tour-step a, .tour-step button, .tour-step .btn {
+.feature-card a,
+.feature-card button,
+.feature-card .btn,
+.tour-step a,
+.tour-step button,
+.tour-step .btn {
   margin-top: auto;
   align-self: center;
 }
@@ -696,20 +808,40 @@ nav a.active-nav {
   filter: grayscale(20%) contrast(1.1);
   transition: 0.4s;
 }
-.project-card:hover img { filter: grayscale(0%) contrast(1.1); }
-.project-content { padding: 30px; }
-.project-content h3 { font-size: 1.3rem; margin-bottom: 10px; color: #ffffff; }
-.project-content p { color: #94a3b8; font-size: 0.95rem; margin-bottom: 24px; line-height: 1.7; font-weight: 300; }
+.project-card:hover img {
+  filter: grayscale(0%) contrast(1.1);
+}
+.project-content {
+  padding: 30px;
+}
+.project-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.project-content p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  margin-bottom: 24px;
+  line-height: 1.7;
+  font-weight: 300;
+}
 
 /* ===== VIEW 3: ABOUT ME ===== */
-.about-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 60px; align-items: start; margin-top: 40px; }
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  align-items: start;
+  margin-top: 40px;
+}
 .about-image-wrap {
   position: relative;
   border-radius: 16px;
   overflow: hidden;
   border: 1px solid rgba(0, 240, 255, 0.2);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
-  max-width: 300px; 
+  max-width: 300px;
   margin: 0 auto;
 }
 .about-image-wrap::after {
@@ -719,18 +851,40 @@ nav a.active-nav {
   box-shadow: inset 0 0 30px rgba(0, 240, 255, 0.2);
   pointer-events: none;
 }
-.about-image-wrap img { width: 100%; aspect-ratio: 1/1.1; object-fit: cover; filter: contrast(1.1); }
-.about-details p { color: #cbd5e1; font-size: 1.1rem; margin-bottom: 30px; line-height: 1.8; font-weight: 300; }
+.about-image-wrap img {
+  width: 100%;
+  aspect-ratio: 1/1.1;
+  object-fit: cover;
+  filter: contrast(1.1);
+}
+.about-details p {
+  color: #cbd5e1;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  font-weight: 300;
+}
 
-.skills-box h3 { font-size: 1.1rem; margin-bottom: 16px; color: #ffffff; text-transform: uppercase; letter-spacing: 0.05em; }
-.skills { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 40px; }
+.skills-box h3 {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 40px;
+}
 .skill {
   padding: 8px 16px;
   border-radius: 6px;
   background: rgba(0, 240, 255, 0.05);
   color: #00f0ff;
   font-size: 0.85rem;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 600;
   border: 1px solid rgba(0, 240, 255, 0.2);
   letter-spacing: 0.05em;
@@ -745,9 +899,25 @@ nav a.active-nav {
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
-.edu-logo-frame { width: 52px; height: 52px; flex-shrink: 0; border-radius: 8px; background: #fff; padding: 4px; }
-.edu-info h4 { color: #ffffff; font-size: 1.1rem; margin-bottom: 6px; }
-.edu-info p { color: #94a3b8; font-size: 0.9rem; margin: 0; font-weight: 400; }
+.edu-logo-frame {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px;
+}
+.edu-info h4 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+.edu-info p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin: 0;
+  font-weight: 400;
+}
 
 /* ==========================================
    ABOUT GEOLAND
@@ -759,12 +929,7 @@ nav a.active-nav {
   margin: 45px auto 0;
   padding: 38px 42px;
   border-radius: 16px;
-  background:
-    linear-gradient(
-      180deg,
-      rgba(15, 23, 42, 0.4) 0%,
-      rgba(15, 23, 42, 0.1) 100%
-    );
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.1) 100%);
   border: 1px solid rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -776,7 +941,6 @@ nav a.active-nav {
   align-items: center;
   box-sizing: border-box;
 }
-
 
 /* ==========================================
    OVERVIEW — LEFT
@@ -810,7 +974,6 @@ nav a.active-nav {
   text-align: center !important;
 }
 
-
 /* ==========================================
    PLATFORM CAPABILITIES — RIGHT
 ========================================== */
@@ -822,7 +985,7 @@ nav a.active-nav {
 
 .about-capabilities-title {
   color: #ffffff;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -861,7 +1024,6 @@ nav a.active-nav {
   box-shadow: 0 0 7px rgba(0, 240, 255, 0.6);
 }
 
-
 /* ==========================================
    ABOUT PRINCIPLE
    SINGLE FLOATING COMPOSITION
@@ -877,7 +1039,6 @@ nav a.active-nav {
   text-align: center;
 }
 
-
 /* ==========================================
    MAIN STATEMENT
 ========================================== */
@@ -889,7 +1050,7 @@ nav a.active-nav {
 
   color: #ffffff;
 
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 
   font-size: clamp(2rem, 4vw, 3.25rem);
   font-weight: 700;
@@ -899,7 +1060,6 @@ nav a.active-nav {
 
   text-align: center;
 }
-
 
 /* ==========================================
    SECONDARY STATEMENT
@@ -912,7 +1072,7 @@ nav a.active-nav {
 
   color: rgba(203, 213, 225, 0.9);
 
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 
   font-size: clamp(1.05rem, 2vw, 1.4rem);
   font-weight: 500;
@@ -922,7 +1082,6 @@ nav a.active-nav {
 
   text-align: center;
 }
-
 
 /* ==========================================
    PRINCIPLE DESCRIPTION
@@ -935,7 +1094,7 @@ nav a.active-nav {
 
   color: rgba(148, 163, 184, 0.82);
 
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 
   font-size: 1rem;
   font-weight: 300;
@@ -944,7 +1103,6 @@ nav a.active-nav {
 
   text-align: center !important;
 }
-
 
 /* ==========================================
    FOUNDER ATTRIBUTION
@@ -961,13 +1119,12 @@ nav a.active-nav {
   text-align: center;
 }
 
-
 .about-founder-name {
   margin: 0 0 6px;
 
   color: #ffffff;
 
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 
   font-size: 1.08rem;
   font-weight: 700;
@@ -976,13 +1133,12 @@ nav a.active-nav {
   letter-spacing: -0.015em;
 }
 
-
 .about-founder-attribution .about-founder-role {
   margin: 0;
 
   color: rgba(0, 240, 255, 0.82);
 
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 
   font-size: 0.72rem;
   font-weight: 600;
@@ -992,13 +1148,11 @@ nav a.active-nav {
   letter-spacing: 0.01em;
 }
 
-
 /* ==========================================
    MOBILE
 ========================================== */
 
 @media (max-width: 768px) {
-
   .about-principle {
     margin-top: 55px;
   }
@@ -1025,16 +1179,13 @@ nav a.active-nav {
     margin-top: 48px;
     padding-top: 22px;
   }
-
 }
-
 
 /* ==========================================
    SMALL MOBILE
 ========================================== */
 
 @media (max-width: 480px) {
-
   .about-principle {
     margin-top: 50px;
   }
@@ -1063,7 +1214,6 @@ nav a.active-nav {
   .about-founder-attribution .about-founder-role {
     font-size: 0.68rem;
   }
-
 }
 
 /* ===== VIEW 4: CONTACT US ===== */
@@ -1085,17 +1235,38 @@ nav a.active-nav {
   font-weight: 300;
   text-align: center !important;
 }
-.contact-channels { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 40px; }
+.contact-channels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 40px;
+}
 .channel-item {
-  background: rgba(255,255,255,0.01);
-  border: 1px solid rgba(255,255,255,0.05);
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   padding: 24px;
   border-radius: 12px;
   transition: 0.3s;
 }
-.channel-item:hover { background: rgba(0, 240, 255, 0.02); border-color: rgba(0, 240, 255, 0.3); transform: translateY(-3px); }
-.channel-label { display: block; font-size: 0.8rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; font-family: 'Space Grotesk', sans-serif; }
-.channel-value { font-size: 1.1rem; color: #00f0ff; font-weight: 600; }
+.channel-item:hover {
+  background: rgba(0, 240, 255, 0.02);
+  border-color: rgba(0, 240, 255, 0.3);
+  transform: translateY(-3px);
+}
+.channel-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.channel-value {
+  font-size: 1.1rem;
+  color: #00f0ff;
+  font-weight: 600;
+}
 
 .social-medias {
   display: flex;
@@ -1118,100 +1289,123 @@ nav a.active-nav {
 }
 
 /* ===== FOOTER ===== */
-footer { text-align: center; padding: 40px 0; color: #64748b; font-size: 0.85rem; border-top: 1px solid rgba(255, 255, 255, 0.03); margin-top: auto; letter-spacing: 0.05em; font-family: 'Space Grotesk', sans-serif; }
-
-/* ===== RESPONSIVE MEDIA QUERIES ===== */
-@media(max-width:900px){
-  section{padding:60px 0;}
-  .hero-corporate{padding:40px 0 20px 0;}
-  .hero-corporate h1{font-size:2.2rem;}
-  .project-grid{grid-template-columns:1fr;}
-  .about-grid{grid-template-columns:1fr;gap:40px;}
-  .about-image-wrap{max-width:200px;}
-  .contact-channels{grid-template-columns:1fr;gap:16px;}
+footer {
+  text-align: center;
+  padding: 40px 0;
+  color: #64748b;
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+  margin-top: auto;
+  letter-spacing: 0.05em;
+  font-family: "Space Grotesk", sans-serif;
 }
 
+/* ===== RESPONSIVE MEDIA QUERIES ===== */
+@media (max-width: 900px) {
+  section {
+    padding: 60px 0;
+  }
+  .hero-corporate {
+    padding: 40px 0 20px 0;
+  }
+  .hero-corporate h1 {
+    font-size: 2.2rem;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .about-image-wrap {
+    max-width: 200px;
+  }
+  .contact-channels {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
 
 /* ===============================
    MOBILE HEADER FIX
 ================================= */
 
-@media (max-width:768px){
+@media (max-width: 768px) {
+  header {
+    padding: 0;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+  }
 
-header{
-    padding:0;
-    min-height:72px;
-    display:flex;
-    align-items:center;
-}
+  .nav-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.nav-wrap{
-    position:relative;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    width: 100%;
+    min-height: 72px;
+    padding: 0 18px;
+  }
 
-    width:100%;
-    min-height:72px;
-    padding:0 18px;
-}
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
-.logo{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+    font-size: 1.45rem;
+    line-height: 1;
 
-    font-size:1.45rem;
-    line-height:1;
+    margin: 0;
+    white-space: nowrap;
+  }
 
-    margin:0;
-    white-space:nowrap;
-}
-
-.logo-wordmark {
+  .logo-wordmark {
     align-items: baseline;
     justify-content: center;
-}
+  }
 
-.logo-dot {
-    width:4px;
-    height:4px;
-    margin-left:2px;
-    transform:translateY(-1px);
-}
+  .logo-dot {
+    width: 4px;
+    height: 4px;
+    margin-left: 2px;
+    transform: translateY(-1px);
+  }
 
-.location-text{
-    font-size:.52rem;
-    margin-top:4px;
-    letter-spacing:2.4px;
-    text-align:center;
-}
+  .location-text {
+    font-size: 0.52rem;
+    margin-top: 4px;
+    letter-spacing: 2.4px;
+    text-align: center;
+  }
 
-/* TIMPA KODE INI DI DALAM @media (max-width:768px) */
+  /* TIMPA KODE INI DI DALAM @media (max-width:768px) */
 
-.language-switch {
+  .language-switch {
     position: absolute;
     right: 3px;
     top: 44%;
     transform: translateY(-50%);
     margin-left: 0;
     gap: 4px;
-}
+  }
 
-.language-switch button {
+  .language-switch button {
     padding: 6px 10px; /* Padding kiri-kanan dikurangi agar tombol lebih ramping */
     font-size: 0.7rem; /* Font diperkecil sedikit agar tidak makan tempat */
     letter-spacing: 0; /* Menghilangkan spasi ekstra antar huruf di HP */
-}
+  }
 
-/* TIMPA KODE INI DI DALAM @media (max-width:768px) */
+  /* TIMPA KODE INI DI DALAM @media (max-width:768px) */
 
-.menu-toggle {
+  .menu-toggle {
     position: absolute;
     left: 18px;
     top: 50%;
@@ -1225,7 +1419,7 @@ header{
     border-radius: 8px;
     cursor: pointer;
     z-index: 1001;
-    
+
     /* REDESIGN: Tema Cyber & Glassmorphism */
     background: rgba(0, 240, 255, 0.05);
     border: 1px solid rgba(0, 240, 255, 0.2);
@@ -1233,16 +1427,16 @@ header{
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     transition: all 0.3s ease;
-}
+  }
 
-.menu-toggle:active {
+  .menu-toggle:active {
     background: rgba(0, 240, 255, 0.15);
     box-shadow: 0 0 12px rgba(0, 240, 255, 0.4);
-}
+  }
 
-/* TIMPA KODE DARI #main-menu SAMPAI #main-menu a DI DALAM @media (max-width:768px) */
+  /* TIMPA KODE DARI #main-menu SAMPAI #main-menu a DI DALAM @media (max-width:768px) */
 
-#main-menu {
+  #main-menu {
     display: none;
     position: absolute;
     top: 85px; /* Digeser ke bawah agar pas posisinya di bawah header */
@@ -1250,23 +1444,25 @@ header{
     right: 18px;
     flex-direction: column;
     padding: 8px;
-    
+
     /* THEMA CYBER/GLASSMORPHISM */
     background: rgba(10, 15, 30, 0.95);
     border: 1px solid rgba(0, 240, 255, 0.2);
     border-radius: 12px;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 240, 255, 0.1);
+    box-shadow:
+      0 20px 50px rgba(0, 0, 0, 0.8),
+      0 0 20px rgba(0, 240, 255, 0.1);
     z-index: 1000;
-}
+  }
 
-#main-menu.show {
+  #main-menu.show {
     display: flex;
     animation: slideDownMenu 0.3s ease forwards;
-}
+  }
 
-#main-menu a {
+  #main-menu a {
     width: 100%;
     margin: 0;
     padding: 14px 20px;
@@ -1276,38 +1472,43 @@ header{
     border-radius: 8px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     transition: all 0.3s ease;
-}
+  }
 
-#main-menu a:last-child {
+  #main-menu a:last-child {
     border-bottom: none;
-}
+  }
 
-#main-menu a:hover, #main-menu a.active-nav {
+  #main-menu a:hover,
+  #main-menu a.active-nav {
     background: rgba(0, 240, 255, 0.1);
     color: #00f0ff;
     padding-left: 26px; /* Efek geser kanan dikit saat dipencet/hover */
-}
+  }
 
-@keyframes slideDownMenu {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
+  @keyframes slideDownMenu {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
-#main-menu a:last-child {
+  #main-menu a:last-child {
     border-bottom: none;
-}
-}
-
-@media(max-width:768px){
-
-body .radar{
-  width:520px;
-  height:520px;
-  top:-80px;
-  right:-360px;
-  opacity:.35;
+  }
 }
 
+@media (max-width: 768px) {
+  body .radar {
+    width: 520px;
+    height: 520px;
+    top: -80px;
+    right: -360px;
+    opacity: 0.35;
+  }
 }
 
 /* ==========================================
@@ -1323,7 +1524,6 @@ body .radar{
   margin: 60px auto 0 auto;
 }
 
-
 /* ==========================================
    PRICING CARD
 ========================================== */
@@ -1336,13 +1536,11 @@ body .radar{
   min-height: 440px;
 }
 
-
 /* Pricing icon */
 
 .pricing-card .feature-icon {
   margin-bottom: 20px;
 }
-
 
 /* Pricing badge */
 
@@ -1351,7 +1549,6 @@ body .radar{
   margin-bottom: 16px;
 }
 
-
 /* ==========================================
    PRICE
 ========================================== */
@@ -1359,26 +1556,23 @@ body .radar{
 .pricing-price {
   margin: 4px 0 20px 0;
   color: #00f0ff;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.55rem;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  text-shadow:
-    0 0 10px rgba(0, 240, 255, 0.12);
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.12);
 }
-
 
 .pricing-custom-price {
   margin: 4px 0 20px 0;
   color: #ffffff;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.55rem;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
-
 
 /* ==========================================
    DESCRIPTION
@@ -1393,7 +1587,6 @@ body .radar{
   margin-bottom: 26px;
 }
 
-
 /* ==========================================
    PACKAGE LIST
 ========================================== */
@@ -1406,7 +1599,6 @@ body .radar{
   margin-bottom: 0;
 }
 
-
 .pricing-list div {
   position: relative;
   padding-left: 18px;
@@ -1415,7 +1607,6 @@ body .radar{
   line-height: 1.5;
   font-weight: 300;
 }
-
 
 .pricing-list div::before {
   content: "";
@@ -1426,10 +1617,8 @@ body .radar{
   height: 5px;
   border-radius: 50%;
   background: #00f0ff;
-  box-shadow:
-    0 0 7px rgba(0, 240, 255, 0.55);
+  box-shadow: 0 0 7px rgba(0, 240, 255, 0.55);
 }
-
 
 /* ==========================================
    BUSINESS VALUE
@@ -1441,14 +1630,13 @@ body .radar{
   margin-bottom: 0 !important;
   padding-top: 22px;
 
-  border-top: 1px solid rgba(0, 240, 255, 0.10);
+  border-top: 1px solid rgba(0, 240, 255, 0.1);
 
   color: #94a3b8;
   line-height: 1.75 !important;
   font-size: 0.95rem;
   font-weight: 300;
 }
-
 
 /* ==========================================
    PRICING NOTE
@@ -1465,15 +1653,9 @@ body .radar{
 
   border-radius: 16px;
 
-  background:
-    linear-gradient(
-      180deg,
-      rgba(15, 23, 42, 0.4) 0%,
-      rgba(15, 23, 42, 0.1) 100%
-    );
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.1) 100%);
 
-  border:
-    1px solid rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.03);
 
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -1484,7 +1666,6 @@ body .radar{
 
   transition: all 0.4s ease;
 }
-
 
 .pricing-note-card::before {
   content: "";
@@ -1497,40 +1678,28 @@ body .radar{
   width: 100%;
   height: 1px;
 
-  background:
-    linear-gradient(
-      90deg,
-      transparent,
-      rgba(0, 240, 255, 0.5),
-      transparent
-    );
+  background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.5), transparent);
 
   opacity: 0;
 
   transition: opacity 0.4s ease;
 }
 
-
 .pricing-note-card:hover {
   transform: translateY(-6px);
 
-  border-color:
-    rgba(0, 240, 255, 0.2);
+  border-color: rgba(0, 240, 255, 0.2);
 
-  box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
-
 
 .pricing-note-card:hover::before {
   opacity: 1;
 }
 
-
 .pricing-note-card .home-card-icon {
   margin-bottom: 20px;
 }
-
 
 .pricing-note-card h3 {
   color: #ffffff;
@@ -1539,9 +1708,8 @@ body .radar{
 
   margin-bottom: 14px;
 
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
-
 
 .pricing-note-card p {
   max-width: 760px;
@@ -1552,7 +1720,6 @@ body .radar{
   font-weight: 300;
   text-align: center !important;
 }
-
 
 /* ==========================================
    INCLUDED / SEPARATE
@@ -1568,21 +1735,17 @@ body .radar{
   margin-top: 50px;
 }
 
-
 .pricing-info-card {
   min-height: 100%;
 }
-
 
 .pricing-info-card .feature-icon {
   margin-bottom: 20px;
 }
 
-
 .pricing-info-card h3 {
   margin-bottom: 24px;
 }
-
 
 .pricing-check-list {
   display: flex;
@@ -1591,7 +1754,6 @@ body .radar{
 
   gap: 13px;
 }
-
 
 .pricing-check-list div {
   position: relative;
@@ -1607,7 +1769,6 @@ body .radar{
   font-weight: 300;
 }
 
-
 .pricing-check-list div::before {
   content: "✓";
 
@@ -1620,10 +1781,8 @@ body .radar{
 
   font-weight: 700;
 
-  text-shadow:
-    0 0 8px rgba(0, 240, 255, 0.45);
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.45);
 }
-
 
 /* ==========================================
    PRICING CTA
@@ -1645,7 +1804,6 @@ body .radar{
   text-align: center;
 }
 
-
 .pricing-bottom-cta p {
   margin: 0;
 
@@ -1656,23 +1814,18 @@ body .radar{
   font-weight: 300;
 }
 
-
 /* ==========================================
    RESPONSIVE
 ========================================== */
 
 @media (max-width: 1100px) {
-
   .pricing-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     max-width: 900px;
   }
-
 }
 
-
 @media (max-width: 768px) {
-
   .pricing-grid {
     grid-template-columns: 1fr;
 
@@ -1681,19 +1834,16 @@ body .radar{
     margin-top: 45px;
   }
 
-
   .pricing-card {
     padding: 32px 24px;
 
     min-height: 0;
   }
 
-
   .pricing-price,
   .pricing-custom-price {
     font-size: 1.4rem;
   }
-
 
   .pricing-business-value {
     margin-top: 26px !important;
@@ -1703,7 +1853,6 @@ body .radar{
     line-height: 1.7 !important;
   }
 
-
   .pricing-note-card {
     padding: 32px 24px;
 
@@ -1712,11 +1861,9 @@ body .radar{
     border-radius: 14px;
   }
 
-
   .pricing-note-card h3 {
     font-size: 1.2rem;
   }
-
 
   .pricing-info-grid {
     grid-template-columns: 1fr;
@@ -1726,63 +1873,50 @@ body .radar{
     margin-top: 40px;
   }
 
-
   .pricing-bottom-cta {
     margin-top: 45px;
   }
-
 }
 
-
 @media (max-width: 480px) {
-
   .pricing-card {
     padding: 28px 20px;
   }
 
-
   .pricing-note-card {
     padding: 28px 20px;
   }
-
 
   .pricing-price,
   .pricing-custom-price {
     font-size: 1.3rem;
   }
 
-
   .pricing-business-value {
     margin-top: 24px !important;
 
     padding-top: 18px;
   }
-
 }
-
 
 /* ==========================================
    PRICING DESKTOP TYPOGRAPHY
 ========================================== */
 
 @media (min-width: 769px) {
-
   .pricing-description {
     font-size: 0.92rem;
 
     line-height: 1.6;
   }
 
-
   .pricing-list {
     gap: 9px;
   }
 
-
   .pricing-list div {
     font-size: 0.86rem;
   }
-
 
   .pricing-business-value {
     font-size: 0.92rem;
@@ -1793,22 +1927,18 @@ body .radar{
 
     padding-top: 22px;
   }
-
 }
-
 
 /* ==========================================
    DESKTOP LANGUAGE SWITCH SPACING
 ========================================== */
 
 @media (min-width: 769px) {
-
   .language-switch {
     margin-left: 30px;
 
     margin-right: 0;
   }
-
 }
 
 /* ==========================================
@@ -1827,20 +1957,14 @@ body .radar{
 
   border-radius: 16px;
 
-  background:
-    linear-gradient(
-      180deg,
-      rgba(15, 23, 42, 0.4) 0%,
-      rgba(15, 23, 42, 0.1) 100%
-    );
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.1) 100%);
 
   border: 1px solid rgba(255, 255, 255, 0.03);
 
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 
-  box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
 
   transition:
     transform 0.4s ease,
@@ -1859,13 +1983,7 @@ body .radar{
   width: 100%;
   height: 1px;
 
-  background:
-    linear-gradient(
-      90deg,
-      transparent,
-      rgba(0, 240, 255, 0.5),
-      transparent
-    );
+  background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.5), transparent);
 
   opacity: 0;
   transition: opacity 0.4s ease;
@@ -1875,11 +1993,9 @@ body .radar{
 .home-focus-card:hover {
   transform: translateY(-6px);
 
-  border-color:
-    rgba(0, 240, 255, 0.2);
+  border-color: rgba(0, 240, 255, 0.2);
 
-  box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
 
 .home-info-card:hover::before,
@@ -1942,7 +2058,6 @@ body .radar{
 ========================================== */
 
 .home-card-icon {
-
   width: 56px;
   height: 56px;
 
@@ -1954,67 +2069,48 @@ body .radar{
 
   margin: 0 auto 24px auto;
 
-  background:
-    rgba(0, 240, 255, 0.05);
+  background: rgba(0, 240, 255, 0.05);
 
   color: #00f0ff;
 
-  border:
-    1px solid rgba(0, 240, 255, 0.15);
+  border: 1px solid rgba(0, 240, 255, 0.15);
 
-  box-shadow:
-    0 0 18px rgba(0, 240, 255, 0.04);
+  box-shadow: 0 0 18px rgba(0, 240, 255, 0.04);
 
-  transition:
-    all 0.4s ease;
+  transition: all 0.4s ease;
 }
-
 
 .home-info-card:hover .home-card-icon,
 .home-section-card:hover .home-card-icon {
+  border-color: rgba(0, 240, 255, 0.35);
 
-  border-color:
-    rgba(0, 240, 255, 0.35);
+  background: rgba(0, 240, 255, 0.08);
 
-  background:
-    rgba(0, 240, 255, 0.08);
-
-  box-shadow:
-    0 0 18px rgba(0, 240, 255, 0.12);
+  box-shadow: 0 0 18px rgba(0, 240, 255, 0.12);
 }
-
 
 .home-card-icon svg {
   width: 28px;
   height: 28px;
 }
 
-
 /* ==========================================
    HOME FOCUS CARDS
 ========================================== */
 
 .home-focus-card {
-
   padding: 40px 30px;
 
   border-radius: 16px;
 
-  background:
-    linear-gradient(
-      180deg,
-      rgba(15, 23, 42, 0.4) 0%,
-      rgba(15, 23, 42, 0.1) 100%
-    );
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.1) 100%);
 
-  border:
-    1px solid rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.03);
 
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 
-  transition:
-    all 0.4s ease;
+  transition: all 0.4s ease;
 
   position: relative;
   overflow: hidden;
@@ -2025,11 +2121,9 @@ body .radar{
   height: 100%;
 }
 
-
 /* Same feature icon language */
 
 .home-focus-card .feature-icon {
-
   width: 56px;
   height: 56px;
 
@@ -2037,49 +2131,36 @@ body .radar{
 
   margin-bottom: 20px;
 
-  background:
-    rgba(0, 240, 255, 0.05);
+  background: rgba(0, 240, 255, 0.05);
 
   color: #00f0ff;
 
-  border:
-    1px solid rgba(0, 240, 255, 0.15);
+  border: 1px solid rgba(0, 240, 255, 0.15);
 
-  box-shadow:
-    0 0 18px rgba(0, 240, 255, 0.04);
+  box-shadow: 0 0 18px rgba(0, 240, 255, 0.04);
 }
-
 
 .home-focus-card:hover .feature-icon {
+  border-color: rgba(0, 240, 255, 0.35);
 
-  border-color:
-    rgba(0, 240, 255, 0.35);
+  background: rgba(0, 240, 255, 0.08);
 
-  background:
-    rgba(0, 240, 255, 0.08);
-
-  box-shadow:
-    0 0 18px rgba(0, 240, 255, 0.12);
+  box-shadow: 0 0 18px rgba(0, 240, 255, 0.12);
 }
-
 
 /* Focus card badge */
 
 .home-focus-card .geo-badge {
-
   width: fit-content;
 
   margin-bottom: 18px;
 }
 
-
 /* Focus card text */
 
 .home-focus-card h3 {
-
   margin-bottom: 16px;
 }
-
 
 /* ==========================================
    HOME PRINCIPLE
@@ -2118,7 +2199,7 @@ body .radar{
   margin: 0 auto 16px auto;
 
   color: #ffffff;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: clamp(1.75rem, 3.4vw, 2.7rem);
   line-height: 1.18;
   font-weight: 700;
@@ -2130,7 +2211,7 @@ body .radar{
   margin: 0 auto;
 
   color: rgba(148, 163, 184, 0.82);
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 1rem;
   line-height: 1.8;
   font-weight: 300;
@@ -2145,7 +2226,6 @@ body .radar{
 }
 
 @media (max-width: 768px) {
-
   .home-principle-card {
     margin-top: 55px;
     padding: 0;
@@ -2159,11 +2239,9 @@ body .radar{
     font-size: 0.94rem;
     line-height: 1.7;
   }
-
 }
 
 @media (max-width: 480px) {
-
   .home-principle-card {
     margin-top: 50px;
     padding: 0;
@@ -2172,7 +2250,6 @@ body .radar{
   .home-principle-card h2 {
     font-size: 1.65rem;
   }
-
 }
 
 /* ==========================================
@@ -2206,7 +2283,6 @@ body .radar{
 }
 
 @media (max-width: 768px) {
-
   .home-value-section {
     margin-top: 50px;
   }
@@ -2215,7 +2291,6 @@ body .radar{
     grid-template-columns: 1fr;
     gap: 20px;
   }
-
 }
 
 .home-principle-card {
@@ -2258,7 +2333,6 @@ body .radar{
   box-sizing: border-box;
 }
 
-
 .about-founder-card,
 .about-story-card {
   width: 100%;
@@ -2268,17 +2342,14 @@ body .radar{
   box-sizing: border-box;
 }
 
-
 .about-founder-card {
   text-align: center;
 }
-
 
 .about-founder-card p {
   margin: 0;
   text-align: center !important;
 }
-
 
 /* ==========================================
    THE APPROACH CARD
@@ -2288,18 +2359,15 @@ body .radar{
   text-align: center;
 }
 
-
 .about-story-heading {
   width: 100%;
   margin-bottom: 18px;
   text-align: center;
 }
 
-
 .about-story-heading .geo-badge {
   margin-bottom: 12px;
 }
-
 
 .about-story-heading h3 {
   margin: 0;
@@ -2309,7 +2377,6 @@ body .radar{
   text-align: center;
 }
 
-
 /* SINGLE COLUMN — CENTERED */
 
 .about-story-content {
@@ -2317,7 +2384,6 @@ body .radar{
   display: block;
   text-align: center !important;
 }
-
 
 .about-story-content p {
   max-width: 560px;
@@ -2331,13 +2397,11 @@ body .radar{
   text-align: center !important;
 }
 
-
 /* ==========================================
    ABOUT MOBILE
 ========================================== */
 
 @media (max-width: 768px) {
-
   .about-founder-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -2365,7 +2429,6 @@ body .radar{
     margin: 0 auto !important;
     text-align: center !important;
   }
-
 }
 /* =========================================================
    FINAL FLOATING PRINCIPLES
@@ -2450,7 +2513,7 @@ body .radar{
 
   color: #00f0ff;
 
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 0.72rem;
   font-weight: 600;
   line-height: 1.3;
@@ -2468,7 +2531,7 @@ body .radar{
 
   color: #ffffff;
 
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 
   font-size: clamp(2rem, 4vw, 3.25rem);
   font-weight: 700;
@@ -2488,7 +2551,7 @@ body .radar{
 
   color: rgba(148, 163, 184, 0.82);
 
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 
   font-size: 1rem;
   font-weight: 300;
@@ -2504,7 +2567,6 @@ body .radar{
 ========================================== */
 
 @media (max-width: 768px) {
-
   .home-principle-card,
   .floating-principle {
     margin-top: 55px;
@@ -2525,11 +2587,9 @@ body .radar{
     font-size: 0.94rem;
     line-height: 1.7;
   }
-
 }
 
 @media (max-width: 480px) {
-
   .home-principle-card,
   .floating-principle {
     margin-top: 50px;
@@ -2550,7 +2610,6 @@ body .radar{
   .floating-principle p {
     font-size: 0.9rem;
   }
-
 }
 /* ==========================================
    FLOATING PRINCIPLE SECONDARY TITLE
@@ -2563,7 +2622,7 @@ body .radar{
 
   color: rgba(203, 213, 225, 0.9);
 
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 
   font-size: clamp(1.05rem, 2vw, 1.4rem);
   font-weight: 500;
@@ -2579,12 +2638,10 @@ body .radar{
 }
 
 @media (max-width: 768px) {
-
   .floating-principle-subtitle {
     margin-bottom: 18px;
     font-size: 1.05rem;
   }
-
 }
 /* ==========================================
    ABOUT FLOATING APPROACH
@@ -2599,11 +2656,9 @@ body .radar{
 }
 
 @media (max-width: 768px) {
-
   .about-principle {
     margin-top: 50px;
   }
-
 }
 /* ==========================================
    ABOUT FOUNDER — FINAL OVERRIDE
@@ -2623,13 +2678,12 @@ body .radar{
   text-align: center;
 }
 
-
 #about-view .about-founder-name {
   margin: 0 0 6px;
 
   color: #ffffff;
 
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 
   font-size: 1.08rem;
   font-weight: 700;
@@ -2638,13 +2692,12 @@ body .radar{
   letter-spacing: -0.015em;
 }
 
-
 #about-view .about-founder-attribution .about-founder-role {
   margin: 0;
 
   color: rgba(0, 240, 255, 0.82);
 
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 
   font-size: 0.72rem;
   font-weight: 600;
@@ -2654,20 +2707,17 @@ body .radar{
   text-align: center;
 }
 
-
 /* Jarak dari founder ke Back to Home */
 
 #about-view .back-home-container {
   margin-top: 42px;
 }
 
-
 /* ==========================================
    MOBILE
 ========================================== */
 
 @media (max-width: 768px) {
-
   #about-view .about-founder-attribution {
     margin-top: 44px;
   }
@@ -2675,12 +2725,9 @@ body .radar{
   #about-view .back-home-container {
     margin-top: 34px;
   }
-
 }
 
-
 @media (max-width: 480px) {
-
   #about-view .about-founder-attribution {
     margin-top: 38px;
   }
@@ -2688,5 +2735,4 @@ body .radar{
   #about-view .back-home-container {
     margin-top: 30px;
   }
-
 }
