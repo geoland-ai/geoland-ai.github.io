@@ -23,8 +23,7 @@ const en = {
 
   hero_title: "Custom Geospatial Platforms Built Around Your Workflow",
 
-  hero_subtitle:
-    "GeoLand designs and builds custom geospatial platforms that combine spatial data, spatial analytics, AI, automation, 3D visualization, and Earth observation into practical digital systems for real-world operational needs.",
+  hero_subtitle: "I designs and builds custom geospatial platforms that combine spatial data, spatial analytics, AI, automation, 3D visualization, and Earth observation into practical digital systems for real-world operational needs.",
 
   hero_primary: "Discuss a Project",
 
@@ -39,13 +38,13 @@ const en = {
   showcase_title: "Working Geospatial Platform References",
 
   showcase_p1:
-    "These reference systems demonstrate how GeoLand designs and builds custom geospatial platforms by combining spatial data, analytics, databases, APIs, automation, AI-assisted workflows, web mapping, 3D visualization, and Earth observation according to the needs of each system.",
+    "These reference systems demonstrate how I designs and builds custom geospatial platforms by combining spatial data, analytics, databases, APIs, automation, AI-assisted workflows, web mapping, 3D visualization, and Earth observation according to the needs of each system.",
 
   showcase_p2:
     "Each platform is built around a different objective and workflow. The available references demonstrate how geospatial components can be engineered into usable digital systems that can be extended and adapted to an organization's needs.",
 
   showcase_p3:
-    "These platforms are working references of GeoLand's engineering capabilities, not fixed products or off-the-shelf packages. The approach and architecture can be adapted to each project's datasets, users, operational processes, integrations, and scope.",
+    "These platforms are working references of My engineering capabilities, not fixed products or off-the-shelf packages. The approach and architecture can be adapted to each project's datasets, users, operational processes, integrations, and scope.",
 
   showcase_try: "Explore Working Platform",
 
@@ -57,7 +56,7 @@ const en = {
 
   focus_title: "From Geospatial Data to Intelligent Digital Platforms",
 
-  focus_subtitle: "GeoLand combines geospatial engineering, AI, automation, and modern web technologies to turn complex spatial workflows into usable digital products.",
+  focus_subtitle: "I combines geospatial engineering, AI, automation, and modern web technologies to turn complex spatial workflows into usable digital products.",
 
   focus_platform_badge: "PLATFORM",
 
@@ -164,7 +163,7 @@ const en = {
 
   principle_p1: "Geospatial platforms can involve large datasets, spatial analytics, APIs, automation, AI, and multiple interconnected services.",
 
-  principle_p2: "GeoLand brings these components together into a single system while keeping the workflow clear and easy to use.",
+  principle_p2: "I bring these components together into a single system while keeping the workflow clear and easy to use.",
 
   principle_p3: "The complexity stays behind the system. The user experience stays simple.",
 
@@ -450,7 +449,7 @@ const en = {
 
   tour_title: "Working Platform References",
 
-  tour_subtitle: "Explore working reference implementations demonstrating GeoLand's capabilities across 3D GIS, Location Intelligence, spatial analytics, AI-assisted workflows, and Earth Observation platforms.",
+  tour_subtitle: "Explore working reference implementations demonstrating My capabilities across 3D GIS, Location Intelligence, spatial analytics, AI-assisted workflows, and Earth Observation platforms.",
 
   tour_ai_title: "AI Recommendation Engine",
 
@@ -613,25 +612,26 @@ const en = {
   // About GeoLand
   // =========================
 
-  about_title: "About GeoLand",
+  about_title: "About Bayu Ariyadi",
 
-  about_subtitle: "GeoLand is an independent geospatial technology practice building custom digital platforms that integrate geospatial data, spatial analytics, AI, automation, and modern web technologies around real operational needs.",
+  about_subtitle:
+    "Bayu Ariyadi is a Geospatial Platform Engineer & Architect who builds custom digital platforms by integrating geospatial data, spatial analytics, AI, automation, and modern web technologies to serve real-world operational needs.",
 
-  about_role: "Founder & Geospatial Platform Architect",
+  about_role: "Geospatial Platform Architect & Developer",
 
   about_principle_badge: "APPROACH",
 
   about_principle_title: "Build Around the Problem",
 
-  about_principle_p: "A map is only one component. The real value of a geospatial platform comes from bringing data, analytics, automation, integrations, and user workflows together into a system that supports real work.",
+  about_principle_p: "A map is only one component. The true value of a geospatial platform emerges when data, analytics, automation, integration, and user workflows are engineered into a unified system that drives meaningful work.",
 
   about_identity_badge: "GEOSPATIAL PLATFORM ENGINEERING",
 
-  about_identity_desc: "Building digital platforms that turn geospatial data into practical tools for analysis, visualization, decision support, and operational workflows.",
+  about_identity_desc: "Engineering digital platforms that transform raw geospatial data into actionable tools for analytics, visualization, decision support, and operational workflows.",
 
-  about_capabilities_title: "PLATFORM CAPABILITIES",
+  about_capabilities_title: "CORE CAPABILITIES",
 
-  about_capability_1: "Geospatial Platform Engineering",
+  about_capability_1: "Geospatial Platform Development",
 
   about_capability_2: "Location Intelligence & Decision Support",
 
@@ -647,11 +647,12 @@ const en = {
 
   about_capability_8: "Spatial Automation & System Integration",
 
-  about_founder_badge: "FOUNDER",
+  about_founder_badge: "GEOSPATIAL ARCHITECT",
 
-  about_founder_desc: "GeoLand is built around practical geospatial engineering, combining spatial data, analytics, software development, and modern visualization into usable digital platforms.",
+  about_founder_desc:
+    "Focused on a practical geospatial engineering approach that combines spatial data, analytics, software development, and modern visualization into ready-to-use digital platforms — with GeoLand built as a primary living showcase.",
 
-  about_story_badge: "THE APPROACH",
+  about_story_badge: "WORK PHILOSOPHY",
 
   about_story_title: "From Geospatial Data to Operational Systems",
 
@@ -673,7 +674,7 @@ const en = {
   // Footer
   // =========================
 
-  footer_text: "© 2026 GeoLand | Custom Geospatial Platform Development",
+  footer_text: "© 2026 Bayu Ariyadi | Geospatial Platform Engineering",
 };
 
 export default en;
