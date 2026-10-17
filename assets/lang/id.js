@@ -6,7 +6,7 @@ const id = {
   brand_tagline: "Geospatial Platform Engineering",
 
   nav_home: "Beranda",
-  nav_how_we_work: "Cara Kami Bekerja",
+  nav_how_we_work: "Cara Saya Bekerja",
   nav_features: "Solusi",
   nav_why_custom: "PLATFORM ANDA",
   nav_pricing: "Cakupan",
@@ -82,7 +82,7 @@ const id = {
   // How We Work
   // =========================
 
-  process_badge: "CARA KAMI BEKERJA",
+  process_badge: "CARA SAYA BEKERJA",
 
   process_title: "Dari Masalah Geospasial Menjadi Platform yang Berfungsi",
 
@@ -92,29 +92,29 @@ const id = {
 
   process_step1_title: "Memahami Masalah",
 
-  process_step1_desc: "Kami mengidentifikasi tujuan, pengguna, dataset, keterbatasan, proses operasional, dan keputusan yang perlu didukung oleh sistem.",
+  process_step1_desc: "Saya mengidentifikasi tujuan, pengguna, dataset, keterbatasan, proses operasional, dan keputusan yang perlu didukung oleh sistem.",
 
   process_step2_label: "02",
 
   process_step2_title: "Merancang Sistem",
 
-  process_step2_desc: "Kami menentukan model data spasial, arsitektur sistem, analytical workflow, integrasi, backend services, dan user experience berdasarkan kebutuhan workflow.",
+  process_step2_desc: "Saya menentukan model data spasial, arsitektur sistem, analytical workflow, integrasi, backend services, dan user experience berdasarkan kebutuhan workflow.",
 
   process_step3_label: "03",
 
   process_step3_title: "Build & Integrasi",
 
-  process_step3_desc: "Kami membangun platform, menghubungkan sumber data dan service yang diperlukan, lalu mengimplementasikan workflow geospasial sesuai ruang lingkup proyek.",
+  process_step3_desc: "Saya membangun platform, menghubungkan sumber data dan service yang diperlukan, lalu mengimplementasikan workflow geospasial sesuai ruang lingkup proyek.",
 
   process_step4_label: "04",
 
   process_step4_title: "Deploy & Handover",
 
-  process_step4_desc: "Kami melakukan deployment, dokumentasi, pengujian, dan handover platform beserta source code sesuai ruang lingkup yang disepakati.",
+  process_step4_desc: "Saya melakukan deployment, dokumentasi, pengujian, dan handover platform beserta source code sesuai ruang lingkup yang disepakati.",
 
   process_note_title: "Built Around the Work",
 
-  process_note_desc: "Kami tidak membangun sistem hanya berdasarkan peta atau teknologi. Kami membangunnya berdasarkan pekerjaan yang perlu dilakukan pengguna dan hasil yang perlu dicapai organisasi.",
+  process_note_desc: "Saya tidak membangun sistem hanya berdasarkan peta atau teknologi. Saya membangunnya berdasarkan pekerjaan yang perlu dilakukan pengguna dan hasil yang perlu dicapai organisasi."
 
   process_cta_text: "Punya workflow geospasial yang perlu dikembangkan menjadi sistem digital yang benar-benar berjalan?",
 

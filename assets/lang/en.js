@@ -6,7 +6,7 @@ const en = {
   brand_tagline: "Geospatial Platform Engineering",
 
   nav_home: "Home",
-  nav_how_we_work: "How We Work",
+  nav_how_we_work: "How I Work",
   nav_features: "Solutions",
   nav_why_custom: "YOUR OWN PLATFORM",
   nav_pricing: "Scope",
@@ -53,7 +53,7 @@ const en = {
   // GeoLand Focus
   // =========================
 
-  focus_badge: "WHAT WE FOCUS ON",
+  focus_badge: "FOCUS ON",
 
   focus_title: "From Geospatial Data to Intelligent Digital Platforms",
 
@@ -81,7 +81,7 @@ const en = {
   // How We Work
   // =========================
 
-  process_badge: "HOW WE WORK",
+  process_badge: "HOW I WORK",
 
   process_title: "From Geospatial Problems to Working Platforms",
 
@@ -91,29 +91,29 @@ const en = {
 
   process_step1_title: "Understand the Problem",
 
-  process_step1_desc: "We identify the objectives, users, datasets, constraints, operational processes, and decisions the system needs to support.",
+  process_step1_desc: "I identify the objectives, users, datasets, constraints, operational processes, and decisions the system needs to support.",
 
   process_step2_label: "02",
 
   process_step2_title: "Design the System",
 
-  process_step2_desc: "We define the spatial data model, system architecture, analytical workflow, integrations, backend services, and user experience around the required workflow.",
+  process_step2_desc: "I define the spatial data model, system architecture, analytical workflow, integrations, backend services, and user experience around the required workflow.",
 
   process_step3_label: "03",
 
   process_step3_title: "Build & Integrate",
 
-  process_step3_desc: "We build the platform, connect the required data sources and services, and implement the agreed geospatial workflows.",
+  process_step3_desc: "I build the platform, connect the required data sources and services, and implement the agreed geospatial workflows.",
 
   process_step4_label: "04",
 
   process_step4_title: "Deploy & Handover",
 
-  process_step4_desc: "We deploy the system, complete the documentation and testing, and hand over the platform and source code according to the agreed scope.",
+  process_step4_desc: "I deploy the system, complete the documentation and testing, and hand over the platform and source code according to the agreed scope.",
 
   process_note_title: "Built Around the Work",
 
-  process_note_desc: "We do not build a system around the map or the technology alone. We build it around the work users need to perform and the outcomes the organization needs to achieve.",
+  process_note_desc: "I do not build a system around the map or the technology alone. I build it around the work users need to perform and the outcomes the organization needs to achieve.",
 
   process_cta_text: "Have a geospatial workflow that needs to become a working digital system?",
 
@@ -172,7 +172,7 @@ const en = {
   // What We Build
   // =========================
 
-  features_title: "What We Build",
+  features_title: "What I Build",
 
   features_subtitle: "Custom geospatial platforms designed around your data, workflow, users, and business objectives — integrating spatial analytics, automation, 3D visualization, Earth observation, AI, and multiple data sources.",
 
