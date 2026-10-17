@@ -225,7 +225,7 @@ const id = {
   // Pricing
   // =========================
 
-  nav_pricing: "Pricing",
+  nav_pricing: "Cakupan",
 
   pricing_title: "Geospatial Platform Development",
 

@@ -223,7 +223,7 @@ const en = {
   // Pricing
   // =========================
 
-  nav_pricing: "Pricing",
+  nav_pricing: "Scope",
 
   pricing_title: "Geospatial Platform Development",
 
