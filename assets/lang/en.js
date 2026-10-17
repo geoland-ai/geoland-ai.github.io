@@ -227,7 +227,7 @@ const en = {
 
   pricing_title: "Geospatial Platform Development",
 
-  pricing_subtitle: "Indicative project ranges for custom geospatial platform development. Final pricing depends on scope, data requirements, integrations, workflow complexity, and infrastructure.",
+  pricing_subtitle: "Indicative scope tiers for custom geospatial platform development. The final development scale is determined based on the scope, data requirements, integrations, workflow complexity, and infrastructure.",
 
   // =========================
   // Starter

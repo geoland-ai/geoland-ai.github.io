@@ -229,7 +229,7 @@ const id = {
 
   pricing_title: "Geospatial Platform Development",
 
-  pricing_subtitle: "Kisaran harga indikatif untuk pengembangan custom geospatial platform. Harga final ditentukan berdasarkan scope, kebutuhan data, integrasi, kompleksitas workflow, dan infrastruktur.",
+  pricing_subtitle: "Tingkatan cakupan indikatif untuk pengembangan custom geospatial platform. Skala pengembangan final ditentukan berdasarkan scope, kebutuhan data, integrasi, kompleksitas workflow, dan infrastruktur.",
 
   // =========================
   // Starter
